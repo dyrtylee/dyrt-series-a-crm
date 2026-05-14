@@ -27,7 +27,6 @@
 
     body { background: #ffffff; }
 
-    /* Sidebar */
     .sidebar {
       background: #f7f8fa;
       border-right: 1px solid #e8ecf0;
@@ -69,7 +68,6 @@
       margin: 12px 0 4px;
     }
 
-    /* Content */
     .content {
       max-width: 920px;
     }
@@ -78,7 +76,6 @@
       padding: 32px 40px 80px;
     }
 
-    /* Tables */
     table {
       border-collapse: collapse;
       width: 100%;
@@ -108,7 +105,6 @@
       background: #f8fffe;
     }
 
-    /* Headers */
     h1 {
       color: #1a202c;
       border-bottom: 2px solid #1a9e8a;
@@ -129,7 +125,6 @@
       font-size: 15px;
     }
 
-    /* Inline code */
     code {
       background: #f0f7f5;
       color: #1a6b5e;
@@ -139,7 +134,6 @@
       font-size: 12px;
     }
 
-    /* Code blocks */
     pre {
       background: #f8fffe !important;
       border: 1px solid #e2ebe9;
@@ -152,7 +146,6 @@
       color: #2d3748;
     }
 
-    /* Blockquotes = pitch blurbs */
     blockquote {
       border-left: 3px solid #1a9e8a;
       background: #f0faf7;
@@ -168,21 +161,18 @@
       font-size: 14px;
     }
 
-    /* HR */
     hr {
       border: none;
       border-top: 1px solid #e8ecf0;
       margin: 24px 0;
     }
 
-    /* Checkboxes */
     .task-list-item input[type="checkbox"] {
       accent-color: #1a9e8a;
     }
 
     strong { color: #1a202c; }
 
-    /* Search */
     .search {
       border-bottom: 1px solid #e8ecf0;
       padding: 8px 12px;
@@ -201,23 +191,20 @@
       outline: none;
     }
 
-    /* Copy button */
     .docsify-copy-code-button {
       background: #e8ecf0 !important;
       color: #1a9e8a !important;
       border: none !important;
     }
 
-    /* Scrollbar */
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #f7f8fa; }
     ::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #1a9e8a; }
 
-    /* Progress bar */
     #nprogress .bar { background: #1a9e8a !important; }
 
-    /* Lock screen */
+    /* ── Lock Screen ── */
     #lock-screen {
       display: none;
       position: fixed;
@@ -312,6 +299,180 @@
       margin-top: 10px;
       display: none;
     }
+
+    /* ── CRM Action Bar ── */
+    .crm-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 24px;
+      padding: 12px 16px;
+      background: #f0faf7;
+      border: 1px solid #c8e6e1;
+      border-radius: 8px;
+      flex-wrap: wrap;
+    }
+
+    .crm-actions-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #1a9e8a;
+      margin-right: 2px;
+    }
+
+    .crm-btn {
+      background: #1a9e8a;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 7px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.15s;
+      white-space: nowrap;
+    }
+
+    .crm-btn:hover:not(:disabled) { background: #147a6b; }
+    .crm-btn:disabled { opacity: 0.6; cursor: default; }
+
+    .crm-btn-ghost {
+      background: transparent;
+      color: #1a9e8a;
+      border: 1px solid #1a9e8a;
+    }
+
+    .crm-btn-ghost:hover:not(:disabled) {
+      background: #f0faf7;
+    }
+
+    .crm-token-link {
+      margin-left: auto;
+      background: none;
+      border: none;
+      color: #94a3b8;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      padding: 4px 6px;
+      border-radius: 4px;
+      transition: color 0.15s;
+    }
+
+    .crm-token-link:hover { color: #1a9e8a; }
+
+    /* ── Modals ── */
+    .crm-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      background: rgba(15, 23, 42, 0.3);
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .crm-overlay.open { display: flex; }
+
+    .crm-modal {
+      background: #ffffff;
+      border: 1px solid #e8ecf0;
+      border-radius: 12px;
+      padding: 28px 32px 24px;
+      width: 520px;
+      max-width: 100%;
+      box-shadow: 0 12px 48px rgba(0,0,0,0.14);
+      animation: crm-fadein 0.15s ease;
+    }
+
+    @keyframes crm-fadein {
+      from { opacity: 0; transform: translateY(-8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .crm-modal-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a202c;
+      margin: 0 0 2px;
+    }
+
+    .crm-modal-sub {
+      font-size: 12px;
+      color: #94a3b8;
+      margin: 0 0 22px;
+    }
+
+    .crm-field {
+      margin-bottom: 14px;
+    }
+
+    .crm-field label {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #64748b;
+      margin-bottom: 5px;
+    }
+
+    .crm-field input,
+    .crm-field select,
+    .crm-field textarea {
+      width: 100%;
+      background: #f7f8fa;
+      border: 1px solid #e8ecf0;
+      border-radius: 6px;
+      color: #1a202c;
+      font-size: 14px;
+      padding: 9px 11px;
+      outline: none;
+      box-sizing: border-box;
+      font-family: inherit;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .crm-field textarea {
+      resize: vertical;
+      min-height: 84px;
+      line-height: 1.5;
+    }
+
+    .crm-field input:focus,
+    .crm-field select:focus,
+    .crm-field textarea:focus {
+      border-color: #1a9e8a;
+      background: #ffffff;
+    }
+
+    .crm-field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .crm-modal-footer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+
+    .crm-msg {
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 5px;
+      flex: 1;
+    }
+
+    .crm-msg.ok   { background: #f0faf7; color: #1a6b5e; }
+    .crm-msg.err  { background: #fff5f5; color: #c53030; }
   </style>
 </head>
 <body>
@@ -331,9 +492,106 @@
 <!-- Docsify app -->
 <div id="app"></div>
 
+<!-- ── Note Modal ── -->
+<div id="crm-note-modal" class="crm-overlay" onclick="overlayClick(event,'crm-note-modal')">
+  <div class="crm-modal">
+    <div class="crm-modal-title">Add Meeting Note</div>
+    <div class="crm-modal-sub" id="crm-note-firm"></div>
+
+    <div class="crm-field-row">
+      <div class="crm-field">
+        <label>Date</label>
+        <input type="date" id="crm-note-date">
+      </div>
+      <div class="crm-field">
+        <label>Type</label>
+        <select id="crm-note-type">
+          <option>Call</option>
+          <option>Meeting</option>
+          <option>Email</option>
+          <option>Intro</option>
+          <option>Diligence</option>
+          <option>Note</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="crm-field">
+      <label>Key Points</label>
+      <textarea id="crm-note-points" placeholder="What was discussed, what resonated, objections raised..."></textarea>
+    </div>
+
+    <div class="crm-field">
+      <label>Next Step</label>
+      <input type="text" id="crm-note-next" placeholder="Send deck / Schedule partner call / Follow up by...">
+    </div>
+
+    <div class="crm-modal-footer">
+      <span class="crm-msg" id="crm-note-msg" style="display:none"></span>
+      <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-note-modal')">Cancel</button>
+      <button class="crm-btn" id="crm-note-save" onclick="saveNote()">Save Note</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Status Modal ── -->
+<div id="crm-status-modal" class="crm-overlay" onclick="overlayClick(event,'crm-status-modal')">
+  <div class="crm-modal">
+    <div class="crm-modal-title">Update Status</div>
+    <div class="crm-modal-sub" id="crm-status-firm"></div>
+
+    <div class="crm-field">
+      <label>Stage</label>
+      <select id="crm-status-stage">
+        <option>Backlog</option>
+        <option>Outreach</option>
+        <option>Intro</option>
+        <option>Meeting</option>
+        <option>Diligence</option>
+        <option>Term Sheet</option>
+        <option>Closed</option>
+        <option>Pass</option>
+      </select>
+    </div>
+
+    <div class="crm-field">
+      <label>Next Action <span style="font-weight:400;text-transform:none;letter-spacing:0">(leave blank to keep current)</span></label>
+      <textarea id="crm-status-action" rows="2" placeholder="What needs to happen next..."></textarea>
+    </div>
+
+    <div class="crm-modal-footer">
+      <span class="crm-msg" id="crm-status-msg" style="display:none"></span>
+      <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-status-modal')">Cancel</button>
+      <button class="crm-btn" id="crm-status-save" onclick="saveStatus()">Update</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Token Modal ── -->
+<div id="crm-token-modal" class="crm-overlay" onclick="overlayClick(event,'crm-token-modal')">
+  <div class="crm-modal" style="width:440px">
+    <div class="crm-modal-title">GitHub Token Setup</div>
+    <div class="crm-modal-sub">Required once to save notes directly from this app.</div>
+
+    <div class="crm-field">
+      <label>Personal Access Token</label>
+      <input type="password" id="crm-token-input" placeholder="ghp_...">
+    </div>
+    <p style="font-size:12px;color:#94a3b8;margin:0 0 6px">
+      Create at <strong>github.com → Settings → Developer settings → Personal access tokens → Fine-grained</strong>.<br>
+      Repo: <code>dyrt-series-a-crm</code> · Permission: <code>Contents: Read and write</code>
+    </p>
+
+    <div class="crm-modal-footer">
+      <span class="crm-msg" id="crm-token-msg" style="display:none"></span>
+      <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-token-modal')">Cancel</button>
+      <button class="crm-btn" onclick="saveToken()">Connect</button>
+    </div>
+  </div>
+</div>
+
 <script>
-  // Simple local passcode — stored in localStorage so you don't re-enter every session
-  const PASSCODE = 'dyrt2026';
+  const PASSCODE    = 'dyrt2026';
   const SESSION_KEY = 'dyrt_crm_auth';
 
   function unlock() {
@@ -354,9 +612,268 @@
     if (e.key === 'Enter') unlock();
   });
 
-  // Check if already authenticated this session
   if (sessionStorage.getItem(SESSION_KEY) === '1') {
     document.getElementById('lock-screen').classList.remove('visible');
+  }
+</script>
+
+<script>
+  // ── GitHub API ──────────────────────────────────────────────
+
+  const GITHUB_REPO = 'dyrtylee/dyrt-series-a-crm';
+  const GH_TOKEN_KEY = 'dyrt_gh_pat';
+  let _crmFilePath = null;
+
+  function ghToken()          { return localStorage.getItem(GH_TOKEN_KEY); }
+  function ghHeaders(write)   {
+    const h = { 'Accept': 'application/vnd.github.v3+json' };
+    if (write || ghToken()) h['Authorization'] = 'token ' + ghToken();
+    return h;
+  }
+
+  async function ghGetFile(path) {
+    const r = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`,
+      { headers: ghHeaders(false) }
+    );
+    if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.status); }
+    return r.json();
+  }
+
+  async function ghPutFile(path, content, sha, msg) {
+    if (!ghToken()) throw new Error('No GitHub token — click "⚙ Token" to connect');
+    const r = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`,
+      {
+        method: 'PUT',
+        headers: { ...ghHeaders(true), 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: msg,
+          content: b64encode(content),
+          sha: sha
+        })
+      }
+    );
+    if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.status); }
+    return r.json();
+  }
+
+  function b64encode(str) {
+    return btoa(unescape(encodeURIComponent(str)));
+  }
+
+  function b64decode(str) {
+    return decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
+  }
+
+  // ── Content Manipulation ────────────────────────────────────
+
+  function appendNote(md, date, type, points, next) {
+    const clean = s => (s || '').replace(/\|/g, '–').replace(/\n/g, ' ').trim();
+    const row   = `| ${clean(date)} | ${clean(type)} | ${clean(points)} | ${clean(next)} |`;
+    const lines = md.split('\n');
+    let last = -1;
+    for (let i = lines.length - 1; i >= 0; i--) {
+      if (lines[i].trim().startsWith('|')) { last = i; break; }
+    }
+    if (last === -1) {
+      return md.trimEnd() +
+        '\n\n---\n\n## Meeting Notes\n\n| Date | Type | Key Points | Next Step |\n|------|------|-----------|----------|\n' +
+        row + '\n';
+    }
+    lines.splice(last + 1, 0, row);
+    return lines.join('\n');
+  }
+
+  function patchStatus(md, stage, nextAction) {
+    let out = md.replace(
+      /(\*\*Status\*\*\s*:\s*)[^\|]+(\s*\|)/,
+      (_, pre, post) => pre + stage + ' ' + post
+    );
+    if (nextAction && nextAction.trim()) {
+      out = out.replace(
+        /(## Next Action\s*\n)([\s\S]*?)(\n(?:##|\z|---|\s*$))/m,
+        (match, header, _old, tail) => header + '**' + nextAction.trim() + '**\n\n' + tail
+      );
+    }
+    return out;
+  }
+
+  // ── Modal Helpers ────────────────────────────────────────────
+
+  function openModal(id) {
+    document.getElementById(id).classList.add('open');
+  }
+  function closeModal(id) {
+    document.getElementById(id).classList.remove('open');
+    setMsg(id.replace('crm-','crm-').replace('-modal','-msg'), '', '');
+  }
+  function overlayClick(e, id) {
+    if (e.target.id === id) closeModal(id);
+  }
+  function setMsg(id, text, type) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = text;
+    el.className = 'crm-msg' + (type ? ' ' + type : '');
+    el.style.display = text ? '' : 'none';
+  }
+  function setBusy(btnId, busy, label) {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.disabled = busy;
+    btn.textContent = busy ? 'Saving…' : label;
+  }
+
+  function firmName() {
+    const h1 = document.querySelector('.markdown-section h1');
+    return h1 ? h1.textContent.trim() : '';
+  }
+
+  // ── Note Modal ───────────────────────────────────────────────
+
+  function openNoteModal() {
+    if (!ghToken()) { openTokenModal(); return; }
+    document.getElementById('crm-note-date').value = new Date().toISOString().split('T')[0];
+    document.getElementById('crm-note-type').value = 'Call';
+    document.getElementById('crm-note-points').value = '';
+    document.getElementById('crm-note-next').value = '';
+    document.getElementById('crm-note-firm').textContent = firmName();
+    setBusy('crm-note-save', false, 'Save Note');
+    setMsg('crm-note-msg', '', '');
+    openModal('crm-note-modal');
+    setTimeout(() => document.getElementById('crm-note-points').focus(), 120);
+  }
+
+  async function saveNote() {
+    const points = document.getElementById('crm-note-points').value.trim();
+    if (!points) { setMsg('crm-note-msg', 'Key points are required.', 'err'); return; }
+    if (!_crmFilePath) { setMsg('crm-note-msg', 'Unknown file path.', 'err'); return; }
+
+    setBusy('crm-note-save', true, 'Save Note');
+    setMsg('crm-note-msg', '', '');
+
+    try {
+      const data       = await ghGetFile(_crmFilePath);
+      const current    = b64decode(data.content);
+      const updated    = appendNote(
+        current,
+        document.getElementById('crm-note-date').value,
+        document.getElementById('crm-note-type').value,
+        points,
+        document.getElementById('crm-note-next').value.trim()
+      );
+      await ghPutFile(_crmFilePath, updated, data.sha, 'Note: ' + points.slice(0, 60));
+      setMsg('crm-note-msg', 'Saved! Reload the page in ~30s to see it.', 'ok');
+      setBusy('crm-note-save', false, 'Save Note');
+      setTimeout(() => closeModal('crm-note-modal'), 2200);
+    } catch (err) {
+      setMsg('crm-note-msg', err.message, 'err');
+      setBusy('crm-note-save', false, 'Save Note');
+    }
+  }
+
+  // ── Status Modal ─────────────────────────────────────────────
+
+  function openStatusModal() {
+    if (!ghToken()) { openTokenModal(); return; }
+
+    // Pre-fill current stage from page text
+    const statusEl = document.querySelector('.markdown-section p');
+    if (statusEl) {
+      const m = statusEl.textContent.match(/Status\s*:\s*([A-Za-z ]+)/);
+      if (m) {
+        const val = m[1].trim();
+        const sel = document.getElementById('crm-status-stage');
+        for (let o of sel.options) { if (o.value === val) { sel.value = val; break; } }
+      }
+    }
+
+    document.getElementById('crm-status-action').value = '';
+    document.getElementById('crm-status-firm').textContent = firmName();
+    setBusy('crm-status-save', false, 'Update');
+    setMsg('crm-status-msg', '', '');
+    openModal('crm-status-modal');
+  }
+
+  async function saveStatus() {
+    if (!_crmFilePath) { setMsg('crm-status-msg', 'Unknown file path.', 'err'); return; }
+
+    setBusy('crm-status-save', true, 'Update');
+    setMsg('crm-status-msg', '', '');
+
+    try {
+      const stage  = document.getElementById('crm-status-stage').value;
+      const action = document.getElementById('crm-status-action').value.trim();
+      const data    = await ghGetFile(_crmFilePath);
+      const current = b64decode(data.content);
+      const updated = patchStatus(current, stage, action);
+      await ghPutFile(_crmFilePath, updated, data.sha, 'Status → ' + stage);
+      setMsg('crm-status-msg', 'Updated! Reload in ~30s.', 'ok');
+      setBusy('crm-status-save', false, 'Update');
+      setTimeout(() => closeModal('crm-status-modal'), 2200);
+    } catch (err) {
+      setMsg('crm-status-msg', err.message, 'err');
+      setBusy('crm-status-save', false, 'Update');
+    }
+  }
+
+  // ── Token Modal ──────────────────────────────────────────────
+
+  function openTokenModal() {
+    document.getElementById('crm-token-input').value = ghToken() || '';
+    setMsg('crm-token-msg', '', '');
+    openModal('crm-token-modal');
+    setTimeout(() => document.getElementById('crm-token-input').focus(), 120);
+  }
+
+  function saveToken() {
+    const t = document.getElementById('crm-token-input').value.trim();
+    if (!t) { setMsg('crm-token-msg', 'Paste your token above.', 'err'); return; }
+    localStorage.setItem(GH_TOKEN_KEY, t);
+    setMsg('crm-token-msg', 'Connected!', 'ok');
+    setTimeout(() => closeModal('crm-token-modal'), 900);
+  }
+
+  document.getElementById('crm-token-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') saveToken();
+  });
+
+  // ── Docsify Plugin: inject action bar on investor pages ──────
+
+  function crmPlugin(hook, vm) {
+    hook.doneEach(function() {
+      const path = vm.route.path;
+      // Only investor profile pages (not /investors/README, not top-level pages)
+      if (!path.match(/^\/investors\/[^/]+\/[^/]+$/)) {
+        _crmFilePath = null;
+        return;
+      }
+
+      _crmFilePath = path.replace(/^\//, '') + '.md';
+
+      const section = document.querySelector('#main .markdown-section');
+      if (!section) return;
+
+      // Remove stale bar from previous navigation
+      const old = section.querySelector('.crm-actions');
+      if (old) old.remove();
+
+      const bar = document.createElement('div');
+      bar.className = 'crm-actions';
+      bar.innerHTML =
+        '<span class="crm-actions-label">Actions</span>' +
+        '<button class="crm-btn" onclick="openNoteModal()">+ Add Note</button>' +
+        '<button class="crm-btn crm-btn-ghost" onclick="openStatusModal()">Change Status</button>' +
+        '<button class="crm-token-link" onclick="openTokenModal()">⚙ Token</button>';
+
+      const h1 = section.querySelector('h1');
+      if (h1 && h1.nextSibling) {
+        section.insertBefore(bar, h1.nextSibling);
+      } else {
+        section.prepend(bar);
+      }
+    });
   }
 </script>
 
@@ -390,6 +907,7 @@
       nextText: 'Next',
       crossChapter: true,
     },
+    plugins: [crmPlugin],
   };
 </script>
 
