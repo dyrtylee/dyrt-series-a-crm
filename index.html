@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dyrt Series A — Corp Dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♻️</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <style>
+    :root {
+      --theme-color: #3fcfb4;
+      --base-background-color: #0f1624;
+      --sidebar-background: #0a1020;
+      --sidebar-border-color: #1a2540;
+      --sidebar-width: 280px;
+      --cover-background-color: #0f1624;
+      --cover-max-width: 860px;
+      --mono-font: 'SF Mono', 'Fira Code', monospace;
+      --base-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --base-color: #d0ddf0;
+      --heading-color: #ffffff;
+      --link-color: #3fcfb4;
+      --link-color--hover: #64e8d0;
+      --code-theme-background: #141e35;
+      --code-theme-text: #d0ddf0;
+      --notice-tip-background: #0d2b24;
+      --notice-tip-border-color: #3fcfb4;
+      --notice-important-background: #2b1a0d;
+      --notice-important-border-color: #f6a623;
+      --selection-color: rgba(63, 207, 180, 0.2);
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: var(--sidebar-background);
+      border-right: 1px solid var(--sidebar-border-color);
+      padding-top: 0;
+    }
+
+    .sidebar .app-name {
+      padding: 20px 16px 8px;
+    }
+
+    .sidebar .app-name-link {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #3fcfb4 !important;
+    }
+
+    .sidebar ul li a {
+      font-size: 13px;
+      color: #8899bb !important;
+      padding: 3px 0;
+    }
+
+    .sidebar ul li a:hover,
+    .sidebar ul li.active > a {
+      color: #3fcfb4 !important;
+    }
+
+    .sidebar ul li em {
+      display: block;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #445577;
+      margin: 12px 0 4px;
+    }
+
+    /* Top bar */
+    .app-nav {
+      background: var(--base-background-color);
+      border-bottom: 1px solid #1a2540;
+    }
+
+    /* Content */
+    .content {
+      max-width: 900px;
+    }
+
+    /* Tables */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th {
+      background: #141e35;
+      color: #3fcfb4;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid #1a2540;
+    }
+
+    td {
+      padding: 7px 12px;
+      border: 1px solid #1a2540;
+      font-size: 13px;
+      vertical-align: top;
+    }
+
+    tr:hover td {
+      background: #141e35;
+    }
+
+    /* Headers */
+    h1 { color: #ffffff; border-bottom: 2px solid #3fcfb4; padding-bottom: 8px; }
+    h2 { color: #d0ddf0; border-bottom: 1px solid #1a2540; padding-bottom: 4px; }
+    h3 { color: #3fcfb4; }
+
+    /* Badges / inline code */
+    code {
+      background: #141e35;
+      color: #3fcfb4;
+      border: 1px solid #1a2540;
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-size: 12px;
+    }
+
+    /* Blockquotes = pitch blurbs */
+    blockquote {
+      border-left: 3px solid #3fcfb4;
+      background: #0d1a30;
+      margin: 16px 0;
+      padding: 12px 16px;
+      border-radius: 0 4px 4px 0;
+    }
+
+    blockquote p {
+      color: #c0d0e8;
+      margin: 0;
+      font-style: italic;
+    }
+
+    /* Horizontal rules */
+    hr {
+      border: none;
+      border-top: 1px solid #1a2540;
+      margin: 20px 0;
+    }
+
+    /* Checkboxes */
+    .task-list-item input[type="checkbox"] {
+      accent-color: #3fcfb4;
+    }
+
+    /* Status badges via strong text coloring */
+    strong {
+      color: #ffffff;
+    }
+
+    /* Search */
+    .search input {
+      background: #141e35;
+      border: 1px solid #1a2540;
+      color: #d0ddf0;
+    }
+
+    /* Copy button for code blocks */
+    .docsify-copy-code-button {
+      background: #1a2540 !important;
+      color: #3fcfb4 !important;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0a1020; }
+    ::-webkit-scrollbar-thumb { background: #1a2540; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3fcfb4; }
+
+    /* Progress bar */
+    #nprogress .bar { background: #3fcfb4 !important; }
+
+    /* Lock screen */
+    #lock-screen {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #0f1624;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    #lock-screen.visible {
+      display: flex;
+    }
+
+    #lock-screen .lock-box {
+      background: #141e35;
+      border: 1px solid #1a2540;
+      border-radius: 8px;
+      padding: 40px 48px;
+      text-align: center;
+      max-width: 360px;
+      width: 90%;
+    }
+
+    #lock-screen .lock-logo {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #3fcfb4;
+      margin-bottom: 8px;
+    }
+
+    #lock-screen h2 {
+      color: #ffffff;
+      border: none;
+      font-size: 20px;
+      margin: 0 0 6px;
+    }
+
+    #lock-screen p {
+      color: #8899bb;
+      font-size: 13px;
+      margin: 0 0 24px;
+    }
+
+    #lock-screen input {
+      width: 100%;
+      background: #0a1020;
+      border: 1px solid #1a2540;
+      border-radius: 6px;
+      color: #d0ddf0;
+      font-size: 16px;
+      padding: 10px 14px;
+      outline: none;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+      letter-spacing: 0.15em;
+    }
+
+    #lock-screen input:focus {
+      border-color: #3fcfb4;
+    }
+
+    #lock-screen button {
+      width: 100%;
+      background: #3fcfb4;
+      border: none;
+      border-radius: 6px;
+      color: #0a1020;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px;
+      cursor: pointer;
+      letter-spacing: 0.05em;
+    }
+
+    #lock-screen button:hover {
+      background: #64e8d0;
+    }
+
+    #lock-screen .error {
+      color: #f6a623;
+      font-size: 12px;
+      margin-top: 8px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Lock Screen -->
+<div id="lock-screen" class="visible">
+  <div class="lock-box">
+    <div class="lock-logo">DYRT LABS</div>
+    <h2>Series A — Corp Dev</h2>
+    <p>Private. Authorized access only.</p>
+    <input type="password" id="pin-input" placeholder="Enter passcode" autocomplete="off">
+    <button onclick="unlock()">Enter</button>
+    <div class="error" id="error-msg">Incorrect passcode. Try again.</div>
+  </div>
+</div>
+
+<!-- Docsify app -->
+<div id="app"></div>
+
+<script>
+  // Simple local passcode — stored in localStorage so you don't re-enter every session
+  const PASSCODE = 'dyrt2026';
+  const SESSION_KEY = 'dyrt_crm_auth';
+
+  function unlock() {
+    const input = document.getElementById('pin-input').value;
+    const errEl = document.getElementById('error-msg');
+    if (input === PASSCODE) {
+      sessionStorage.setItem(SESSION_KEY, '1');
+      document.getElementById('lock-screen').classList.remove('visible');
+      errEl.style.display = 'none';
+    } else {
+      errEl.style.display = 'block';
+      document.getElementById('pin-input').value = '';
+      document.getElementById('pin-input').focus();
+    }
+  }
+
+  document.getElementById('pin-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') unlock();
+  });
+
+  // Check if already authenticated this session
+  if (sessionStorage.getItem(SESSION_KEY) === '1') {
+    document.getElementById('lock-screen').classList.remove('visible');
+  }
+</script>
+
+<script>
+  window.$docsify = {
+    name: 'DYRT — Series A',
+    repo: '',
+    loadSidebar: true,
+    loadNavbar: false,
+    subMaxLevel: 2,
+    auto2top: true,
+    search: {
+      placeholder: 'Search investors, templates...',
+      noData: 'No results.',
+      depth: 4,
+    },
+    copyCode: {
+      buttonText: 'Copy',
+      errorText: 'Error',
+      successText: 'Copied',
+    },
+    tabs: {
+      persist: true,
+      sync: true,
+    },
+    themeColor: '#3fcfb4',
+    routerMode: 'hash',
+    notFoundPage: true,
+    pagination: {
+      previousText: 'Previous',
+      nextText: 'Next',
+      crossChapter: true,
+    },
+  };
+</script>
+
+<!-- Docsify core -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+<!-- Plugins -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+</body>
+</html>
