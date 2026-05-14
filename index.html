@@ -6,59 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♻️</text></svg>">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <style>
     :root {
-      --theme-color: #3fcfb4;
-      --base-background-color: #0f1624;
-      --sidebar-background: #0a1020;
-      --sidebar-border-color: #1a2540;
+      --theme-color: #1a9e8a;
+      --base-background-color: #ffffff;
+      --sidebar-background: #f7f8fa;
+      --sidebar-border-color: #e8ecf0;
       --sidebar-width: 280px;
-      --cover-background-color: #0f1624;
-      --cover-max-width: 860px;
       --mono-font: 'SF Mono', 'Fira Code', monospace;
       --base-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      --base-color: #d0ddf0;
-      --heading-color: #ffffff;
-      --link-color: #3fcfb4;
-      --link-color--hover: #64e8d0;
-      --code-theme-background: #141e35;
-      --code-theme-text: #d0ddf0;
-      --notice-tip-background: #0d2b24;
-      --notice-tip-border-color: #3fcfb4;
-      --notice-important-background: #2b1a0d;
-      --notice-important-border-color: #f6a623;
-      --selection-color: rgba(63, 207, 180, 0.2);
+      --base-color: #2d3748;
+      --heading-color: #1a202c;
+      --link-color: #1a9e8a;
+      --link-color--hover: #147a6b;
+      --code-theme-background: #f0f7f5;
+      --code-theme-text: #1a6b5e;
+      --selection-color: rgba(26, 158, 138, 0.12);
     }
+
+    body { background: #ffffff; }
 
     /* Sidebar */
     .sidebar {
-      background: var(--sidebar-background);
-      border-right: 1px solid var(--sidebar-border-color);
-      padding-top: 0;
+      background: #f7f8fa;
+      border-right: 1px solid #e8ecf0;
     }
 
     .sidebar .app-name {
       padding: 20px 16px 8px;
+      border-bottom: 1px solid #e8ecf0;
+      margin-bottom: 8px;
     }
 
     .sidebar .app-name-link {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: #3fcfb4 !important;
+      color: #1a9e8a !important;
     }
 
     .sidebar ul li a {
       font-size: 13px;
-      color: #8899bb !important;
+      color: #64748b !important;
       padding: 3px 0;
     }
 
     .sidebar ul li a:hover,
     .sidebar ul li.active > a {
-      color: #3fcfb4 !important;
+      color: #1a9e8a !important;
     }
 
     .sidebar ul li em {
@@ -68,117 +65,157 @@
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: #445577;
+      color: #a0aec0;
       margin: 12px 0 4px;
-    }
-
-    /* Top bar */
-    .app-nav {
-      background: var(--base-background-color);
-      border-bottom: 1px solid #1a2540;
     }
 
     /* Content */
     .content {
-      max-width: 900px;
+      max-width: 920px;
+    }
+
+    .markdown-section {
+      padding: 32px 40px 80px;
     }
 
     /* Tables */
     table {
       border-collapse: collapse;
       width: 100%;
+      font-size: 13px;
     }
 
     th {
-      background: #141e35;
-      color: #3fcfb4;
+      background: #f0f7f5;
+      color: #1a6b5e;
       font-size: 11px;
+      font-weight: 700;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      padding: 8px 12px;
+      padding: 9px 12px;
       text-align: left;
-      border: 1px solid #1a2540;
+      border: 1px solid #e2ebe9;
     }
 
     td {
-      padding: 7px 12px;
-      border: 1px solid #1a2540;
-      font-size: 13px;
+      padding: 8px 12px;
+      border: 1px solid #edf2f0;
       vertical-align: top;
+      color: #374151;
     }
 
     tr:hover td {
-      background: #141e35;
+      background: #f8fffe;
     }
 
     /* Headers */
-    h1 { color: #ffffff; border-bottom: 2px solid #3fcfb4; padding-bottom: 8px; }
-    h2 { color: #d0ddf0; border-bottom: 1px solid #1a2540; padding-bottom: 4px; }
-    h3 { color: #3fcfb4; }
+    h1 {
+      color: #1a202c;
+      border-bottom: 2px solid #1a9e8a;
+      padding-bottom: 10px;
+      font-size: 26px;
+    }
 
-    /* Badges / inline code */
+    h2 {
+      color: #2d3748;
+      border-bottom: 1px solid #e8ecf0;
+      padding-bottom: 6px;
+      font-size: 18px;
+      margin-top: 32px;
+    }
+
+    h3 {
+      color: #1a9e8a;
+      font-size: 15px;
+    }
+
+    /* Inline code */
     code {
-      background: #141e35;
-      color: #3fcfb4;
-      border: 1px solid #1a2540;
+      background: #f0f7f5;
+      color: #1a6b5e;
+      border: 1px solid #c8e6e1;
       border-radius: 3px;
       padding: 1px 5px;
       font-size: 12px;
     }
 
+    /* Code blocks */
+    pre {
+      background: #f8fffe !important;
+      border: 1px solid #e2ebe9;
+      border-radius: 6px;
+    }
+
+    pre code {
+      background: transparent !important;
+      border: none;
+      color: #2d3748;
+    }
+
     /* Blockquotes = pitch blurbs */
     blockquote {
-      border-left: 3px solid #3fcfb4;
-      background: #0d1a30;
+      border-left: 3px solid #1a9e8a;
+      background: #f0faf7;
       margin: 16px 0;
       padding: 12px 16px;
-      border-radius: 0 4px 4px 0;
+      border-radius: 0 6px 6px 0;
     }
 
     blockquote p {
-      color: #c0d0e8;
+      color: #2d5a52;
       margin: 0;
       font-style: italic;
+      font-size: 14px;
     }
 
-    /* Horizontal rules */
+    /* HR */
     hr {
       border: none;
-      border-top: 1px solid #1a2540;
-      margin: 20px 0;
+      border-top: 1px solid #e8ecf0;
+      margin: 24px 0;
     }
 
     /* Checkboxes */
     .task-list-item input[type="checkbox"] {
-      accent-color: #3fcfb4;
+      accent-color: #1a9e8a;
     }
 
-    /* Status badges via strong text coloring */
-    strong {
-      color: #ffffff;
-    }
+    strong { color: #1a202c; }
 
     /* Search */
-    .search input {
-      background: #141e35;
-      border: 1px solid #1a2540;
-      color: #d0ddf0;
+    .search {
+      border-bottom: 1px solid #e8ecf0;
+      padding: 8px 12px;
     }
 
-    /* Copy button for code blocks */
+    .search input {
+      background: #ffffff;
+      border: 1px solid #e8ecf0;
+      border-radius: 6px;
+      color: #2d3748;
+      font-size: 13px;
+    }
+
+    .search input:focus {
+      border-color: #1a9e8a;
+      outline: none;
+    }
+
+    /* Copy button */
     .docsify-copy-code-button {
-      background: #1a2540 !important;
-      color: #3fcfb4 !important;
+      background: #e8ecf0 !important;
+      color: #1a9e8a !important;
+      border: none !important;
     }
 
     /* Scrollbar */
     ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: #0a1020; }
-    ::-webkit-scrollbar-thumb { background: #1a2540; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: #3fcfb4; }
+    ::-webkit-scrollbar-track { background: #f7f8fa; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #1a9e8a; }
 
     /* Progress bar */
-    #nprogress .bar { background: #3fcfb4 !important; }
+    #nprogress .bar { background: #1a9e8a !important; }
 
     /* Lock screen */
     #lock-screen {
@@ -186,11 +223,10 @@
       position: fixed;
       inset: 0;
       z-index: 9999;
-      background: #0f1624;
+      background: #f7f8fa;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      gap: 24px;
     }
 
     #lock-screen.visible {
@@ -198,76 +234,82 @@
     }
 
     #lock-screen .lock-box {
-      background: #141e35;
-      border: 1px solid #1a2540;
-      border-radius: 8px;
-      padding: 40px 48px;
+      background: #ffffff;
+      border: 1px solid #e8ecf0;
+      border-radius: 12px;
+      padding: 44px 52px;
       text-align: center;
-      max-width: 360px;
+      max-width: 380px;
       width: 90%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
     }
 
     #lock-screen .lock-logo {
-      font-size: 13px;
+      font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: #3fcfb4;
-      margin-bottom: 8px;
+      color: #1a9e8a;
+      margin-bottom: 10px;
     }
 
     #lock-screen h2 {
-      color: #ffffff;
+      color: #1a202c;
       border: none;
-      font-size: 20px;
+      font-size: 22px;
+      font-weight: 700;
       margin: 0 0 6px;
+      padding: 0;
     }
 
     #lock-screen p {
-      color: #8899bb;
+      color: #94a3b8;
       font-size: 13px;
-      margin: 0 0 24px;
+      margin: 0 0 28px;
     }
 
     #lock-screen input {
       width: 100%;
-      background: #0a1020;
-      border: 1px solid #1a2540;
-      border-radius: 6px;
-      color: #d0ddf0;
+      background: #f7f8fa;
+      border: 1px solid #e8ecf0;
+      border-radius: 8px;
+      color: #1a202c;
       font-size: 16px;
-      padding: 10px 14px;
+      padding: 11px 14px;
       outline: none;
       box-sizing: border-box;
       margin-bottom: 12px;
-      letter-spacing: 0.15em;
+      letter-spacing: 0.2em;
+      transition: border-color 0.15s;
     }
 
     #lock-screen input:focus {
-      border-color: #3fcfb4;
+      border-color: #1a9e8a;
+      background: #ffffff;
     }
 
     #lock-screen button {
       width: 100%;
-      background: #3fcfb4;
+      background: #1a9e8a;
       border: none;
-      border-radius: 6px;
-      color: #0a1020;
+      border-radius: 8px;
+      color: #ffffff;
       font-size: 14px;
-      font-weight: 700;
-      padding: 10px;
+      font-weight: 600;
+      padding: 11px;
       cursor: pointer;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.03em;
+      transition: background 0.15s;
     }
 
     #lock-screen button:hover {
-      background: #64e8d0;
+      background: #147a6b;
     }
 
     #lock-screen .error {
-      color: #f6a623;
+      color: #e53e3e;
       font-size: 12px;
-      margin-top: 8px;
+      margin-top: 10px;
       display: none;
     }
   </style>
