@@ -2,6 +2,8 @@
 
 **Status**: Diligence | **Priority**: 1 | **Lead potential**: Maybe
 
+> **Add a note:** [Edit this page on GitHub](https://github.com/dyrtylee/dyrt-series-a-crm/edit/main/investors/active-diligence/bandera-capital.md) — or tell Claude what to log
+
 ---
 
 ## Contact

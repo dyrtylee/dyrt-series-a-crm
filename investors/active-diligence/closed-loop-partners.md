@@ -2,6 +2,8 @@
 
 **Status**: Outreach | **Priority**: 1 | **Lead potential**: YES
 
+> **Add a note:** [Edit this page on GitHub](https://github.com/dyrtylee/dyrt-series-a-crm/edit/main/investors/active-diligence/closed-loop-partners.md) — or tell Claude what to log
+
 ---
 
 ## Contact

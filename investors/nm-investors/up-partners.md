@@ -2,6 +2,8 @@
 
 **Status**: Meeting | **Priority**: 1 | **Lead potential**: YES
 
+> **Add a note:** [Edit this page on GitHub](https://github.com/dyrtylee/dyrt-series-a-crm/edit/main/investors/nm-investors/up-partners.md) — or tell Claude what to log
+
 ---
 
 ## Contact

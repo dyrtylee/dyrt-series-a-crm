@@ -2,6 +2,8 @@
 
 **Status**: Backlog | **Priority**: 1 | **Lead potential**: YES
 
+> **Add a note:** [Edit this page on GitHub](https://github.com/dyrtylee/dyrt-series-a-crm/edit/main/investors/tier1-leads/s2g-investments.md) — or tell Claude what to log
+
 ---
 
 ## Contact
