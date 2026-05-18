@@ -27,299 +27,91 @@
 
     body { background: #ffffff; }
 
-    .sidebar {
-      background: #f7f8fa;
-      border-right: 1px solid #e8ecf0;
-    }
+    .sidebar { background: #f7f8fa; border-right: 1px solid #e8ecf0; }
+    .sidebar .app-name { padding: 20px 16px 8px; border-bottom: 1px solid #e8ecf0; margin-bottom: 8px; }
+    .sidebar .app-name-link { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1a9e8a !important; }
+    .sidebar ul li a { font-size: 13px; color: #64748b !important; padding: 3px 0; }
+    .sidebar ul li a:hover, .sidebar ul li.active > a { color: #1a9e8a !important; }
+    .sidebar ul li em { display: block; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #a0aec0; margin: 12px 0 4px; }
 
-    .sidebar .app-name {
-      padding: 20px 16px 8px;
-      border-bottom: 1px solid #e8ecf0;
-      margin-bottom: 8px;
-    }
+    .content { max-width: 920px; }
+    .markdown-section { padding: 32px 40px 80px; }
 
-    .sidebar .app-name-link {
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: #1a9e8a !important;
-    }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    th { background: #f0f7f5; color: #1a6b5e; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 9px 12px; text-align: left; border: 1px solid #e2ebe9; }
+    td { padding: 8px 12px; border: 1px solid #edf2f0; vertical-align: top; color: #374151; }
+    tr:hover td { background: #f8fffe; }
 
-    .sidebar ul li a {
-      font-size: 13px;
-      color: #64748b !important;
-      padding: 3px 0;
-    }
+    h1 { color: #1a202c; border-bottom: 2px solid #1a9e8a; padding-bottom: 10px; font-size: 26px; }
+    h2 { color: #2d3748; border-bottom: 1px solid #e8ecf0; padding-bottom: 6px; font-size: 18px; margin-top: 32px; }
+    h3 { color: #1a9e8a; font-size: 15px; }
 
-    .sidebar ul li a:hover,
-    .sidebar ul li.active > a {
-      color: #1a9e8a !important;
-    }
+    code { background: #f0f7f5; color: #1a6b5e; border: 1px solid #c8e6e1; border-radius: 3px; padding: 1px 5px; font-size: 12px; }
+    pre { background: #f8fffe !important; border: 1px solid #e2ebe9; border-radius: 6px; }
+    pre code { background: transparent !important; border: none; color: #2d3748; }
 
-    .sidebar ul li em {
-      display: block;
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: #a0aec0;
-      margin: 12px 0 4px;
-    }
+    blockquote { border-left: 3px solid #1a9e8a; background: #f0faf7; margin: 16px 0; padding: 12px 16px; border-radius: 0 6px 6px 0; }
+    blockquote p { color: #2d5a52; margin: 0; font-style: italic; font-size: 14px; }
 
-    .content {
-      max-width: 920px;
-    }
-
-    .markdown-section {
-      padding: 32px 40px 80px;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      font-size: 13px;
-    }
-
-    th {
-      background: #f0f7f5;
-      color: #1a6b5e;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 9px 12px;
-      text-align: left;
-      border: 1px solid #e2ebe9;
-    }
-
-    td {
-      padding: 8px 12px;
-      border: 1px solid #edf2f0;
-      vertical-align: top;
-      color: #374151;
-    }
-
-    tr:hover td {
-      background: #f8fffe;
-    }
-
-    h1 {
-      color: #1a202c;
-      border-bottom: 2px solid #1a9e8a;
-      padding-bottom: 10px;
-      font-size: 26px;
-    }
-
-    h2 {
-      color: #2d3748;
-      border-bottom: 1px solid #e8ecf0;
-      padding-bottom: 6px;
-      font-size: 18px;
-      margin-top: 32px;
-    }
-
-    h3 {
-      color: #1a9e8a;
-      font-size: 15px;
-    }
-
-    code {
-      background: #f0f7f5;
-      color: #1a6b5e;
-      border: 1px solid #c8e6e1;
-      border-radius: 3px;
-      padding: 1px 5px;
-      font-size: 12px;
-    }
-
-    pre {
-      background: #f8fffe !important;
-      border: 1px solid #e2ebe9;
-      border-radius: 6px;
-    }
-
-    pre code {
-      background: transparent !important;
-      border: none;
-      color: #2d3748;
-    }
-
-    blockquote {
-      border-left: 3px solid #1a9e8a;
-      background: #f0faf7;
-      margin: 16px 0;
-      padding: 12px 16px;
-      border-radius: 0 6px 6px 0;
-    }
-
-    blockquote p {
-      color: #2d5a52;
-      margin: 0;
-      font-style: italic;
-      font-size: 14px;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid #e8ecf0;
-      margin: 24px 0;
-    }
-
-    .task-list-item input[type="checkbox"] {
-      accent-color: #1a9e8a;
-    }
-
+    hr { border: none; border-top: 1px solid #e8ecf0; margin: 24px 0; }
+    .task-list-item input[type="checkbox"] { accent-color: #1a9e8a; }
     strong { color: #1a202c; }
 
-    .search {
-      border-bottom: 1px solid #e8ecf0;
-      padding: 8px 12px;
-    }
+    .search { border-bottom: 1px solid #e8ecf0; padding: 8px 12px; }
+    .search input { background: #ffffff; border: 1px solid #e8ecf0; border-radius: 6px; color: #2d3748; font-size: 13px; }
+    .search input:focus { border-color: #1a9e8a; outline: none; }
 
-    .search input {
-      background: #ffffff;
-      border: 1px solid #e8ecf0;
-      border-radius: 6px;
-      color: #2d3748;
-      font-size: 13px;
-    }
-
-    .search input:focus {
-      border-color: #1a9e8a;
-      outline: none;
-    }
-
-    .docsify-copy-code-button {
-      background: #e8ecf0 !important;
-      color: #1a9e8a !important;
-      border: none !important;
-    }
+    .docsify-copy-code-button { background: #e8ecf0 !important; color: #1a9e8a !important; border: none !important; }
 
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #f7f8fa; }
     ::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #1a9e8a; }
-
     #nprogress .bar { background: #1a9e8a !important; }
 
     /* ── Lock Screen ── */
-    #lock-screen {
-      display: none;
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      background: #f7f8fa;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
+    #lock-screen { display: none; position: fixed; inset: 0; z-index: 9999; background: #f7f8fa; align-items: center; justify-content: center; flex-direction: column; }
+    #lock-screen.visible { display: flex; }
+    #lock-screen .lock-box { background: #ffffff; border: 1px solid #e8ecf0; border-radius: 12px; padding: 44px 52px; text-align: center; max-width: 380px; width: 90%; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+    #lock-screen .lock-logo { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #1a9e8a; margin-bottom: 10px; }
+    #lock-screen h2 { color: #1a202c; border: none; font-size: 22px; font-weight: 700; margin: 0 0 6px; padding: 0; }
+    #lock-screen p { color: #94a3b8; font-size: 13px; margin: 0 0 28px; }
+    #lock-screen input { width: 100%; background: #f7f8fa; border: 1px solid #e8ecf0; border-radius: 8px; color: #1a202c; font-size: 16px; padding: 11px 14px; outline: none; box-sizing: border-box; margin-bottom: 12px; letter-spacing: 0.2em; transition: border-color 0.15s; }
+    #lock-screen input:focus { border-color: #1a9e8a; background: #ffffff; }
+    #lock-screen button { width: 100%; background: #1a9e8a; border: none; border-radius: 8px; color: #ffffff; font-size: 14px; font-weight: 600; padding: 11px; cursor: pointer; transition: background 0.15s; }
+    #lock-screen button:hover { background: #147a6b; }
+    #lock-screen .error { color: #e53e3e; font-size: 12px; margin-top: 10px; display: none; }
 
-    #lock-screen.visible {
-      display: flex;
-    }
-
-    #lock-screen .lock-box {
-      background: #ffffff;
-      border: 1px solid #e8ecf0;
-      border-radius: 12px;
-      padding: 44px 52px;
-      text-align: center;
-      max-width: 380px;
-      width: 90%;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
-    }
-
-    #lock-screen .lock-logo {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #1a9e8a;
-      margin-bottom: 10px;
-    }
-
-    #lock-screen h2 {
-      color: #1a202c;
-      border: none;
-      font-size: 22px;
-      font-weight: 700;
-      margin: 0 0 6px;
-      padding: 0;
-    }
-
-    #lock-screen p {
-      color: #94a3b8;
-      font-size: 13px;
+    /* ── Activity Panel ── */
+    .crm-activity {
       margin: 0 0 28px;
-    }
-
-    #lock-screen input {
-      width: 100%;
-      background: #f7f8fa;
-      border: 1px solid #e8ecf0;
-      border-radius: 8px;
-      color: #1a202c;
-      font-size: 16px;
-      padding: 11px 14px;
-      outline: none;
-      box-sizing: border-box;
-      margin-bottom: 12px;
-      letter-spacing: 0.2em;
-      transition: border-color 0.15s;
-    }
-
-    #lock-screen input:focus {
-      border-color: #1a9e8a;
+      border: 1px solid #e2ebe9;
+      border-radius: 10px;
+      overflow: hidden;
       background: #ffffff;
     }
 
-    #lock-screen button {
-      width: 100%;
-      background: #1a9e8a;
-      border: none;
-      border-radius: 8px;
-      color: #ffffff;
-      font-size: 14px;
-      font-weight: 600;
-      padding: 11px;
-      cursor: pointer;
-      letter-spacing: 0.03em;
-      transition: background 0.15s;
-    }
-
-    #lock-screen button:hover {
-      background: #147a6b;
-    }
-
-    #lock-screen .error {
-      color: #e53e3e;
-      font-size: 12px;
-      margin-top: 10px;
-      display: none;
-    }
-
-    /* ── CRM Action Bar ── */
-    .crm-actions {
+    .crm-activity-header {
       display: flex;
       align-items: center;
-      gap: 8px;
-      margin: 0 0 24px;
+      justify-content: space-between;
       padding: 12px 16px;
       background: #f0faf7;
-      border: 1px solid #c8e6e1;
-      border-radius: 8px;
-      flex-wrap: wrap;
+      border-bottom: 1px solid #e2ebe9;
     }
 
-    .crm-actions-label {
+    .crm-activity-title {
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.07em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
       color: #1a9e8a;
-      margin-right: 2px;
+    }
+
+    .crm-header-btns {
+      display: flex;
+      gap: 6px;
+      align-items: center;
     }
 
     .crm-btn {
@@ -327,42 +119,112 @@
       color: #fff;
       border: none;
       border-radius: 6px;
-      padding: 7px 14px;
-      font-size: 13px;
+      padding: 6px 13px;
+      font-size: 12px;
       font-weight: 600;
       cursor: pointer;
       font-family: inherit;
       transition: background 0.15s;
       white-space: nowrap;
     }
-
     .crm-btn:hover:not(:disabled) { background: #147a6b; }
-    .crm-btn:disabled { opacity: 0.6; cursor: default; }
+    .crm-btn:disabled { opacity: 0.55; cursor: default; }
 
     .crm-btn-ghost {
       background: transparent;
-      color: #1a9e8a;
-      border: 1px solid #1a9e8a;
+      color: #64748b;
+      border: 1px solid #e8ecf0;
+    }
+    .crm-btn-ghost:hover:not(:disabled) { border-color: #1a9e8a; color: #1a9e8a; background: #f0faf7; }
+
+    .crm-empty {
+      padding: 18px 16px;
+      color: #94a3b8;
+      font-size: 13px;
+      font-style: italic;
     }
 
-    .crm-btn-ghost:hover:not(:disabled) {
+    .crm-note {
+      padding: 12px 16px;
+      border-bottom: 1px solid #f0f4f3;
+    }
+    .crm-note:last-child { border-bottom: none; }
+
+    .crm-note-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+
+    .crm-note-date {
+      font-size: 12px;
+      font-weight: 600;
+      color: #374151;
+    }
+
+    .crm-note-type {
+      font-size: 11px;
       background: #f0faf7;
+      color: #1a9e8a;
+      border: 1px solid #c8e6e1;
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-weight: 600;
     }
 
-    .crm-token-link {
+    .crm-note-del {
       margin-left: auto;
       background: none;
       border: none;
-      color: #94a3b8;
-      font-size: 12px;
+      color: #cbd5e0;
+      font-size: 16px;
       cursor: pointer;
-      font-family: inherit;
-      padding: 4px 6px;
-      border-radius: 4px;
+      padding: 0 2px;
+      line-height: 1;
       transition: color 0.15s;
     }
+    .crm-note-del:hover { color: #e53e3e; }
 
-    .crm-token-link:hover { color: #1a9e8a; }
+    .crm-note-body {
+      font-size: 13px;
+      color: #1a202c;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .crm-note-next {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #1a9e8a;
+      font-weight: 500;
+    }
+
+    .crm-status-line {
+      padding: 8px 16px;
+      background: #fafbfc;
+      border-bottom: 1px solid #f0f4f3;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+    }
+
+    .crm-status-badge {
+      background: #e8f4f2;
+      color: #1a6b5e;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .crm-status-badge.overridden {
+      background: #1a9e8a;
+      color: #fff;
+    }
 
     /* ── Modals ── */
     .crm-overlay {
@@ -370,109 +232,44 @@
       position: fixed;
       inset: 0;
       z-index: 10000;
-      background: rgba(15, 23, 42, 0.3);
+      background: rgba(15, 23, 42, 0.28);
       align-items: center;
       justify-content: center;
       padding: 16px;
     }
-
     .crm-overlay.open { display: flex; }
 
     .crm-modal {
       background: #ffffff;
       border: 1px solid #e8ecf0;
       border-radius: 12px;
-      padding: 28px 32px 24px;
-      width: 520px;
+      padding: 26px 28px 22px;
+      width: 500px;
       max-width: 100%;
-      box-shadow: 0 12px 48px rgba(0,0,0,0.14);
-      animation: crm-fadein 0.15s ease;
+      box-shadow: 0 12px 48px rgba(0,0,0,0.13);
+      animation: crm-pop 0.13s ease;
     }
+    @keyframes crm-pop { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:none; } }
 
-    @keyframes crm-fadein {
-      from { opacity: 0; transform: translateY(-8px); }
-      to   { opacity: 1; transform: translateY(0); }
+    .crm-modal-title { font-size: 16px; font-weight: 700; color: #1a202c; margin: 0 0 16px; }
+
+    .crm-field { margin-bottom: 13px; }
+    .crm-field label { display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #64748b; margin-bottom: 5px; }
+    .crm-field input, .crm-field select, .crm-field textarea {
+      width: 100%; background: #f7f8fa; border: 1px solid #e8ecf0; border-radius: 6px;
+      color: #1a202c; font-size: 14px; padding: 9px 11px; outline: none;
+      box-sizing: border-box; font-family: inherit; transition: border-color 0.15s, background 0.15s;
     }
+    .crm-field textarea { resize: vertical; min-height: 88px; line-height: 1.55; }
+    .crm-field input:focus, .crm-field select:focus, .crm-field textarea:focus { border-color: #1a9e8a; background: #fff; }
 
-    .crm-modal-title {
-      font-size: 16px;
-      font-weight: 700;
-      color: #1a202c;
-      margin: 0 0 2px;
-    }
+    .crm-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
-    .crm-modal-sub {
-      font-size: 12px;
-      color: #94a3b8;
-      margin: 0 0 22px;
-    }
+    .crm-modal-footer { display: flex; align-items: center; gap: 8px; justify-content: flex-end; margin-top: 18px; }
 
-    .crm-field {
-      margin-bottom: 14px;
-    }
-
-    .crm-field label {
-      display: block;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: #64748b;
-      margin-bottom: 5px;
-    }
-
-    .crm-field input,
-    .crm-field select,
-    .crm-field textarea {
-      width: 100%;
-      background: #f7f8fa;
-      border: 1px solid #e8ecf0;
-      border-radius: 6px;
-      color: #1a202c;
-      font-size: 14px;
-      padding: 9px 11px;
-      outline: none;
-      box-sizing: border-box;
-      font-family: inherit;
-      transition: border-color 0.15s, background 0.15s;
-    }
-
-    .crm-field textarea {
-      resize: vertical;
-      min-height: 84px;
-      line-height: 1.5;
-    }
-
-    .crm-field input:focus,
-    .crm-field select:focus,
-    .crm-field textarea:focus {
-      border-color: #1a9e8a;
-      background: #ffffff;
-    }
-
-    .crm-field-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    .crm-modal-footer {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      justify-content: flex-end;
-      margin-top: 20px;
-    }
-
-    .crm-msg {
-      font-size: 12px;
-      padding: 6px 10px;
-      border-radius: 5px;
-      flex: 1;
-    }
-
-    .crm-msg.ok   { background: #f0faf7; color: #1a6b5e; }
-    .crm-msg.err  { background: #fff5f5; color: #c53030; }
+    .crm-msg { font-size: 12px; padding: 5px 9px; border-radius: 5px; flex: 1; display: none; }
+    .crm-msg.ok  { background: #f0faf7; color: #1a6b5e; display: block; }
+    .crm-msg.err { background: #fff5f5; color: #c53030; display: block; }
   </style>
 </head>
 <body>
@@ -492,12 +289,10 @@
 <!-- Docsify app -->
 <div id="app"></div>
 
-<!-- ── Note Modal ── -->
-<div id="crm-note-modal" class="crm-overlay" onclick="overlayClick(event,'crm-note-modal')">
+<!-- ── Add Note Modal ── -->
+<div id="crm-note-modal" class="crm-overlay" onclick="if(event.target===this)closeModal('crm-note-modal')">
   <div class="crm-modal">
-    <div class="crm-modal-title">Add Meeting Note</div>
-    <div class="crm-modal-sub" id="crm-note-firm"></div>
-
+    <div class="crm-modal-title" id="crm-note-title">Add Note</div>
     <div class="crm-field-row">
       <div class="crm-field">
         <label>Date</label>
@@ -515,31 +310,26 @@
         </select>
       </div>
     </div>
-
     <div class="crm-field">
-      <label>Key Points</label>
-      <textarea id="crm-note-points" placeholder="What was discussed, what resonated, objections raised..."></textarea>
+      <label>Notes</label>
+      <textarea id="crm-note-body" placeholder="What happened, what resonated, objections raised, conviction level..."></textarea>
     </div>
-
     <div class="crm-field">
       <label>Next Step</label>
       <input type="text" id="crm-note-next" placeholder="Send deck / Schedule partner call / Follow up by...">
     </div>
-
     <div class="crm-modal-footer">
-      <span class="crm-msg" id="crm-note-msg" style="display:none"></span>
+      <span class="crm-msg" id="crm-note-msg"></span>
       <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-note-modal')">Cancel</button>
-      <button class="crm-btn" id="crm-note-save" onclick="saveNote()">Save Note</button>
+      <button class="crm-btn" onclick="saveNote()">Save Note</button>
     </div>
   </div>
 </div>
 
-<!-- ── Status Modal ── -->
-<div id="crm-status-modal" class="crm-overlay" onclick="overlayClick(event,'crm-status-modal')">
-  <div class="crm-modal">
-    <div class="crm-modal-title">Update Status</div>
-    <div class="crm-modal-sub" id="crm-status-firm"></div>
-
+<!-- ── Change Status Modal ── -->
+<div id="crm-status-modal" class="crm-overlay" onclick="if(event.target===this)closeModal('crm-status-modal')">
+  <div class="crm-modal" style="width:380px">
+    <div class="crm-modal-title" id="crm-status-title">Change Status</div>
     <div class="crm-field">
       <label>Stage</label>
       <select id="crm-status-stage">
@@ -553,39 +343,9 @@
         <option>Pass</option>
       </select>
     </div>
-
-    <div class="crm-field">
-      <label>Next Action <span style="font-weight:400;text-transform:none;letter-spacing:0">(leave blank to keep current)</span></label>
-      <textarea id="crm-status-action" rows="2" placeholder="What needs to happen next..."></textarea>
-    </div>
-
     <div class="crm-modal-footer">
-      <span class="crm-msg" id="crm-status-msg" style="display:none"></span>
       <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-status-modal')">Cancel</button>
-      <button class="crm-btn" id="crm-status-save" onclick="saveStatus()">Update</button>
-    </div>
-  </div>
-</div>
-
-<!-- ── Token Modal ── -->
-<div id="crm-token-modal" class="crm-overlay" onclick="overlayClick(event,'crm-token-modal')">
-  <div class="crm-modal" style="width:440px">
-    <div class="crm-modal-title">GitHub Token Setup</div>
-    <div class="crm-modal-sub">Required once to save notes directly from this app.</div>
-
-    <div class="crm-field">
-      <label>Personal Access Token</label>
-      <input type="password" id="crm-token-input" placeholder="ghp_...">
-    </div>
-    <p style="font-size:12px;color:#94a3b8;margin:0 0 6px">
-      Create at <strong>github.com → Settings → Developer settings → Personal access tokens → Fine-grained</strong>.<br>
-      Repo: <code>dyrt-series-a-crm</code> · Permission: <code>Contents: Read and write</code>
-    </p>
-
-    <div class="crm-modal-footer">
-      <span class="crm-msg" id="crm-token-msg" style="display:none"></span>
-      <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-token-modal')">Cancel</button>
-      <button class="crm-btn" onclick="saveToken()">Connect</button>
+      <button class="crm-btn" onclick="saveStatus()">Update</button>
     </div>
   </div>
 </div>
@@ -595,284 +355,279 @@
   const SESSION_KEY = 'dyrt_crm_auth';
 
   function unlock() {
-    const input = document.getElementById('pin-input').value;
-    const errEl = document.getElementById('error-msg');
-    if (input === PASSCODE) {
+    const val = document.getElementById('pin-input').value;
+    const err = document.getElementById('error-msg');
+    if (val === PASSCODE) {
       sessionStorage.setItem(SESSION_KEY, '1');
       document.getElementById('lock-screen').classList.remove('visible');
-      errEl.style.display = 'none';
+      err.style.display = 'none';
     } else {
-      errEl.style.display = 'block';
+      err.style.display = 'block';
       document.getElementById('pin-input').value = '';
       document.getElementById('pin-input').focus();
     }
   }
-
-  document.getElementById('pin-input').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') unlock();
-  });
-
+  document.getElementById('pin-input').addEventListener('keydown', e => { if (e.key === 'Enter') unlock(); });
   if (sessionStorage.getItem(SESSION_KEY) === '1') {
     document.getElementById('lock-screen').classList.remove('visible');
   }
 </script>
 
 <script>
-  // ── GitHub API ──────────────────────────────────────────────
+  // ── Notes Storage (localStorage) ──────────────────────────────────────────
 
-  const GITHUB_REPO = 'dyrtylee/dyrt-series-a-crm';
-  const GH_TOKEN_KEY = 'dyrt_gh_pat';
-  let _crmFilePath = null;
+  const NOTES_STORE = 'dyrt_notes_v1';
+  const STATUS_STORE = 'dyrt_status_v1';
+  let _fp = null; // current file path
 
-  function ghToken()          { return localStorage.getItem(GH_TOKEN_KEY); }
-  function ghHeaders(write)   {
-    const h = { 'Accept': 'application/vnd.github.v3+json' };
-    if (write || ghToken()) h['Authorization'] = 'token ' + ghToken();
-    return h;
+  function getNotesStore()   { try { return JSON.parse(localStorage.getItem(NOTES_STORE) || '{}'); } catch { return {}; } }
+  function getStatusStore()  { try { return JSON.parse(localStorage.getItem(STATUS_STORE) || '{}'); } catch { return {}; } }
+
+  function getFirmNotes(fp)  { return (getNotesStore()[fp] || []).slice().reverse(); }
+  function getFirmStatus(fp) { return getStatusStore()[fp] || null; }
+
+  function addFirmNote(fp, note) {
+    const s = getNotesStore(); s[fp] = (s[fp] || []); s[fp].push(note);
+    localStorage.setItem(NOTES_STORE, JSON.stringify(s));
+  }
+  function delFirmNote(fp, id) {
+    const s = getNotesStore(); s[fp] = (s[fp] || []).filter(n => n.id !== id);
+    localStorage.setItem(NOTES_STORE, JSON.stringify(s));
+  }
+  function setFirmStatus(fp, stage) {
+    const s = getStatusStore(); s[fp] = { stage, date: today() };
+    localStorage.setItem(STATUS_STORE, JSON.stringify(s));
   }
 
-  async function ghGetFile(path) {
-    const r = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`,
-      { headers: ghHeaders(false) }
-    );
-    if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.status); }
-    return r.json();
+  function today() { return new Date().toISOString().split('T')[0]; }
+  function esc(s)  { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  // ── Activity Panel ─────────────────────────────────────────────────────────
+
+  function buildPanel(fp) {
+    const notes    = getFirmNotes(fp);
+    const override = getFirmStatus(fp);
+
+    const el = document.createElement('div');
+    el.className = 'crm-activity';
+    el.id = 'crm-panel';
+
+    // Header
+    const hdr = document.createElement('div');
+    hdr.className = 'crm-activity-header';
+    hdr.innerHTML =
+      '<span class="crm-activity-title">Activity</span>' +
+      '<div class="crm-header-btns">' +
+        '<button class="crm-btn crm-btn-ghost" onclick="openStatusModal()">Stage</button>' +
+        '<button class="crm-btn" onclick="openNoteModal()">+ Add Note</button>' +
+      '</div>';
+    el.appendChild(hdr);
+
+    // Status override badge (if set)
+    if (override) {
+      const sl = document.createElement('div');
+      sl.className = 'crm-status-line';
+      sl.innerHTML =
+        '<span style="color:#64748b;font-size:12px">Stage override:</span>' +
+        `<span class="crm-status-badge overridden">${esc(override.stage)}</span>` +
+        `<span style="color:#94a3b8;font-size:11px">set ${esc(override.date)}</span>`;
+      el.appendChild(sl);
+    }
+
+    // Notes list
+    if (notes.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'crm-empty';
+      empty.textContent = 'No notes yet — click "+ Add Note" to log activity.';
+      el.appendChild(empty);
+    } else {
+      notes.forEach(n => {
+        const nd = document.createElement('div');
+        nd.className = 'crm-note';
+        nd.innerHTML =
+          '<div class="crm-note-meta">' +
+            `<span class="crm-note-date">${esc(n.date)}</span>` +
+            `<span class="crm-note-type">${esc(n.type)}</span>` +
+            `<button class="crm-note-del" title="Delete" onclick="deleteNote(${n.id})">×</button>` +
+          '</div>' +
+          `<div class="crm-note-body">${esc(n.points)}</div>` +
+          (n.next ? `<div class="crm-note-next">→ ${esc(n.next)}</div>` : '');
+        el.appendChild(nd);
+      });
+    }
+
+    return el;
   }
 
-  async function ghPutFile(path, content, sha, msg) {
-    if (!ghToken()) throw new Error('No GitHub token — click "⚙ Token" to connect');
-    const r = await fetch(
-      `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`,
-      {
-        method: 'PUT',
-        headers: { ...ghHeaders(true), 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: msg,
-          content: b64encode(content),
-          sha: sha
-        })
+  function refreshPanel() {
+    if (!_fp) return;
+    const old = document.getElementById('crm-panel');
+    if (old) old.replaceWith(buildPanel(_fp));
+  }
+
+  function deleteNote(id) {
+    if (!_fp) return;
+    delFirmNote(_fp, id);
+    refreshPanel();
+  }
+
+  // ── Modal Helpers ──────────────────────────────────────────────────────────
+
+  function openModal(id)  { document.getElementById(id).classList.add('open'); }
+  function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+  function openNoteModal() {
+    if (!_fp) return;
+    const firm = (document.querySelector('.markdown-section h1') || document.querySelector('#main h1') || {}).textContent || '';
+    document.getElementById('crm-note-title').textContent = 'Add Note' + (firm ? ' — ' + firm.split('—')[0].trim() : '');
+    document.getElementById('crm-note-date').value = today();
+    document.getElementById('crm-note-type').value = 'Call';
+    document.getElementById('crm-note-body').value = '';
+    document.getElementById('crm-note-next').value = '';
+    document.getElementById('crm-note-msg').className = 'crm-msg';
+    openModal('crm-note-modal');
+    setTimeout(() => document.getElementById('crm-note-body').focus(), 80);
+  }
+
+  function saveNote() {
+    const points = document.getElementById('crm-note-body').value.trim();
+    if (!points) {
+      const m = document.getElementById('crm-note-msg');
+      m.textContent = 'Enter some notes first.';
+      m.className = 'crm-msg err';
+      return;
+    }
+    addFirmNote(_fp, {
+      id: Date.now(),
+      date: document.getElementById('crm-note-date').value,
+      type: document.getElementById('crm-note-type').value,
+      points,
+      next: document.getElementById('crm-note-next').value.trim()
+    });
+    closeModal('crm-note-modal');
+    refreshPanel();
+
+    // Background GitHub sync if token is available
+    const tok = localStorage.getItem('dyrt_gh_pat');
+    if (tok && _fp) bgSyncNote(tok, _fp, document.getElementById('crm-note-date').value,
+      document.getElementById('crm-note-type').value, points,
+      document.getElementById('crm-note-next').value.trim());
+  }
+
+  function openStatusModal() {
+    if (!_fp) return;
+    const firm = (document.querySelector('.markdown-section h1') || document.querySelector('#main h1') || {}).textContent || '';
+    document.getElementById('crm-status-title').textContent = 'Change Stage' + (firm ? ' — ' + firm.split('—')[0].trim() : '');
+
+    // Pre-fill with current override or page value
+    const override = getFirmStatus(_fp);
+    if (override) {
+      document.getElementById('crm-status-stage').value = override.stage;
+    } else {
+      const page = (document.querySelector('.markdown-section') || document.querySelector('#main') || {}).textContent || '';
+      const m = page.match(/Status\s*:\s*([A-Za-z ]+)/);
+      if (m) {
+        const v = m[1].trim().split(' ')[0];
+        const sel = document.getElementById('crm-status-stage');
+        for (const o of sel.options) if (o.value === v) { sel.value = v; break; }
       }
-    );
-    if (!r.ok) { const e = await r.json(); throw new Error(e.message || r.status); }
+    }
+    openModal('crm-status-modal');
+  }
+
+  function saveStatus() {
+    const stage = document.getElementById('crm-status-stage').value;
+    setFirmStatus(_fp, stage);
+    closeModal('crm-status-modal');
+    refreshPanel();
+
+    // Background GitHub sync
+    const tok = localStorage.getItem('dyrt_gh_pat');
+    if (tok && _fp) bgSyncStatus(tok, _fp, stage);
+  }
+
+  // ── Background GitHub Sync (optional) ─────────────────────────────────────
+
+  const REPO = 'dyrtylee/dyrt-series-a-crm';
+
+  function b64d(s) { return decodeURIComponent(escape(atob(s.replace(/\n/g,'')))); }
+  function b64e(s) { return btoa(unescape(encodeURIComponent(s))); }
+
+  async function ghGet(tok, path) {
+    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`,
+      { headers: { Authorization: 'token ' + tok, Accept: 'application/vnd.github.v3+json' } });
+    if (!r.ok) throw new Error(r.status);
     return r.json();
   }
 
-  function b64encode(str) {
-    return btoa(unescape(encodeURIComponent(str)));
+  async function ghPut(tok, path, content, sha, msg) {
+    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+      method: 'PUT',
+      headers: { Authorization: 'token ' + tok, 'Content-Type': 'application/json', Accept: 'application/vnd.github.v3+json' },
+      body: JSON.stringify({ message: msg, content: b64e(content), sha })
+    });
+    if (!r.ok) throw new Error(r.status);
   }
 
-  function b64decode(str) {
-    return decodeURIComponent(escape(atob(str.replace(/\n/g, ''))));
-  }
-
-  // ── Content Manipulation ────────────────────────────────────
-
-  function appendNote(md, date, type, points, next) {
-    const clean = s => (s || '').replace(/\|/g, '–').replace(/\n/g, ' ').trim();
-    const row   = `| ${clean(date)} | ${clean(type)} | ${clean(points)} | ${clean(next)} |`;
+  function appendNoteRow(md, date, type, points, next) {
+    const clean = s => (s||'').replace(/\|/g,'–').replace(/\n/g,' ').trim();
+    const row = `| ${clean(date)} | ${clean(type)} | ${clean(points)} | ${clean(next)} |`;
     const lines = md.split('\n');
     let last = -1;
     for (let i = lines.length - 1; i >= 0; i--) {
       if (lines[i].trim().startsWith('|')) { last = i; break; }
     }
     if (last === -1) {
-      return md.trimEnd() +
-        '\n\n---\n\n## Meeting Notes\n\n| Date | Type | Key Points | Next Step |\n|------|------|-----------|----------|\n' +
-        row + '\n';
+      return md.trimEnd() + '\n\n---\n\n## Meeting Notes\n\n| Date | Type | Key Points | Next Step |\n|------|------|-----------|----------|\n' + row + '\n';
     }
     lines.splice(last + 1, 0, row);
     return lines.join('\n');
   }
 
-  function patchStatus(md, stage, nextAction) {
-    let out = md.replace(
-      /(\*\*Status\*\*\s*:\s*)[^\|]+(\s*\|)/,
-      (_, pre, post) => pre + stage + ' ' + post
-    );
-    if (nextAction && nextAction.trim()) {
-      out = out.replace(
-        /(## Next Action\s*\n)([\s\S]*?)(\n(?:##|\z|---|\s*$))/m,
-        (match, header, _old, tail) => header + '**' + nextAction.trim() + '**\n\n' + tail
-      );
-    }
-    return out;
+  function patchStage(md, stage) {
+    return md.replace(/(\*\*Status\*\*\s*:\s*)[^\|]+(\s*\|)/, (_, pre, post) => pre + stage + ' ' + post);
   }
 
-  // ── Modal Helpers ────────────────────────────────────────────
-
-  function openModal(id) {
-    document.getElementById(id).classList.add('open');
-  }
-  function closeModal(id) {
-    document.getElementById(id).classList.remove('open');
-    setMsg(id.replace('crm-','crm-').replace('-modal','-msg'), '', '');
-  }
-  function overlayClick(e, id) {
-    if (e.target.id === id) closeModal(id);
-  }
-  function setMsg(id, text, type) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.textContent = text;
-    el.className = 'crm-msg' + (type ? ' ' + type : '');
-    el.style.display = text ? '' : 'none';
-  }
-  function setBusy(btnId, busy, label) {
-    const btn = document.getElementById(btnId);
-    if (!btn) return;
-    btn.disabled = busy;
-    btn.textContent = busy ? 'Saving…' : label;
-  }
-
-  function firmName() {
-    const h1 = document.querySelector('.markdown-section h1') || document.querySelector('#main h1');
-    return h1 ? h1.textContent.trim() : '';
-  }
-
-  // ── Note Modal ───────────────────────────────────────────────
-
-  function openNoteModal() {
-    if (!ghToken()) { openTokenModal(); return; }
-    document.getElementById('crm-note-date').value = new Date().toISOString().split('T')[0];
-    document.getElementById('crm-note-type').value = 'Call';
-    document.getElementById('crm-note-points').value = '';
-    document.getElementById('crm-note-next').value = '';
-    document.getElementById('crm-note-firm').textContent = firmName();
-    setBusy('crm-note-save', false, 'Save Note');
-    setMsg('crm-note-msg', '', '');
-    openModal('crm-note-modal');
-    setTimeout(() => document.getElementById('crm-note-points').focus(), 120);
-  }
-
-  async function saveNote() {
-    const points = document.getElementById('crm-note-points').value.trim();
-    if (!points) { setMsg('crm-note-msg', 'Key points are required.', 'err'); return; }
-    if (!_crmFilePath) { setMsg('crm-note-msg', 'Unknown file path.', 'err'); return; }
-
-    setBusy('crm-note-save', true, 'Save Note');
-    setMsg('crm-note-msg', '', '');
-
+  async function bgSyncNote(tok, fp, date, type, points, next) {
     try {
-      const data       = await ghGetFile(_crmFilePath);
-      const current    = b64decode(data.content);
-      const updated    = appendNote(
-        current,
-        document.getElementById('crm-note-date').value,
-        document.getElementById('crm-note-type').value,
-        points,
-        document.getElementById('crm-note-next').value.trim()
-      );
-      await ghPutFile(_crmFilePath, updated, data.sha, 'Note: ' + points.slice(0, 60));
-      setMsg('crm-note-msg', 'Saved! Reload the page in ~30s to see it.', 'ok');
-      setBusy('crm-note-save', false, 'Save Note');
-      setTimeout(() => closeModal('crm-note-modal'), 2200);
-    } catch (err) {
-      setMsg('crm-note-msg', err.message, 'err');
-      setBusy('crm-note-save', false, 'Save Note');
-    }
+      const d = await ghGet(tok, fp);
+      await ghPut(tok, fp, appendNoteRow(b64d(d.content), date, type, points, next), d.sha, 'Note: ' + points.slice(0,60));
+    } catch(e) { console.info('GH sync skipped:', e.message); }
   }
 
-  // ── Status Modal ─────────────────────────────────────────────
-
-  function openStatusModal() {
-    if (!ghToken()) { openTokenModal(); return; }
-
-    // Pre-fill current stage from page text
-    const statusEl = document.querySelector('.markdown-section p');
-    if (statusEl) {
-      const m = statusEl.textContent.match(/Status\s*:\s*([A-Za-z ]+)/);
-      if (m) {
-        const val = m[1].trim();
-        const sel = document.getElementById('crm-status-stage');
-        for (let o of sel.options) { if (o.value === val) { sel.value = val; break; } }
-      }
-    }
-
-    document.getElementById('crm-status-action').value = '';
-    document.getElementById('crm-status-firm').textContent = firmName();
-    setBusy('crm-status-save', false, 'Update');
-    setMsg('crm-status-msg', '', '');
-    openModal('crm-status-modal');
-  }
-
-  async function saveStatus() {
-    if (!_crmFilePath) { setMsg('crm-status-msg', 'Unknown file path.', 'err'); return; }
-
-    setBusy('crm-status-save', true, 'Update');
-    setMsg('crm-status-msg', '', '');
-
+  async function bgSyncStatus(tok, fp, stage) {
     try {
-      const stage  = document.getElementById('crm-status-stage').value;
-      const action = document.getElementById('crm-status-action').value.trim();
-      const data    = await ghGetFile(_crmFilePath);
-      const current = b64decode(data.content);
-      const updated = patchStatus(current, stage, action);
-      await ghPutFile(_crmFilePath, updated, data.sha, 'Status → ' + stage);
-      setMsg('crm-status-msg', 'Updated! Reload in ~30s.', 'ok');
-      setBusy('crm-status-save', false, 'Update');
-      setTimeout(() => closeModal('crm-status-modal'), 2200);
-    } catch (err) {
-      setMsg('crm-status-msg', err.message, 'err');
-      setBusy('crm-status-save', false, 'Update');
-    }
+      const d = await ghGet(tok, fp);
+      await ghPut(tok, fp, patchStage(b64d(d.content), stage), d.sha, 'Status → ' + stage);
+    } catch(e) { console.info('GH sync skipped:', e.message); }
   }
 
-  // ── Token Modal ──────────────────────────────────────────────
-
-  function openTokenModal() {
-    document.getElementById('crm-token-input').value = ghToken() || '';
-    setMsg('crm-token-msg', '', '');
-    openModal('crm-token-modal');
-    setTimeout(() => document.getElementById('crm-token-input').focus(), 120);
-  }
-
-  function saveToken() {
-    const t = document.getElementById('crm-token-input').value.trim();
-    if (!t) { setMsg('crm-token-msg', 'Paste your token above.', 'err'); return; }
-    localStorage.setItem(GH_TOKEN_KEY, t);
-    setMsg('crm-token-msg', 'Connected!', 'ok');
-    setTimeout(() => closeModal('crm-token-modal'), 900);
-  }
-
-  document.getElementById('crm-token-input').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') saveToken();
-  });
-
-  // ── Docsify Plugin: inject action bar on investor pages ──────
+  // ── Docsify Plugin ─────────────────────────────────────────────────────────
 
   function crmPlugin(hook, vm) {
     hook.doneEach(function() {
       const path = vm.route.path;
-      // Only investor profile pages (not /investors/README, not top-level pages)
-      if (!path.match(/^\/investors\/[^/]+\/[^/]+$/)) {
-        _crmFilePath = null;
-        return;
-      }
+      if (!path.match(/^\/investors\/[^/]+\/[^/]+$/)) { _fp = null; return; }
 
-      _crmFilePath = path.replace(/^\//, '') + '.md';
+      _fp = path.replace(/^\//, '') + '.md';
 
       const section = document.querySelector('.markdown-section') || document.querySelector('#main');
       if (!section) return;
 
-      // Remove stale bar from previous navigation
-      const old = section.querySelector('.crm-actions');
+      // Remove "Edit on GitHub" blockquotes (now redundant)
+      section.querySelectorAll('blockquote').forEach(bq => {
+        if (bq.textContent.includes('Edit this page on GitHub')) bq.remove();
+      });
+
+      // Remove stale panel from previous navigation
+      const old = document.getElementById('crm-panel');
       if (old) old.remove();
 
-      const bar = document.createElement('div');
-      bar.className = 'crm-actions';
-      bar.innerHTML =
-        '<span class="crm-actions-label">Actions</span>' +
-        '<button class="crm-btn" onclick="openNoteModal()">+ Add Note</button>' +
-        '<button class="crm-btn crm-btn-ghost" onclick="openStatusModal()">Change Status</button>' +
-        '<button class="crm-token-link" onclick="openTokenModal()">⚙ Token</button>';
-
+      // Inject panel after h1
       const h1 = section.querySelector('h1');
-      if (h1) {
-        h1.insertAdjacentElement('afterend', bar);
-      } else {
-        section.prepend(bar);
-      }
+      const panel = buildPanel(_fp);
+      if (h1) h1.insertAdjacentElement('afterend', panel);
+      else section.prepend(panel);
     });
   }
 </script>
@@ -890,30 +645,16 @@
       noData: 'No results.',
       depth: 4,
     },
-    copyCode: {
-      buttonText: 'Copy',
-      errorText: 'Error',
-      successText: 'Copied',
-    },
-    tabs: {
-      persist: true,
-      sync: true,
-    },
+    copyCode: { buttonText: 'Copy', errorText: 'Error', successText: 'Copied' },
     themeColor: '#3fcfb4',
     routerMode: 'hash',
     notFoundPage: true,
-    pagination: {
-      previousText: 'Previous',
-      nextText: 'Next',
-      crossChapter: true,
-    },
+    pagination: { previousText: 'Previous', nextText: 'Next', crossChapter: true },
     plugins: [crmPlugin],
   };
 </script>
 
-<!-- Docsify core -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-<!-- Plugins -->
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
