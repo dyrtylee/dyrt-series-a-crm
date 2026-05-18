@@ -270,6 +270,60 @@
     .crm-msg { font-size: 12px; padding: 5px 9px; border-radius: 5px; flex: 1; display: none; }
     .crm-msg.ok  { background: #f0faf7; color: #1a6b5e; display: block; }
     .crm-msg.err { background: #fff5f5; color: #c53030; display: block; }
+
+    /* ── Tracker: Add Investor bar ── */
+    .crm-tracker-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 24px;
+      padding: 12px 16px;
+      background: #f0faf7;
+      border: 1px solid #c8e6e1;
+      border-radius: 8px;
+    }
+    .crm-tracker-label {
+      font-size: 12px;
+      color: #2d5a52;
+      font-weight: 500;
+    }
+    .crm-new-investors {
+      margin: 0 0 28px;
+      border: 1px solid #e2ebe9;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .crm-new-investors-header {
+      background: #f0faf7;
+      border-bottom: 1px solid #e2ebe9;
+      padding: 9px 16px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #1a9e8a;
+    }
+    .crm-new-inv-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 16px;
+      border-bottom: 1px solid #f0f4f3;
+      font-size: 13px;
+    }
+    .crm-new-inv-row:last-child { border-bottom: none; }
+    .crm-new-inv-name { font-weight: 600; color: #1a202c; min-width: 140px; }
+    .crm-new-inv-firm { color: #64748b; flex: 1; }
+    .crm-new-inv-badge {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+      background: #f0faf7; color: #1a9e8a; border: 1px solid #c8e6e1;
+      border-radius: 4px; padding: 2px 7px; white-space: nowrap;
+    }
+    .crm-new-inv-del {
+      background: none; border: none; color: #cbd5e0; font-size: 18px;
+      cursor: pointer; padding: 0 2px; transition: color 0.15s; line-height: 1;
+    }
+    .crm-new-inv-del:hover { color: #e53e3e; }
   </style>
 </head>
 <body>
@@ -322,6 +376,67 @@
       <span class="crm-msg" id="crm-note-msg"></span>
       <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-note-modal')">Cancel</button>
       <button class="crm-btn" onclick="saveNote()">Save Note</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Add Investor Modal ── -->
+<div id="crm-add-inv-modal" class="crm-overlay" onclick="if(event.target===this)closeModal('crm-add-inv-modal')">
+  <div class="crm-modal" style="width:560px">
+    <div class="crm-modal-title">Add Investor</div>
+    <div class="crm-field-row">
+      <div class="crm-field">
+        <label>Firm *</label>
+        <input type="text" id="ai-firm" placeholder="Breakthrough Energy Ventures">
+      </div>
+      <div class="crm-field">
+        <label>Contact Name</label>
+        <input type="text" id="ai-name" placeholder="John Smith">
+      </div>
+    </div>
+    <div class="crm-field-row">
+      <div class="crm-field">
+        <label>Email</label>
+        <input type="email" id="ai-email" placeholder="john@firm.com">
+      </div>
+      <div class="crm-field">
+        <label>Check Size</label>
+        <input type="text" id="ai-check" placeholder="$2–5M">
+      </div>
+    </div>
+    <div class="crm-field-row">
+      <div class="crm-field">
+        <label>Section</label>
+        <select id="ai-section">
+          <option value="Active Diligence">Active Diligence</option>
+          <option value="Tier 1 Leads" selected>Tier 1 Leads</option>
+          <option value="NM Track">NM Track</option>
+          <option value="Follow-on Pool">Follow-on Pool</option>
+        </select>
+      </div>
+      <div class="crm-field">
+        <label>Stage</label>
+        <select id="ai-stage">
+          <option>Backlog</option>
+          <option selected>Outreach</option>
+          <option>Intro</option>
+          <option>Meeting</option>
+          <option>Diligence</option>
+        </select>
+      </div>
+    </div>
+    <div class="crm-field">
+      <label>Why This Firm / How You Know Them</label>
+      <input type="text" id="ai-why" placeholder="Climate VC, met at conference, led Glacier Series A...">
+    </div>
+    <div class="crm-field">
+      <label>First Next Action</label>
+      <input type="text" id="ai-next" placeholder="Send cold outreach / Get Ward Hendon intro...">
+    </div>
+    <div class="crm-modal-footer">
+      <span class="crm-msg" id="crm-ai-msg"></span>
+      <button class="crm-btn crm-btn-ghost" onclick="closeModal('crm-add-inv-modal')">Cancel</button>
+      <button class="crm-btn" onclick="saveNewInvestor()">Add Investor</button>
     </div>
   </div>
 </div>
@@ -561,10 +676,12 @@
   }
 
   async function ghPut(tok, path, content, sha, msg) {
+    const body = { message: msg, content: b64e(content) };
+    if (sha) body.sha = sha;
     const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
       method: 'PUT',
       headers: { Authorization: 'token ' + tok, 'Content-Type': 'application/json', Accept: 'application/vnd.github.v3+json' },
-      body: JSON.stringify({ message: msg, content: b64e(content), sha })
+      body: JSON.stringify(body)
     });
     if (!r.ok) throw new Error(r.status);
   }
@@ -602,11 +719,226 @@
     } catch(e) { console.info('GH sync skipped:', e.message); }
   }
 
+  // ── New Investor Storage ───────────────────────────────────────────────────
+
+  const INV_STORE = 'dyrt_investors_v1';
+
+  function getNewInvestors() { try { return JSON.parse(localStorage.getItem(INV_STORE) || '[]'); } catch { return []; } }
+  function persistInvestors(list) { localStorage.setItem(INV_STORE, JSON.stringify(list)); }
+  function removeNewInvestor(id) { persistInvestors(getNewInvestors().filter(i => i.id !== id)); }
+
+  function toSlug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+
+  function sectionFolder(sec) {
+    if (sec === 'Active Diligence') return 'active-diligence';
+    if (sec === 'Tier 1 Leads')     return 'tier1-leads';
+    if (sec === 'NM Track')         return 'nm-investors';
+    return 'followon';
+  }
+
+  function openAddInvestorModal() {
+    ['ai-firm','ai-name','ai-email','ai-check','ai-why','ai-next'].forEach(id => {
+      document.getElementById(id).value = '';
+    });
+    document.getElementById('ai-section').value = 'Tier 1 Leads';
+    document.getElementById('ai-stage').value = 'Outreach';
+    document.getElementById('crm-ai-msg').className = 'crm-msg';
+    openModal('crm-add-inv-modal');
+    setTimeout(() => document.getElementById('ai-firm').focus(), 80);
+  }
+
+  function saveNewInvestor() {
+    const firm = document.getElementById('ai-firm').value.trim();
+    if (!firm) {
+      const m = document.getElementById('crm-ai-msg');
+      m.textContent = 'Firm name is required.'; m.className = 'crm-msg err'; return;
+    }
+    const inv = {
+      id:      Date.now(),
+      firm,
+      name:    document.getElementById('ai-name').value.trim(),
+      email:   document.getElementById('ai-email').value.trim(),
+      check:   document.getElementById('ai-check').value.trim(),
+      section: document.getElementById('ai-section').value,
+      stage:   document.getElementById('ai-stage').value,
+      why:     document.getElementById('ai-why').value.trim(),
+      next:    document.getElementById('ai-next').value.trim(),
+      slug:    toSlug(firm),
+      added:   today()
+    };
+
+    const list = getNewInvestors(); list.push(inv);
+    persistInvestors(list);
+    closeModal('crm-add-inv-modal');
+    refreshTrackerPanel();
+
+    // Background GitHub sync
+    const tok = localStorage.getItem('dyrt_gh_pat');
+    if (tok) bgSyncNewInvestor(tok, inv);
+  }
+
+  function refreshTrackerPanel() {
+    const old = document.getElementById('crm-tracker-new');
+    if (old) old.remove();
+    const section = document.querySelector('.markdown-section') || document.querySelector('#main');
+    if (!section) return;
+    const bar = document.getElementById('crm-tracker-bar');
+    if (bar) bar.insertAdjacentElement('afterend', buildNewInvestorsPanel());
+  }
+
+  function buildNewInvestorsPanel() {
+    const list = getNewInvestors();
+    const wrap = document.createElement('div');
+    wrap.id = 'crm-tracker-new';
+    if (list.length === 0) return wrap;
+
+    wrap.className = 'crm-new-investors';
+    const hdr = document.createElement('div');
+    hdr.className = 'crm-new-investors-header';
+    hdr.textContent = 'Newly Added (' + list.length + ')';
+    wrap.appendChild(hdr);
+
+    list.slice().reverse().forEach(inv => {
+      const row = document.createElement('div');
+      row.className = 'crm-new-inv-row';
+      const folder = sectionFolder(inv.section);
+      const profilePath = `#/investors/${folder}/${inv.slug}`;
+      row.innerHTML =
+        `<span class="crm-new-inv-name">${esc(inv.name || inv.firm)}</span>` +
+        `<span class="crm-new-inv-firm"><a href="${profilePath}">${esc(inv.firm)}</a></span>` +
+        `<span class="crm-new-inv-badge">${esc(inv.section)}</span>` +
+        `<span class="crm-new-inv-badge" style="background:#f7f8fa;color:#64748b;border-color:#e8ecf0">${esc(inv.stage)}</span>` +
+        (inv.email ? `<span style="font-size:12px;color:#94a3b8">${esc(inv.email)}</span>` : '') +
+        `<button class="crm-new-inv-del" onclick="removeInv(${inv.id})" title="Remove">×</button>`;
+      wrap.appendChild(row);
+    });
+
+    return wrap;
+  }
+
+  function removeInv(id) {
+    removeNewInvestor(id);
+    refreshTrackerPanel();
+  }
+
+  // ── GitHub: sync new investor ──────────────────────────────────────────────
+
+  function buildInvProfileMd(inv) {
+    const folder = sectionFolder(inv.section);
+    return `# ${inv.firm}
+
+**Status**: ${inv.stage} | **Priority**: 1 | **Lead potential**: Maybe
+
+---
+
+## Contact
+- **${inv.name || '—'}** — ${inv.email || 'no email on file'}
+
+## Firm Overview
+- Check size: ${inv.check || 'TBD'}
+${inv.why ? `- ${inv.why}` : ''}
+
+## Next Action
+**${inv.next || 'TBD'}**
+
+---
+
+## Meeting Notes
+
+| Date | Type | Key Points | Next Step |
+|------|------|-----------|-----------|
+| ${today()} | Note | Added via in-app form | ${inv.next || '—'} |
+`;
+  }
+
+  function buildInvRow(inv) {
+    const folder = sectionFolder(inv.section);
+    const link = `[${inv.firm}](investors/${folder}/${inv.slug}.md)`;
+    const clean = s => (s||'—').replace(/\|/g,'–');
+    if (inv.section === 'Active Diligence')
+      return `| 1 | ${clean(inv.name)} | ${link} | ${clean(inv.email)} | ${clean(inv.check)} | Maybe | ${clean(inv.stage)} | ${clean(inv.next)} | ${clean(inv.why)} |`;
+    if (inv.section === 'Tier 1 Leads')
+      return `| 1 | ${clean(inv.name)} | ${link} | ${clean(inv.email)} | ${clean(inv.check)} | Maybe | ${clean(inv.stage)} | ${clean(inv.next)} |`;
+    if (inv.section === 'NM Track')
+      return `| 1 | ${clean(inv.name)} | ${link} | ${clean(inv.email)} | ${clean(inv.check)} | — | ${clean(inv.next)} |`;
+    return `| 1 | ${clean(inv.name)} | ${link} | ${clean(inv.email)} | ${clean(inv.check)} | ${clean(inv.stage)} | ${clean(inv.next)} |`;
+  }
+
+  function insertRowInSection(md, sectionHeader, row) {
+    const idx = md.indexOf(sectionHeader);
+    if (idx === -1) return md + '\n' + row + '\n';
+    const after = md.slice(idx);
+    const lines = after.split('\n');
+    let lastTable = -1;
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].trim().startsWith('|')) lastTable = i;
+      else if (lastTable > 0 && lines[i].trim() === '---') break;
+    }
+    if (lastTable === -1) return md;
+    lines.splice(lastTable + 1, 0, row);
+    return md.slice(0, idx) + lines.join('\n');
+  }
+
+  const SECTION_HEADERS = {
+    'Active Diligence': '## Active Diligence',
+    'Tier 1 Leads':     '## Tier 1 Lead Targets',
+    'NM Track':         '## NM Track',
+    'Follow-on Pool':   '## Follow-on Pool'
+  };
+
+  async function bgSyncNewInvestor(tok, inv) {
+    try {
+      const folder  = sectionFolder(inv.section);
+      const profPath = `investors/${folder}/${inv.slug}.md`;
+
+      // Create profile page (will fail silently if already exists)
+      try {
+        const existing = await ghGet(tok, profPath);
+        // file exists, skip creation
+      } catch {
+        await ghPut(tok, profPath, buildInvProfileMd(inv), null, `Add investor: ${inv.firm}`);
+      }
+
+      // Add row to README
+      const readme = await ghGet(tok, 'investors/README.md');
+      const updated = insertRowInSection(b64d(readme.content), SECTION_HEADERS[inv.section] || '## Follow-on Pool', buildInvRow(inv));
+      await ghPut(tok, 'investors/README.md', updated, readme.sha, `Add investor: ${inv.firm}`);
+
+    } catch(e) { console.info('GH investor sync skipped:', e.message); }
+  }
+
   // ── Docsify Plugin ─────────────────────────────────────────────────────────
 
   function crmPlugin(hook, vm) {
     hook.doneEach(function() {
       const path = vm.route.path;
+
+      // ── Master Tracker ──
+      if (path === '/investors/README' || path === '/investors/' || path === '/investors') {
+        _fp = null;
+        const section = document.querySelector('.markdown-section') || document.querySelector('#main');
+        if (!section) return;
+
+        if (!document.getElementById('crm-tracker-bar')) {
+          const h1 = section.querySelector('h1');
+          const bar = document.createElement('div');
+          bar.id = 'crm-tracker-bar';
+          bar.className = 'crm-tracker-bar';
+          bar.innerHTML =
+            '<span class="crm-tracker-label">Manage your investor pipeline</span>' +
+            '<button class="crm-btn" onclick="openAddInvestorModal()">+ Add Investor</button>';
+          if (h1) h1.insertAdjacentElement('afterend', bar);
+          else section.prepend(bar);
+        }
+
+        const old = document.getElementById('crm-tracker-new');
+        if (old) old.remove();
+        const bar = document.getElementById('crm-tracker-bar');
+        if (bar) bar.insertAdjacentElement('afterend', buildNewInvestorsPanel());
+        return;
+      }
+
+      // ── Investor profile page ──
       if (!path.match(/^\/investors\/[^/]+\/[^/]+$/)) { _fp = null; return; }
 
       _fp = path.replace(/^\//, '') + '.md';
@@ -614,16 +946,13 @@
       const section = document.querySelector('.markdown-section') || document.querySelector('#main');
       if (!section) return;
 
-      // Remove "Edit on GitHub" blockquotes (now redundant)
       section.querySelectorAll('blockquote').forEach(bq => {
         if (bq.textContent.includes('Edit this page on GitHub')) bq.remove();
       });
 
-      // Remove stale panel from previous navigation
       const old = document.getElementById('crm-panel');
       if (old) old.remove();
 
-      // Inject panel after h1
       const h1 = section.querySelector('h1');
       const panel = buildPanel(_fp);
       if (h1) h1.insertAdjacentElement('afterend', panel);
