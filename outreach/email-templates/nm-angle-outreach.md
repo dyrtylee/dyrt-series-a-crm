@@ -1,7 +1,7 @@
 # NM Angle — Outreach for NMSIC-Backed Funds
 
 **Use for**: Investors with NMSIC commitments or NM mandate
-**Tone**: Direct, lead with NM specifics + state incentives
+**Tone**: Direct, lead with NM specifics — don't bury the incentive number
 
 ---
 
@@ -11,21 +11,22 @@
 
 Hi Shuo,
 
-Dyrt Labs is building the operating system for waste. We're also developing a composting facility in New Mexico — and given Lowercarbon's $150M NM Dedicated Fund, wanted to reach out directly.
+Dyrt Labs is building the physical and digital backbone of waste management — AI-powered SaaS plus owned composting operations. We have a facility in development in New Mexico, and given Lowercarbon's $150M NM Dedicated Fund, wanted to reach out directly.
 
-**NM facility at a glance:**
-- $6.5M build, 80% debt / 20% equity
-- 36,500 tons of organic waste diverted from landfill annually (full capacity)
-- ~21,900 tons CO2e avoided per year (vs. landfill baseline)
-- Cash flow positive month 20, 80% gross margins at capacity
-- **$12M in confirmed NM state incentives**: LEDA, JTIP, tax credits, 20-year property tax abatement
+**NM facility:**
+- $6.5M build — 80% debt / 20% equity, HoldCo/OpCo structure
+- $7.3M+ in NMEDD-estimated state incentives: JTIP (wage reimbursement, 50+ jobs), HWJTC, MITC, 20-year IRB property abatement, LEDA (pending)
+- Cash flow positive month 20, 60% gross margins at full capacity
+- Repeatable model — incentive playbook travels to every new OpCo
 
-**Platform:**
+The carbon math: at full capacity, 100 tons/day diverted from landfill — ~21,900 tons CO2e avoided annually per facility. Scale to 6 facilities and you're at 130K+ tons CO2e/year.
+
+**Platform traction:**
 - $1M ARR, 450% YoY growth, 0% churn
-- 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts
-- AI bill ingestion, real-time diversion dashboards, EPA-verified Scope 3 data
+- 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations contracted)
+- $21M pipeline we can't serve fast enough
 
-Raising $20M Series A — happy to send the deck and NM facility model.
+Raising $20M Series A. Happy to send the deck and NM facility model.
 
 Lee Robinson
 lee@dyrt.co
@@ -40,19 +41,20 @@ C: 813.390.8559
 
 Hi [First],
 
-Dyrt Labs is an AI-powered waste management platform with a composting facility in development in New Mexico.
+Dyrt Labs is building owned composting infrastructure + AI-powered waste management SaaS. We have a facility in development in New Mexico.
 
-Given [firm]'s NMSIC commitment, I wanted to share directly:
+Given [firm]'s NMSIC commitment, wanted to share directly:
 
 **NM credentials:**
-- $12M in confirmed state incentives (LEDA, JTIP, tax credits, property abatement)
-- 50+ manufacturing jobs (JTIP-eligible)
-- $6.5M facility build, positive cash flow in 20 months
-- [City/region] location — [relevant regional detail]
+- $7.3M+ in NMEDD-estimated state incentives (JTIP, HWJTC, MITC, 20-yr IRB, LEDA)
+- 50+ manufacturing jobs created (JTIP-eligible)
+- $6.5M facility build — 80% debt / 20% equity, cash flow positive month 20
+- HoldCo/OpCo structure: facility debt never touches SaaS equity
+- Incentive playbook is repeatable across every new site
 
 **Platform traction:**
-- $1M ARR, 450% YoY, 0% churn
-- Disney, Marriott, Intuit Dome, AEG, Sprouts as customers
+- $1M ARR, 450% YoY, 0% churn, NRR >130%
+- Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations) as customers
 
 Raising $20M Series A. 20 minutes to walk through the NM model?
 
@@ -68,14 +70,15 @@ C: 813.390.8559
 
 Hey David,
 
-Great to have connected at the Unlocking Abundance event. Following up with the Series A details we discussed.
+Great to have connected at the Unlocking Abundance event. Following up with the Series A details.
 
-Quick update since the event:
-- $1M ARR (Jan 2026 annualized), 450% YoY, 0% churn
-- NM incentives confirmed at $12M+
-- NM facility model finalized: cash flow positive month 20, 80% margins at capacity
+Quick update:
+- $1M ARR (Jan 2026 annualized), 450% YoY, 0% churn — facility running at 140% capacity
+- NM incentives confirmed at $7.3M+ (NMEDD estimates, LEDA pending)
+- NM facility model finalized: $6.5M build, 80% debt / 20% equity, cash flow positive month 20
+- HoldCo/OpCo structure — facility financing doesn't dilute SaaS equity investors
 
-Raising $20M. Given UP.Abundance's NM mandate ($80M NMSIC), wanted to get you the details.
+Raising $20M. Given UP.Abundance's NM mandate ($80M NMSIC), wanted to make sure you had the full picture.
 
 Can we schedule a call this week?
 

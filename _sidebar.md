@@ -22,6 +22,9 @@
 - [S2G Investments ★](investors/tier1-leads/s2g-investments.md)
 - [Prelude Ventures ★](investors/tier1-leads/prelude-ventures.md)
 - [Congruent Ventures](investors/tier1-leads/congruent-ventures.md)
+- [Enlightened Hospitality ★](investors/tier1-leads/enlightened-hospitality.md)
+- [Lightrock ★](investors/tier1-leads/lightrock.md)
+- [Pulse Fund ★](investors/tier1-leads/pulse-fund.md)
 - [Fifth Wall](investors/tier1-leads/fifth-wall.md)
 - [Valor VC](investors/tier1-leads/valor-vc.md)
 
@@ -44,10 +47,41 @@
 - [1st Course Capital](investors/followon/1st-course-capital.md)
 - [Tunitas VC](investors/followon/tunitas-vc.md)
 - [Multiball VC](investors/followon/multiball-vc.md)
+- [Active Impact](investors/followon/active-impact.md)
+- [Energy Impact Partners](investors/followon/energy-impact-partners.md)
+- [LvlUp Ventures](investors/followon/lvlup-ventures.md)
+- [SVG Ventures \| THRIVE](investors/followon/svg-thrive.md)
+- [SOSV](investors/followon/sosv.md)
+- [RevHubOC](investors/followon/revhub-oc.md)
+- [Cerulean Ventures](investors/followon/cerulean-ventures.md)
 
 - *Cap Table*
 - [Existing Investors](investors/existing/cap-table.md)
 - [Passed Investors](investors/passed/passed-investors.md)
+
+- *Expansion — Top Picks*
+- [Generate Capital 🔴](investors/expansion/generate-capital.md)
+- [Spring Lane Capital 🔴](investors/expansion/spring-lane-capital.md)
+- [Frontier Growth 🔴](investors/expansion/frontier-growth.md)
+- [Socium Ventures 🔴](investors/expansion/socium-ventures.md)
+- [Acre Venture Partners 🔴](investors/expansion/acre-venture-partners.md)
+- [Supply Change Capital 🔴](investors/expansion/supply-change-capital.md)
+- [Energize Capital 🔴](investors/expansion/energize-capital.md)
+- [Buoyant Ventures 🔴](investors/expansion/buoyant-ventures.md)
+- [Overture VC 🔴](investors/expansion/overture-vc.md)
+
+- *PitchBook Prospects*
+- [Full PitchBook Index ★](investors/pitchbook/README.md)
+- [Tech Square Ventures](investors/pitchbook/tech-square-ventures.md)
+- [Capria Ventures](investors/pitchbook/capria-ventures.md)
+- [Capricorn Investment Group](investors/pitchbook/capricorn-investment-group.md)
+- [Prime Movers Lab](investors/pitchbook/prime-movers-lab.md)
+- [Audaz Capital](investors/pitchbook/audaz-capital.md)
+- [Riot Ventures](investors/pitchbook/riot-ventures.md)
+- [Galvanize Climate Solutions](investors/pitchbook/galvanize-climate-solutions.md)
+- [Sabanci Climate Technologies](investors/pitchbook/sabanci-climate-technologies.md)
+- [Endeavor Catalyst](investors/pitchbook/endeavor-catalyst.md)
+- [NGP Capital](investors/pitchbook/ngp-capital.md)
 
 ---
 

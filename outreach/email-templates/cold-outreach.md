@@ -5,23 +5,25 @@
 
 ---
 
-## Template A — Climate/Waste VC
+## Template A — Climate / Waste / Circular Economy VC
 
-**Subject**: Dyrt Labs — Series A ($20M) | ERP of Modern Waste
+**Subject**: Dyrt Labs — Series A | physical + digital backbone of waste management
 
 Hi [First],
 
-Dyrt is the operating system for waste — AI-powered SaaS + physical orchestration that gives enterprises ERP-grade visibility into their waste supply chain.
+We didn't design a waste app. We collected waste until we understood it.
 
-**Traction (Jan 2026 annualized):**
+In 2024 we built a composting facility in LA — permits, trucks, 990,000 lbs/month. To manage it we built internal tracking tools. Disney, Marriott, AEG, and Ritz-Carlton found the dashboards and signed up. The facility paid for the software. The software unlocked the enterprise.
+
+**Dyrt today (Q2 2026):**
 - $1M ARR — 450% YoY growth, 0% churn
-- 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts
-- $38M pipeline ARR
-- ~12M lbs waste diverted in 2025
+- 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations contracted)
+- $21M pipeline we can't serve fast enough — demand exceeds current physical capacity
+- 3.4K existing customer locations, NRR >130%
 
-Raising $20M Series A. Looking for a lead ($3–5M) and strategic co-investors.
+Most platforms stop at data. We built the infrastructure too — and permitted facilities take 6+ months to obtain.
 
-[Your portfolio / thesis] aligns with what we're building — happy to share the deck if there's interest.
+Raising $20M Series A. Looking for a lead ($3–5M). Happy to send the deck.
 
 Lee Robinson
 lee@dyrt.co
@@ -32,20 +34,24 @@ C: 813.390.8559
 
 ## Template B — NM Angle (NMSIC-backed funds)
 
-**Subject**: Dyrt Labs — Series A | NM Composting Facility + $12M State Incentives
+**Subject**: Dyrt Labs — NM composting facility + $7.3M state incentives | Series A
 
 Hi [First],
 
-Dyrt Labs is building the operating system for waste — AI-powered SaaS that tracks every pound of food waste from invoice to diversion, plus physical composting operations.
+Dyrt Labs is building the physical and digital backbone of waste management — AI-powered SaaS + owned composting operations. We're developing a facility in New Mexico, and given [firm]'s NM mandate via NMSIC, wanted to reach out directly.
 
-We have a composting facility in development in New Mexico with **$12M in confirmed state incentives** (LEDA, JTIP, IRBs, tax credits). Given [firm]'s NM investment mandate via NMSIC, I wanted to reach out directly.
+**NM facility:**
+- $6.5M build — 80% debt / 20% equity, HoldCo/OpCo structure (facility debt never touches SaaS equity)
+- $7.3M+ in NMEDD-estimated state incentives: JTIP, HWJTC, MITC, 20-year IRB property abatement, LEDA
+- Cash flow positive month 20, 60% gross margins at full capacity
+- Repeatable model — incentive playbook travels to every new site
 
-**Quick metrics:**
-- $1M ARR, 450% YoY growth, 0% churn
-- 45 enterprise customers (Disney, Marriott, AEG, Sprouts)
-- NM facility: $6.5M build, positive cash flow month 20, 80% gross margins at capacity
+**Platform:**
+- $1M ARR, 450% YoY, 0% churn
+- 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations)
+- $21M pipeline we can't serve fast enough
 
-Raising $20M Series A. Would love 20 minutes if the NM angle fits [firm]'s mandate.
+Raising $20M Series A. 20 minutes to walk through the NM model?
 
 Lee Robinson
 lee@dyrt.co
@@ -56,20 +62,23 @@ C: 813.390.8559
 
 ## Template C — Growth Equity (Noro-Moseley, Mainsail type)
 
-**Subject**: Dyrt Labs — $1M ARR, 450% growth, 0% churn | Series A
+**Subject**: Dyrt Labs — $1M ARR, 450% growth, 0% churn, NRR >130% | Series A
 
 Hi [First],
 
-Dyrt is an enterprise SaaS + services platform for waste management. Quick numbers:
+Dyrt is an enterprise SaaS + physical operations platform for waste management. The numbers:
 
 - **$1M ARR** (annualized Jan 2026)
 - **450% YoY growth**
 - **0% churn**
-- **$1,700 avg rev/customer/month**
-- **45 enterprise customers** — Disney, Marriott, Intuit Dome
-- **$38M pipeline ARR**
+- **NRR >130%**
+- **3.4K existing customer locations**
+- **45 enterprise customers** — Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations contracted)
+- **$21M pipeline** we can't serve fast enough due to physical capacity
 
-Raising $20M Series A. Would love to share the model if growth equity at this stage is in your current window.
+Three recurring revenue streams per customer: data & compliance ($200/mo/location), waste processing ($27K–$150K/yr/location), managed services ($320+/mo/location). Each customer expands across all three.
+
+Raising $20M Series A. Worth a look?
 
 Lee Robinson
 lee@dyrt.co
@@ -80,15 +89,17 @@ C: 813.390.8559
 
 ## Template D — Corporate VC / Strategic
 
-**Subject**: Dyrt Labs — Waste data platform for [Company]'s enterprise portfolio
+**Subject**: Dyrt Labs — waste data + compliance platform | [Company] fit
 
 Hi [First],
 
-Dyrt is the SaaS and compliance layer that enterprises like [relevant customer] use to track waste, verify diversion, and export EPA-verified Scope 3 data.
+Dyrt is the SaaS and compliance layer that enterprises like [relevant customer] use to track waste, prove diversion, and export EPA-verified Scope 3 data — automatically.
 
-**Live customers**: Disney Productions, Marriott International, Intuit Dome (Clippers arena), AEG, Sprouts Farmers Market.
+44 invoices per location per month, processed manually today by most enterprises. We ingest them, structure the data, route waste to the highest-value destination (composters, farms, recyclers), and generate audit-ready SB 1383 and Scope 3 reports.
 
-$1M ARR, 450% YoY, 0% churn. Raising a $20M Series A — given [company]'s enterprise relationships in [hospitality / food / venues], wanted to reach out.
+**Live customers**: Disney Productions, Marriott International, Intuit Dome, AEG, Sprouts (525 locations contracted).
+
+$1M ARR, 450% YoY, 0% churn. Demand already exceeds our physical capacity. Raising a $20M Series A — given [company]'s presence in [hospitality / food / venues / logistics], wanted to reach out.
 
 Lee Robinson
 lee@dyrt.co
