@@ -1,0 +1,22 @@
+# FTW
+
+**Status**: Passed | **Priority**: N | **Section**: Passed
+
+> Source: Imported from fundraise tracker
+
+---
+
+## Pass Details
+- **Reason**: Too much hardware, small checks
+- **Re-engage?**: No
+
+## Notes
+Confirmed pass.
+
+---
+
+## Meeting Notes
+
+| Date | Type | Key Points | Next Step |
+|------|------|-----------|-----------|
+| — | — | Not yet contacted | Research contact |

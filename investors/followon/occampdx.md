@@ -1,0 +1,25 @@
+# Occampdx
+
+**Status**: Backlog | **Priority**: N | **Section**: Mailchimp — Contact Log
+
+> Source: Mailchimp investor update list (cleaned, subscribed)
+
+---
+
+## Contact
+- **Patrick Maloney**: patrick@occampdx.com — Mailchimp: subscribed
+- **Yesenia Gallardo**: yesenia@occampdx.com — Mailchimp: cleaned
+
+## Notes
+On Dyrt monthly investor Mailchimp list. Not yet formally tracked in CRM.
+
+## Next Action
+Research firm and qualify — then move to appropriate pipeline tier.
+
+---
+
+## Meeting Notes
+
+| Date | Type | Key Points | Next Step |
+|------|------|-----------|-----------|
+| — | — | On Mailchimp list | Research + qualify |

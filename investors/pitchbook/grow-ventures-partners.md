@@ -1,0 +1,36 @@
+# Grow Ventures Partners
+
+**Status**: Backlog | **Priority**: 4 | **PitchBook Score**: ⭐ Low | **Section**: PitchBook Import (5/29/26)
+
+> Source: PitchBook export (May 29, 2026) — not yet contacted
+
+---
+
+## Firm Overview
+- **Type**: Venture Capital
+- **HQ**: Barcelona, Spain
+- **AUM**: $58.44M
+- **Active Portfolio**: 3.0
+- **Investments (12mo / 2yr / 5yr)**: 3.0 / 3.0 / 3.0
+
+## Description
+Founded in 2022, Grow Venture Partners is a venture capital firm based in Barcelona, Spain. The firm is a venture capital firm specializing in Deep Tech and Tech Transfer companies. The firm focuses mainly on early-stage. The firm focuses not only on companies' growth but also on founders' growth through coaching and training. The firm gives great importance to the Founders' sense of purpose and the concepts and ideas of Conscious Capitalism.
+
+## Pitch Angle
+- Lead with Dyrt's waste-to-value platform and NM composting facility
+- $12M in confirmed NM state incentives
+- B2B SaaS platform with hardware + data layer
+- Strong traction: +800% YoY growth, 15 enterprise LOIs
+
+## Next Action
+**Cold outreach — find contact via PitchBook or LinkedIn.**
+
+Estimated check size: $500K–$5M
+
+---
+
+## Meeting Notes
+
+| Date | Type | Key Points | Next Step |
+|------|------|-----------|-----------|
+| — | — | Not yet contacted | Research contact |
