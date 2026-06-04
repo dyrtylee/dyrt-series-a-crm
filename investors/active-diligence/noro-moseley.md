@@ -26,7 +26,7 @@
 ## Pitch Angle
 Pure growth equity narrative. Don't lead with waste or climate — lead with the numbers.
 
-> "$1M ARR, annualized January 2026. 450% YoY growth. 0% churn. 45 enterprise customers — Disney, Marriott, Intuit Dome. $38M pipeline ARR. $1,700 average rev/customer/month. We're raising $20M to scale distribution nationally."
+> "$1M ARR. 450% YoY growth. 0% churn. 45 enterprise customers — Disney, Marriott, Intuit Dome. $38M pipeline ARR. $1,700 average rev/customer/month. We're raising $20M to build sales, marketing, and executive management to continue closing national deals and expand our operational footprint."
 
 Then layer in the defensibility: "The physical operations create data that software-only competitors can never replicate. We have 0% churn because switching means losing EPA-verified waste data, compliance records, and diversion reporting."
 

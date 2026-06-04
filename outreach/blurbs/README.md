@@ -6,7 +6,7 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## One-Liner
 
-> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned composting infrastructure. $1M ARR, 450% YoY, 0% churn. Demand already exceeds what we can physically process.
+> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY, 0% churn. Demand already exceeds what we can physically process.
 
 ---
 
@@ -28,7 +28,7 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## 3-Sentence Investor Blurb
 
-> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned composting operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR, 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $20M Series A to replicate our composting facility model nationally, starting with New Mexico where the state has estimated $7.3M+ in incentives for the first site.
+> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned waste operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR, 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand our operational footprint, starting with a New Mexico facility backed by $7.3M+ in confirmed state incentives.
 
 ---
 
@@ -49,7 +49,7 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## Email Intro Blurb (forwardable)
 
-> Lee Robinson is the CEO of Dyrt Labs — they're building the physical and digital backbone of waste management. AI-powered SaaS + owned composting infrastructure. $1M ARR (Jan 2026 annualized), 450% YoY growth, 0% churn. Customers include Disney Productions, Marriott International, Intuit Dome, AEG, and 525 Sprouts locations now contracted. Demand already exceeds current physical capacity — $21M pipeline they can't yet serve. Raising a $20M Series A. Worth a conversation.
+> Lee Robinson is the CEO of Dyrt Labs — they're building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY growth, 0% churn. Customers include Disney Productions, Marriott International, Intuit Dome, AEG, and 525 Sprouts locations now contracted. Demand already exceeds current physical capacity — $21M pipeline they can't yet serve. Raising a $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand their operational footprint. Worth a conversation.
 >
 > Lee Robinson | lee@dyrt.co | 813.390.8559
 
@@ -87,4 +87,4 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## Press / Media Blurb (third person)
 
-> Dyrt Labs is building the physical and digital backbone of waste management — an AI-powered SaaS platform and owned composting infrastructure network that brings real-time visibility, regulatory compliance, and measurable cost savings to enterprise waste programs. Trusted by Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts Farmers Market locations, Dyrt has grown 450% year-over-year with 0% customer churn and $21M in pipeline the company cannot yet physically serve. The company is raising a $20M Series A to scale nationally, beginning with a New Mexico composting facility backed by $7.3M+ in NMEDD-estimated state incentives.
+> Dyrt Labs is building the physical and digital backbone of waste management — an AI-powered SaaS platform and owned waste infrastructure network that brings real-time visibility, regulatory compliance, and measurable cost savings to enterprise waste programs. Trusted by Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts Farmers Market locations, Dyrt has grown 450% year-over-year with 0% customer churn and $21M in pipeline the company cannot yet physically serve. The company is raising a $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand its operational footprint, beginning with a New Mexico facility backed by $7.3M+ in confirmed state incentives.
