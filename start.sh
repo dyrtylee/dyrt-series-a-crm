@@ -8,7 +8,7 @@ echo "Passcode: dyrt2026"
 echo "Press Ctrl+C to stop."
 
 # Open Chrome after a brief delay
-sleep 0.8 && open -a "Google Chrome" "http://localhost:$PORT" &
+sleep 0.8 && open -a "Google Chrome" "http://localhost:$PORT/tracker.html" &
 
 # Start server
 cd "$DIR" && python3 -m http.server $PORT --bind 127.0.0.1

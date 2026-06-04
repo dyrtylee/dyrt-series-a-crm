@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dyrt — Series A CRM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♻️</text></svg>">
+  <style>
+    :root {
+      --green:        #1a9e8a;
+      --green-dk:     #147a6b;
+      --green-bg:     #f0faf7;
+      --green-border: #c8e6e1;
+      --text:         #1a202c;
+      --text-mid:     #374151;
+      --text-muted:   #64748b;
+      --text-faint:   #94a3b8;
+      --bg:           #ffffff;
+      --bg-alt:       #f7f8fa;
+      --border:       #e8ecf0;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           font-size: 13px; color: var(--text); background: var(--bg-alt); height: 100vh; overflow: hidden; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Lock ── */
+    #lock { display: none; position: fixed; inset: 0; z-index: 9999; background: var(--bg-alt);
+            align-items: center; justify-content: center; flex-direction: column; }
+    #lock.visible { display: flex; }
+    #lock .box { background: #fff; border: 1px solid var(--border); border-radius: 14px;
+                 padding: 44px 52px; text-align: center; max-width: 380px; width: 90%;
+                 box-shadow: 0 4px 32px rgba(0,0,0,.07); }
+    #lock .logo { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+                  color: var(--green); margin-bottom: 10px; }
+    #lock h2  { font-size: 22px; font-weight: 700; color: var(--text); margin: 0 0 6px; }
+    #lock p   { color: var(--text-faint); font-size: 13px; margin: 0 0 28px; }
+    #lock input { width: 100%; background: var(--bg-alt); border: 1px solid var(--border);
+                  border-radius: 8px; font-size: 16px; padding: 11px 14px; outline: none;
+                  box-sizing: border-box; margin-bottom: 12px; letter-spacing: .2em; transition: border-color .15s; }
+    #lock input:focus { border-color: var(--green); background: #fff; }
+    #lock button { width: 100%; background: var(--green); border: none; border-radius: 8px;
+                   color: #fff; font-size: 14px; font-weight: 600; padding: 11px; cursor: pointer;
+                   transition: background .15s; }
+    #lock button:hover { background: var(--green-dk); }
+    #lock .err { color: #e53e3e; font-size: 12px; margin-top: 10px; display: none; }
+
+    /* ── App shell ── */
+    #app { display: none; flex-direction: column; height: 100vh; }
+    #app.visible { display: flex; }
+
+    /* ── Header ── */
+    #header { display: flex; align-items: center; gap: 10px; padding: 0 16px;
+              background: #16213e; height: 46px; flex-shrink: 0; }
+    #brand { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+             color: var(--green); white-space: nowrap; margin-right: 8px; }
+    #brand a { color: var(--green-border); font-weight: 400; margin-left: 10px; font-size: 10px; letter-spacing: .08em; }
+    #search { flex: 1; max-width: 320px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12);
+              border-radius: 6px; color: #fff; font-size: 13px; padding: 6px 10px; outline: none; transition: all .15s; }
+    #search::placeholder { color: rgba(255,255,255,.35); }
+    #search:focus { background: rgba(255,255,255,.13); border-color: var(--green); }
+    .hdr-select { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12);
+                  border-radius: 6px; color: rgba(255,255,255,.8); font-size: 12px; padding: 5px 8px;
+                  outline: none; cursor: pointer; }
+    .hdr-select:focus { border-color: var(--green); }
+    .hdr-sep { width: 1px; height: 20px; background: rgba(255,255,255,.12); margin: 0 4px; }
+    .hdr-btn { background: var(--green); border: none; border-radius: 6px; color: #fff;
+               font-size: 12px; font-weight: 600; padding: 6px 13px; cursor: pointer;
+               transition: background .15s; white-space: nowrap; font-family: inherit; }
+    .hdr-btn:hover { background: var(--green-dk); }
+    .hdr-btn.ghost { background: transparent; border: 1px solid rgba(255,255,255,.2); color: rgba(255,255,255,.7); }
+    .hdr-btn.ghost:hover { border-color: var(--green); color: var(--green); background: transparent; }
+
+    /* ── Stats bar ── */
+    #stats { display: flex; gap: 24px; padding: 8px 18px; background: var(--bg); border-bottom: 1px solid var(--border);
+             flex-shrink: 0; overflow-x: auto; }
+    .stat { display: flex; flex-direction: column; align-items: center; min-width: 64px; }
+    .stat-num { font-size: 18px; font-weight: 700; color: var(--text); line-height: 1; }
+    .stat-label { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+                  color: var(--text-muted); margin-top: 2px; }
+    .stat-sep { width: 1px; background: var(--border); align-self: stretch; }
+    .stat-num.red  { color: #dc2626; }
+    .stat-num.amber{ color: #d97706; }
+    .stat-num.blue { color: #2563eb; }
+    .stat-num.green{ color: var(--green); }
+
+    /* ── Pipeline ── */
+    #pipeline { flex: 1; overflow-y: auto; padding: 12px 16px 32px; }
+    #no-results { text-align: center; padding: 60px 20px; color: var(--text-muted); font-style: italic; }
+
+    /* ── Section ── */
+    .sec { margin-bottom: 10px; border-radius: 8px; overflow: hidden;
+           border: 1px solid var(--border); box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+    .sec-hdr { display: flex; align-items: center; gap: 8px; padding: 9px 14px; cursor: pointer;
+               user-select: none; }
+    .sec-hdr:hover { filter: brightness(1.08); }
+    .sec-title { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+                 color: #fff; }
+    .sec-count { background: rgba(255,255,255,.18); color: #fff; border-radius: 10px;
+                 font-size: 11px; font-weight: 700; padding: 1px 7px; }
+    .sec-toggle { margin-left: auto; color: rgba(255,255,255,.6); font-size: 10px; }
+
+    /* ── Table ── */
+    .sec-body { background: var(--bg); }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background: var(--bg-alt); color: var(--text-muted); font-size: 10px; font-weight: 700;
+               letter-spacing: .07em; text-transform: uppercase; padding: 7px 10px; text-align: left;
+               border-bottom: 1px solid var(--border); white-space: nowrap; }
+    tbody tr.inv-row { border-bottom: 1px solid var(--border); transition: background .1s; cursor: pointer; }
+    tbody tr.inv-row:hover { background: var(--green-bg); }
+    tbody tr.inv-row.is-expanded { background: var(--green-bg); }
+    td { padding: 7px 10px; vertical-align: middle; font-size: 12px; color: var(--text-mid); }
+    td.cell-firm { cursor: pointer; }
+    .firm-name { font-weight: 600; color: var(--text); display: block; }
+    .firm-name.has-notes::after { content: '●'; color: var(--green); font-size: 8px;
+                                   vertical-align: super; margin-left: 3px; }
+    .firm-sub { font-size: 11px; color: var(--text-muted); display: block; }
+
+    /* ── Priority dot ── */
+    .pri-dot { display: inline-flex; align-items: center; justify-content: center;
+               width: 18px; height: 18px; border-radius: 50%; font-size: 10px; font-weight: 700;
+               color: #fff; }
+
+    /* ── Stage badge ── */
+    .stage-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px;
+                   font-weight: 700; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+                   border: 1px solid transparent; white-space: nowrap; transition: opacity .1s; }
+    .stage-badge:hover { opacity: .8; }
+    .stage-select { font-size: 12px; padding: 2px 6px; border: 1px solid var(--green);
+                    border-radius: 4px; outline: none; background: #fff; cursor: pointer; }
+
+    /* ── Next action inline edit ── */
+    .action-text { cursor: pointer; color: var(--text-mid); }
+    .action-text:hover { color: var(--green); text-decoration: underline dotted; }
+    .action-text.empty { color: var(--text-faint); font-style: italic; }
+    .inline-input { width: 100%; border: 1px solid var(--green); border-radius: 4px;
+                    padding: 3px 6px; font-size: 12px; font-family: inherit; outline: none; }
+
+    /* ── Detail row ── */
+    tr.detail-row td { padding: 0; background: var(--green-bg); border-bottom: 1px solid var(--green-border); }
+    .detail-panel { padding: 14px 16px; display: flex; gap: 20px; }
+    .detail-meta { flex: 1; min-width: 0; }
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 16px; margin-bottom: 12px; }
+    .detail-field { }
+    .detail-field.full { grid-column: 1 / -1; }
+    .detail-field label { font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+                           color: var(--text-muted); display: block; margin-bottom: 2px; }
+    .detail-field div { font-size: 12px; color: var(--text-mid); line-height: 1.45; }
+    .detail-notes { width: 300px; flex-shrink: 0; }
+
+    /* ── Notes panel ── */
+    .notes-panel { background: #fff; border: 1px solid var(--green-border); border-radius: 8px; overflow: hidden; }
+    .notes-hdr { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px;
+                 background: var(--green-bg); border-bottom: 1px solid var(--green-border); }
+    .notes-hdr-title { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+                       color: var(--green); }
+    .notes-hdr-btns { display: flex; gap: 5px; }
+    .btn { background: var(--green); border: none; border-radius: 5px; color: #fff; font-size: 11px;
+           font-weight: 600; padding: 4px 10px; cursor: pointer; font-family: inherit; transition: background .15s; }
+    .btn:hover { background: var(--green-dk); }
+    .btn.ghost { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+    .btn.ghost:hover { border-color: var(--green); color: var(--green); background: var(--green-bg); }
+    .notes-empty { padding: 14px 12px; color: var(--text-faint); font-size: 12px; font-style: italic; }
+    .note-item { padding: 10px 12px; border-bottom: 1px solid #f0f4f3; }
+    .note-item:last-child { border-bottom: none; }
+    .note-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+    .note-date { font-size: 11px; font-weight: 600; color: var(--text-mid); }
+    .note-type { font-size: 10px; background: var(--green-bg); color: var(--green);
+                 border: 1px solid var(--green-border); border-radius: 3px; padding: 1px 6px; font-weight: 600; }
+    .note-del { margin-left: auto; background: none; border: none; color: var(--text-faint);
+                font-size: 15px; cursor: pointer; padding: 0 2px; line-height: 1; transition: color .15s; }
+    .note-del:hover { color: #e53e3e; }
+    .note-body { font-size: 12px; color: var(--text); line-height: 1.5; white-space: pre-wrap; }
+    .note-next { margin-top: 4px; font-size: 11px; color: var(--green); font-weight: 500; }
+
+    /* ── Backlog lazy load ── */
+    .load-more { display: block; text-align: center; padding: 12px; color: var(--text-muted);
+                 font-size: 12px; cursor: pointer; border-top: 1px solid var(--border); background: var(--bg-alt); }
+    .load-more:hover { color: var(--green); background: var(--green-bg); }
+
+    /* ── Overlay / Modals ── */
+    .overlay { display: none; position: fixed; inset: 0; z-index: 10000; background: rgba(15,23,42,.3);
+               align-items: center; justify-content: center; padding: 16px; }
+    .overlay.open { display: flex; }
+    .modal { background: #fff; border: 1px solid var(--border); border-radius: 12px;
+             padding: 24px 26px 20px; width: 500px; max-width: 100%;
+             box-shadow: 0 12px 48px rgba(0,0,0,.13); animation: pop .12s ease; }
+    @keyframes pop { from { opacity:0; transform:translateY(-6px) } to { opacity:1; transform:none } }
+    .modal-title { font-size: 16px; font-weight: 700; color: var(--text); margin: 0 0 16px; }
+    .field { margin-bottom: 12px; }
+    .field label { display: block; font-size: 10px; font-weight: 700; letter-spacing: .06em;
+                   text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px; }
+    .field input, .field select, .field textarea {
+      width: 100%; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 6px;
+      color: var(--text); font-size: 13px; padding: 8px 10px; outline: none; font-family: inherit;
+      transition: border-color .15s, background .15s; box-sizing: border-box; }
+    .field textarea { resize: vertical; min-height: 80px; line-height: 1.5; }
+    .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--green); background: #fff; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .modal-footer { display: flex; align-items: center; gap: 8px; justify-content: flex-end; margin-top: 16px; }
+    .modal-msg { font-size: 12px; padding: 4px 8px; border-radius: 4px; flex: 1; display: none; }
+    .modal-msg.ok  { background: var(--green-bg); color: #1a6b5e; display: block; }
+    .modal-msg.err { background: #fff5f5; color: #c53030; display: block; }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg-alt); }
+    ::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--green); }
+  </style>
+</head>
+<body>
+
+<!-- Lock Screen -->
+<div id="lock" class="visible">
+  <div class="box">
+    <div class="logo">DYRT LABS</div>
+    <h2>Series A — Corp Dev</h2>
+    <p>Private. Authorized access only.</p>
+    <input type="password" id="pin" placeholder="Enter passcode" autocomplete="off">
+    <button onclick="unlock()">Enter</button>
+    <div class="err" id="pin-err">Incorrect passcode.</div>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app">
+  <div id="header">
+    <div id="brand">DYRT — Series A
+      <a href="index.html" target="_blank">Templates & Playbook ↗</a>
+    </div>
+    <input type="search" id="search" placeholder="Search investors, contacts, notes…" oninput="onSearch(this.value)">
+    <select class="hdr-select" id="filter-stage" onchange="onFilter()">
+      <option value="">All Stages</option>
+      <option>Diligence</option>
+      <option>Meeting</option>
+      <option>Intro</option>
+      <option>Outreach</option>
+      <option>Backlog</option>
+      <option>Term Sheet</option>
+      <option>Closed</option>
+      <option>Pass</option>
+    </select>
+    <select class="hdr-select" id="filter-section" onchange="onFilter()">
+      <option value="">All Sections</option>
+      <option>Active Diligence</option>
+      <option>Tier 1 Leads</option>
+      <option>NM Track</option>
+      <option>Follow-on Pool</option>
+      <option>Expansion</option>
+      <option>Existing Investors</option>
+      <option>Backlog</option>
+      <option>Passed</option>
+    </select>
+    <div class="hdr-sep"></div>
+    <button class="hdr-btn" onclick="openAddInv()">+ Add Investor</button>
+    <button class="hdr-btn ghost" onclick="openSettings()">⚙</button>
+  </div>
+
+  <div id="stats"></div>
+  <div id="pipeline"></div>
+</div>
+
+<!-- Add Note Modal -->
+<div id="note-modal" class="overlay" onclick="if(event.target===this)closeModal('note-modal')">
+  <div class="modal">
+    <div class="modal-title" id="note-title">Add Note</div>
+    <div class="field-row">
+      <div class="field"><label>Date</label><input type="date" id="note-date"></div>
+      <div class="field"><label>Type</label>
+        <select id="note-type">
+          <option>Call</option><option>Meeting</option><option>Email</option>
+          <option>Intro</option><option>Diligence</option><option>Note</option>
+        </select>
+      </div>
+    </div>
+    <div class="field"><label>Notes</label>
+      <textarea id="note-body" placeholder="What happened, objections, conviction level…"></textarea>
+    </div>
+    <div class="field"><label>Next Step</label>
+      <input type="text" id="note-next" placeholder="Send deck / Schedule partner call…">
+    </div>
+    <div class="modal-footer">
+      <span class="modal-msg" id="note-msg"></span>
+      <button class="btn ghost" onclick="closeModal('note-modal')">Cancel</button>
+      <button class="btn" onclick="saveNote()">Save Note</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add Investor Modal -->
+<div id="add-inv-modal" class="overlay" onclick="if(event.target===this)closeModal('add-inv-modal')">
+  <div class="modal" style="width:560px">
+    <div class="modal-title">Add Investor</div>
+    <div class="field-row">
+      <div class="field"><label>Firm *</label><input type="text" id="ai-firm" placeholder="Breakthrough Energy"></div>
+      <div class="field"><label>Contact</label><input type="text" id="ai-name" placeholder="Jane Smith"></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label>Email</label><input type="email" id="ai-email" placeholder="jane@firm.com"></div>
+      <div class="field"><label>Check Size</label><input type="text" id="ai-check" placeholder="$2–5M"></div>
+    </div>
+    <div class="field-row">
+      <div class="field"><label>Section</label>
+        <select id="ai-section">
+          <option>Active Diligence</option><option selected>Tier 1 Leads</option>
+          <option>NM Track</option><option>Follow-on Pool</option><option>Expansion</option>
+        </select>
+      </div>
+      <div class="field"><label>Stage</label>
+        <select id="ai-stage">
+          <option>Backlog</option><option selected>Outreach</option>
+          <option>Intro</option><option>Meeting</option><option>Diligence</option>
+        </select>
+      </div>
+    </div>
+    <div class="field"><label>Why This Firm</label>
+      <input type="text" id="ai-why" placeholder="Climate VC, led Glacier Series A…">
+    </div>
+    <div class="field"><label>Next Action</label>
+      <input type="text" id="ai-next" placeholder="Send cold outreach / Get warm intro…">
+    </div>
+    <div class="modal-footer">
+      <span class="modal-msg" id="ai-msg"></span>
+      <button class="btn ghost" onclick="closeModal('add-inv-modal')">Cancel</button>
+      <button class="btn" onclick="saveNewInvestor()">Add Investor</button>
+    </div>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div id="settings-modal" class="overlay" onclick="if(event.target===this)closeModal('settings-modal')">
+  <div class="modal" style="width:420px">
+    <div class="modal-title">Settings</div>
+    <div class="field">
+      <label>GitHub PAT (optional — enables sync to repo)</label>
+      <input type="password" id="gh-pat" placeholder="ghp_…" autocomplete="off">
+    </div>
+    <p style="font-size:11px;color:var(--text-muted);margin-bottom:12px">
+      When set, stage changes and notes sync back to the GitHub repo automatically.
+      Token needs <code>repo</code> scope. Stored in your browser only.
+    </p>
+    <div class="modal-footer">
+      <button class="btn ghost" onclick="closeModal('settings-modal')">Cancel</button>
+      <button class="btn" onclick="savePat()">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Config ────────────────────────────────────────────────────────────────────
+const PASSCODE   = 'dyrt2026';
+const REPO       = 'dyrtylee/dyrt-series-a-crm';
+const CLOSE_DATE = new Date('2026-08-14');
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let ALL    = [];        // loaded from data.json
+let OVER   = {};        // localStorage: normKey → {Stage, 'Next Action', Contact, Email, …}
+let NOTES  = {};        // localStorage: normKey → [{id, date, type, points, next}]
+let ADDED  = [];        // localStorage: manually added investors (full records)
+let EXPD   = new Set(); // expanded firm keys
+let BACKLOG_LIMIT = 50;
+let FILTERS = { search: '', stage: '', section: '' };
+
+const OVR_KEY   = 'dyrt_overrides_v2';
+const NOTES_KEY = 'dyrt_notes_v1';
+const ADDED_KEY = 'dyrt_investors_v1';
+const COLL_KEY  = 'dyrt_collapsed_v1';
+let COLLAPSED;  // Set of collapsed section names
+
+const SECTION_ORDER = [
+  'Active Diligence','Tier 1 Leads','NM Track','Follow-on Pool',
+  'Expansion','Existing Investors','Backlog','Passed'
+];
+const STAGE_COLORS = {
+  'Diligence':  { bg:'#fef3c7', fg:'#92400e', bd:'#fcd34d' },
+  'Term Sheet': { bg:'#d1fae5', fg:'#065f46', bd:'#6ee7b7' },
+  'Closed':     { bg:'#a7f3d0', fg:'#065f46', bd:'#34d399' },
+  'Meeting':    { bg:'#dbeafe', fg:'#1e40af', bd:'#93c5fd' },
+  'Intro':      { bg:'#e0e7ff', fg:'#3730a3', bd:'#a5b4fc' },
+  'Outreach':   { bg:'#e0f2fe', fg:'#075985', bd:'#7dd3fc' },
+  'Pass':       { bg:'#fee2e2', fg:'#991b1b', bd:'#fca5a5' },
+  'Backlog':    { bg:'#f3f4f6', fg:'#6b7280', bd:'#d1d5db' },
+};
+const SECTION_BG = {
+  'Active Diligence':  '#1a3a4a', 'Tier 1 Leads': '#1a4a3a',
+  'NM Track':          '#2d4a1a', 'Follow-on Pool':'#3a3a4a',
+  'Expansion':         '#4a3a1a', 'Existing Investors':'#1a4a2a',
+  'Backlog':           '#4a4a4a', 'Passed':         '#5a1a1a',
+};
+const PRI_COLOR = ['','#ef4444','#f59e0b','#9ca3af'];
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                      .replace(/"/g,'&quot;');
+}
+function normKey(s) {
+  s = String(s||'').toLowerCase().trim();
+  s = s.replace(/\s*\(.*/, '').replace(/\s*[—–\-].*/, '');
+  for (const x of [' vc',' ventures',' capital',' partners',' fund',' investments',' management',' group']) {
+    if (s.endsWith(x)) s = s.slice(0, -x.length);
+  }
+  return s.replace(/[^a-z0-9]/g,'');
+}
+function today() { return new Date().toISOString().split('T')[0]; }
+
+// Strip markdown noise from CRM fields
+function cleanText(s) {
+  if (!s) return '';
+  return s.replace(/\*\*/g,'').replace(/\[([^\]]*)\]\([^)]*\)/g,'$1')
+          .replace(/---+/g,'').replace(/\n+/g,' ').replace(/\s{2,}/g,' ').trim();
+}
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
+function unlock() {
+  const v = document.getElementById('pin').value;
+  if (v === PASSCODE) {
+    sessionStorage.setItem('dyrt_auth','1');
+    document.getElementById('lock').classList.remove('visible');
+    document.getElementById('app').classList.add('visible');
+    document.getElementById('pin-err').style.display = 'none';
+  } else {
+    document.getElementById('pin-err').style.display = 'block';
+    document.getElementById('pin').value = '';
+    document.getElementById('pin').focus();
+  }
+}
+document.getElementById('pin').addEventListener('keydown', e => { if (e.key==='Enter') unlock(); });
+
+// ── Local storage ─────────────────────────────────────────────────────────────
+function loadLocal() {
+  try { OVER  = JSON.parse(localStorage.getItem(OVR_KEY)   || '{}'); } catch { OVER  = {}; }
+  try { NOTES = JSON.parse(localStorage.getItem(NOTES_KEY) || '{}'); } catch { NOTES = {}; }
+  try { ADDED = JSON.parse(localStorage.getItem(ADDED_KEY) || '[]'); } catch { ADDED = []; }
+  try {
+    const raw = JSON.parse(localStorage.getItem(COLL_KEY) || null);
+    COLLAPSED = new Set(raw || ['Backlog','Passed','Existing Investors']);
+  } catch { COLLAPSED = new Set(['Backlog','Passed','Existing Investors']); }
+}
+function saveOver()  { localStorage.setItem(OVR_KEY,   JSON.stringify(OVER));  }
+function saveNotes() { localStorage.setItem(NOTES_KEY, JSON.stringify(NOTES)); }
+function saveAdded() { localStorage.setItem(ADDED_KEY, JSON.stringify(ADDED)); }
+function saveColl()  { localStorage.setItem(COLL_KEY,  JSON.stringify([...COLLAPSED])); }
+
+function setOverride(key, field, value) {
+  if (!OVER[key]) OVER[key] = {};
+  OVER[key][field] = value;
+  saveOver();
+}
+
+// ── Data ──────────────────────────────────────────────────────────────────────
+function getRecord(inv) {
+  const key = normKey(inv.Firm);
+  return { ...inv, ...(OVER[key] || {}) };
+}
+function getFirmNotes(firm) {
+  return ((NOTES[normKey(firm)] || []).slice()).reverse();
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
+  loadLocal();
+  if (sessionStorage.getItem('dyrt_auth') === '1') {
+    document.getElementById('lock').classList.remove('visible');
+    document.getElementById('app').classList.add('visible');
+  }
+  try {
+    const r = await fetch('./investors/data.json?v=' + Date.now());
+    ALL = await r.json();
+  } catch (e) {
+    document.getElementById('pipeline').innerHTML =
+      '<div id="no-results">⚠ Could not load investors/data.json — run start.sh to serve the CRM locally.</div>';
+    return;
+  }
+  // Merge ADDED investors into ALL (at the front)
+  ADDED.forEach(inv => {
+    const k = normKey(inv.firm);
+    if (!ALL.find(r => normKey(r.Firm) === k)) {
+      ALL.unshift({ Firm: inv.firm, Contact: inv.name, Email: inv.email,
+                    'Check Target': inv.check, Section: inv.section, Stage: inv.stage,
+                    'Why Dyrt Fit': inv.why, 'Next Action': inv.next, Priority: '1' });
+    }
+  });
+  render();
+}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
+function onSearch(v) { FILTERS.search = v.trim().toLowerCase(); BACKLOG_LIMIT = 50; render(); }
+function onFilter()  {
+  FILTERS.stage   = document.getElementById('filter-stage').value;
+  FILTERS.section = document.getElementById('filter-section').value;
+  BACKLOG_LIMIT = 50;
+  render();
+}
+
+function matches(inv) {
+  const r = getRecord(inv);
+  if (FILTERS.stage   && r.Stage   !== FILTERS.stage)   return false;
+  if (FILTERS.section && r.Section !== FILTERS.section) return false;
+  if (FILTERS.search) {
+    const q = FILTERS.search;
+    const blob = [r.Firm, r.Contact, r['Next Action'], r['Why Dyrt Fit'],
+                  r['Pitch Angle'], r.Notes, r.Email].join(' ').toLowerCase();
+    if (!blob.includes(q)) return false;
+  }
+  return true;
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+function render() {
+  const bySection = {};
+  SECTION_ORDER.forEach(s => { bySection[s] = []; });
+
+  const isFiltering = FILTERS.search || FILTERS.stage || FILTERS.section;
+
+  ALL.forEach(inv => {
+    if (!matches(inv)) return;
+    const r   = getRecord(inv);
+    const sec = r.Section || 'Backlog';
+    (bySection[sec] || (bySection['Backlog'] = bySection['Backlog'] || [])).push(r);
+  });
+
+  let html = '';
+  let totalActive = 0;
+  SECTION_ORDER.forEach(sec => {
+    const recs = bySection[sec] || [];
+    if (recs.length === 0 && !isFiltering) return;
+    const collapsed = COLLAPSED.has(sec) && !isFiltering;
+    const bg = SECTION_BG[sec] || '#4a4a4a';
+    if (['Active Diligence','Tier 1 Leads','NM Track','Follow-on Pool'].includes(sec))
+      totalActive += recs.filter(r => ['Diligence','Meeting','Intro','Outreach'].includes(r.Stage)).length;
+
+    html += `<div class="sec" id="sec-${sec.replace(/\s+/g,'-')}">`;
+    html += `<div class="sec-hdr" style="background:${bg}" onclick="toggleSec('${esc(sec)}')">`;
+    html += `<span class="sec-title">${esc(sec)}</span>`;
+    html += `<span class="sec-count">${recs.length}</span>`;
+    html += `<span class="sec-toggle">${collapsed ? '▶' : '▼'}</span>`;
+    html += `</div>`;
+    if (!collapsed) {
+      html += renderTable(sec, recs);
+    }
+    html += `</div>`;
+  });
+
+  document.getElementById('pipeline').innerHTML = html || '<div id="no-results">No matching investors.</div>';
+  renderStats(totalActive);
+}
+
+function renderTable(sec, recs) {
+  if (recs.length === 0) return '<div style="padding:12px 14px;color:var(--text-faint);font-style:italic;background:#fff">No investors in this section.</div>';
+  const showLead = ['Active Diligence','Tier 1 Leads'].includes(sec);
+  const limit = sec === 'Backlog' ? BACKLOG_LIMIT : Infinity;
+  const shown = recs.slice(0, limit);
+
+  let h = '<div class="sec-body"><table><thead><tr>';
+  h += '<th style="width:30px">P</th>';
+  h += '<th style="width:90px">Stage</th>';
+  h += '<th style="width:22%">Firm</th>';
+  h += '<th style="width:14%">Contact</th>';
+  h += '<th style="width:16%">Email</th>';
+  h += '<th style="width:8%">Check</th>';
+  if (showLead) h += '<th style="width:6%">Lead?</th>';
+  h += '<th>Next Action</th>';
+  h += '<th style="width:90px">Last Contact</th>';
+  h += '</tr></thead><tbody>';
+
+  shown.forEach(r => { h += renderRow(r, showLead); });
+
+  h += '</tbody></table>';
+  if (sec === 'Backlog' && recs.length > BACKLOG_LIMIT) {
+    h += `<div class="load-more" onclick="loadMore()">Show more (${recs.length - BACKLOG_LIMIT} remaining) ▼</div>`;
+  }
+  h += '</div>';
+  return h;
+}
+
+function renderRow(r, showLead) {
+  const key    = normKey(r.Firm);
+  const isExpd = EXPD.has(key);
+  const notes  = getFirmNotes(r.Firm);
+  const stage  = r.Stage || 'Backlog';
+  const sc     = STAGE_COLORS[stage] || STAGE_COLORS['Backlog'];
+  const pri    = parseInt(r.Priority) || 3;
+  const action = cleanText(r['Next Action'] || '');
+  const lastc  = r['Last Contact'] || '';
+  const cols   = showLead ? 9 : 8;
+
+  let h = `<tr class="inv-row${isExpd?' is-expanded':''}" data-key="${esc(key)}" onclick="toggleExpand('${esc(key)}')">`;
+  h += `<td><span class="pri-dot" style="background:${PRI_COLOR[pri]||'#9ca3af'}">${pri}</span></td>`;
+  h += `<td onclick="event.stopPropagation()"><span class="stage-badge" style="background:${sc.bg};color:${sc.fg};border-color:${sc.bd}" onclick="openStageEdit(this,'${esc(key)}')">${esc(stage)}</span></td>`;
+  h += `<td class="cell-firm"><span class="firm-name${notes.length?' has-notes':''}">${esc(r.Firm)}</span>`;
+  if (r.Title && r.Title !== r.Contact) h += `<span class="firm-sub">${esc(r.Title)}</span>`;
+  h += `</td>`;
+  h += `<td>${esc(r.Contact||'—')}</td>`;
+  h += `<td>${r.Email ? `<a href="mailto:${esc(r.Email)}" onclick="event.stopPropagation()">${esc(r.Email)}</a>` : '—'}</td>`;
+  h += `<td>${esc(r['Check Target']||'—')}</td>`;
+  if (showLead) h += `<td>${esc(r['Lead?']||'—')}</td>`;
+  h += `<td onclick="event.stopPropagation()">`;
+  h += `<span class="action-text${!action?' empty':''}" onclick="openInlineEdit(this,'${esc(key)}','Next Action')">${esc(action||'Click to add…')}</span>`;
+  h += `</td>`;
+  h += `<td>${esc(lastc||'—')}</td>`;
+  h += `</tr>`;
+
+  if (isExpd) h += renderDetail(r, key, cols);
+  return h;
+}
+
+function renderDetail(r, key, cols) {
+  const notes = getFirmNotes(r.Firm);
+  const bg    = r['Why Dyrt Fit'] || r['Pitch Angle'] || '';
+  const desc  = r.Description || '';
+  const aum   = r.AUM ? `$${r.AUM}M` : '—';
+  const inv   = r.Investments || r['Investments (12mo/2yr/5yr)'] || '';
+
+  let h = `<tr class="detail-row"><td colspan="${cols}"><div class="detail-panel">`;
+  h += `<div class="detail-meta">`;
+  h += `<div class="detail-grid">`;
+  if (bg) h += `<div class="detail-field full"><label>Why / Pitch Angle</label><div>${esc(cleanText(bg))}</div></div>`;
+  h += `<div class="detail-field"><label>HQ</label><div>${esc(r.HQ||'—')}</div></div>`;
+  h += `<div class="detail-field"><label>AUM</label><div>${esc(aum)}</div></div>`;
+  h += `<div class="detail-field"><label>Type</label><div>${esc(r.Type||'—')}</div></div>`;
+  h += `<div class="detail-field"><label>Source</label><div>${esc(r.Source||'—')}</div></div>`;
+  if (inv) h += `<div class="detail-field"><label>Inv 12mo/2yr/5yr</label><div>${esc(inv)}</div></div>`;
+  if (r['Active Portfolio']) h += `<div class="detail-field"><label>Active Portfolio</label><div>${esc(r['Active Portfolio'])}</div></div>`;
+  if (r['PitchBook Link']) h += `<div class="detail-field full"><label>PitchBook</label><div><a href="${esc(r['PitchBook Link'])}" target="_blank" onclick="event.stopPropagation()">View on PitchBook ↗</a></div></div>`;
+  if (desc) h += `<div class="detail-field full"><label>Description</label><div>${esc(desc)}</div></div>`;
+  h += `</div></div>`;
+
+  // Notes panel
+  h += `<div class="detail-notes"><div class="notes-panel">`;
+  h += `<div class="notes-hdr"><span class="notes-hdr-title">Activity</span>`;
+  h += `<div class="notes-hdr-btns">`;
+  h += `<button class="btn ghost" onclick="openStageModal('${esc(key)}','${esc(r.Firm)}');event.stopPropagation()">Stage</button>`;
+  h += `<button class="btn" onclick="openNoteModal('${esc(key)}','${esc(r.Firm)}');event.stopPropagation()">+ Note</button>`;
+  h += `</div></div>`;
+  if (notes.length === 0) {
+    h += `<div class="notes-empty">No notes yet.</div>`;
+  } else {
+    notes.forEach(n => {
+      h += `<div class="note-item">`;
+      h += `<div class="note-meta"><span class="note-date">${esc(n.date)}</span><span class="note-type">${esc(n.type)}</span>`;
+      h += `<button class="note-del" onclick="delNote('${esc(key)}',${n.id});event.stopPropagation()">×</button></div>`;
+      h += `<div class="note-body">${esc(n.points)}</div>`;
+      if (n.next) h += `<div class="note-next">→ ${esc(n.next)}</div>`;
+      h += `</div>`;
+    });
+  }
+  h += `</div></div>`;
+  h += `</div></td></tr>`;
+  return h;
+}
+
+function renderStats(activeCount) {
+  const byStage = {};
+  ALL.forEach(inv => {
+    const r = getRecord(inv);
+    const s = r.Stage || 'Backlog';
+    byStage[s] = (byStage[s]||0)+1;
+  });
+  const days = Math.ceil((CLOSE_DATE - new Date()) / 86400000);
+
+  let h = '';
+  h += stat(days + 'd', 'To Close', days < 30 ? 'red' : days < 60 ? 'amber' : '');
+  h += `<div class="stat-sep"></div>`;
+  h += stat(ALL.length, 'Total Firms');
+  h += stat(activeCount, 'Active Pipeline', 'blue');
+  h += `<div class="stat-sep"></div>`;
+  h += stat(byStage['Diligence']||0, 'Diligence', 'amber');
+  h += stat(byStage['Meeting']||0,   'Meeting',   'blue');
+  h += stat(byStage['Outreach']||0,  'Outreach');
+  h += `<div class="stat-sep"></div>`;
+  h += stat(byStage['Closed']||0,    'Closed',    'green');
+  document.getElementById('stats').innerHTML = h;
+}
+function stat(n, label, cls='') {
+  return `<div class="stat"><div class="stat-num ${cls}">${n}</div><div class="stat-label">${label}</div></div>`;
+}
+
+// ── Interactions ──────────────────────────────────────────────────────────────
+function toggleSec(sec) {
+  if (COLLAPSED.has(sec)) COLLAPSED.delete(sec);
+  else COLLAPSED.add(sec);
+  saveColl();
+  render();
+}
+
+function loadMore() {
+  BACKLOG_LIMIT += 100;
+  render();
+}
+
+function toggleExpand(key) {
+  if (EXPD.has(key)) EXPD.delete(key);
+  else EXPD.add(key);
+  // Re-render just the affected row rather than full page
+  const row = document.querySelector(`tr.inv-row[data-key="${CSS.escape(key)}"]`);
+  if (!row) { render(); return; }
+  const inv = ALL.find(r => normKey(r.Firm) === key);
+  if (!inv) return;
+  const r = getRecord(inv);
+  const sec = r.Section || 'Backlog';
+  const showLead = ['Active Diligence','Tier 1 Leads'].includes(sec);
+  const cols = showLead ? 9 : 8;
+
+  // Remove existing detail row if present
+  const next = row.nextElementSibling;
+  if (next && next.classList.contains('detail-row')) next.remove();
+
+  if (EXPD.has(key)) {
+    row.classList.add('is-expanded');
+    row.insertAdjacentHTML('afterend', renderDetail(r, key, cols));
+  } else {
+    row.classList.remove('is-expanded');
+  }
+}
+
+// Stage badge → inline select
+function openStageEdit(el, key) {
+  const stages = ['Backlog','Outreach','Intro','Meeting','Diligence','Term Sheet','Closed','Pass'];
+  const cur = el.textContent.trim();
+  const sel = document.createElement('select');
+  sel.className = 'stage-select';
+  stages.forEach(s => {
+    const o = document.createElement('option');
+    o.value = s; o.textContent = s;
+    if (s === cur) o.selected = true;
+    sel.appendChild(o);
+  });
+  el.replaceWith(sel);
+  sel.focus();
+  function commit() {
+    const v = sel.value;
+    setOverride(key, 'Stage', v);
+    bgSyncStage(key, v);
+    render();
+  }
+  sel.addEventListener('change', commit);
+  sel.addEventListener('blur', () => { if (!sel.dataset.committed) render(); });
+}
+
+// Next Action → inline input
+let _editTimeout;
+function openInlineEdit(el, key, field) {
+  clearTimeout(_editTimeout);
+  const cur = (OVER[key]||{})[field] || ALL.find(r=>normKey(r.Firm)===key)?.[field] || '';
+  const inp = document.createElement('input');
+  inp.className = 'inline-input';
+  inp.type = 'text';
+  inp.value = cleanText(cur);
+  el.replaceWith(inp);
+  inp.focus(); inp.select();
+  function commit() {
+    setOverride(key, field, inp.value.trim());
+    render();
+  }
+  inp.addEventListener('blur', commit);
+  inp.addEventListener('keydown', e => {
+    if (e.key === 'Enter')  { e.preventDefault(); commit(); }
+    if (e.key === 'Escape') { render(); }
+  });
+}
+
+// ── Note modal ────────────────────────────────────────────────────────────────
+let _noteFirm = '', _noteKey = '';
+
+function openNoteModal(key, firm) {
+  _noteKey = key; _noteFirm = firm;
+  document.getElementById('note-title').textContent = 'Add Note — ' + firm;
+  document.getElementById('note-date').value = today();
+  document.getElementById('note-type').value = 'Call';
+  document.getElementById('note-body').value = '';
+  document.getElementById('note-next').value = '';
+  document.getElementById('note-msg').className = 'modal-msg';
+  openModal('note-modal');
+  setTimeout(() => document.getElementById('note-body').focus(), 80);
+}
+
+function saveNote() {
+  const body = document.getElementById('note-body').value.trim();
+  if (!body) {
+    const m = document.getElementById('note-msg');
+    m.textContent = 'Enter some notes first.'; m.className = 'modal-msg err'; return;
+  }
+  const note = {
+    id:     Date.now(),
+    date:   document.getElementById('note-date').value,
+    type:   document.getElementById('note-type').value,
+    points: body,
+    next:   document.getElementById('note-next').value.trim()
+  };
+  if (!NOTES[_noteKey]) NOTES[_noteKey] = [];
+  NOTES[_noteKey].push(note);
+  saveNotes();
+  closeModal('note-modal');
+  // Update expanded detail panel in place
+  const detailRow = document.querySelector(`tr.inv-row[data-key="${CSS.escape(_noteKey)}"] + tr.detail-row`);
+  if (detailRow) {
+    const inv = ALL.find(r => normKey(r.Firm) === _noteKey);
+    if (inv) {
+      const r = getRecord(inv);
+      const sec = r.Section || 'Backlog';
+      const showLead = ['Active Diligence','Tier 1 Leads'].includes(sec);
+      const cols = showLead ? 9 : 8;
+      detailRow.outerHTML = renderDetail(r, _noteKey, cols);
+    }
+  }
+  bgSyncNote(_noteKey, note);
+}
+
+function delNote(key, id) {
+  if (!NOTES[key]) return;
+  NOTES[key] = NOTES[key].filter(n => n.id !== id);
+  saveNotes();
+  const inv = ALL.find(r => normKey(r.Firm) === key);
+  if (inv) {
+    const r = getRecord(inv);
+    const sec = r.Section || 'Backlog';
+    const cols = ['Active Diligence','Tier 1 Leads'].includes(sec) ? 9 : 8;
+    const detailRow = document.querySelector(`tr.inv-row[data-key="${CSS.escape(key)}"] + tr.detail-row`);
+    if (detailRow) detailRow.outerHTML = renderDetail(r, key, cols);
+  }
+}
+
+// ── Stage modal (full-page version of stage select) ───────────────────────────
+let _stageKey = '', _stageFirm = '';
+function openStageModal(key, firm) {
+  _stageKey = key; _stageFirm = firm;
+  // Reuse note modal area — simpler: just use a small confirm via prompt for now,
+  // or open the stage-edit inline. For now, open inline on the row badge.
+  const badge = document.querySelector(`tr.inv-row[data-key="${CSS.escape(key)}"] .stage-badge`);
+  if (badge) openStageEdit(badge, key);
+}
+
+// ── Add Investor ──────────────────────────────────────────────────────────────
+function openAddInv() {
+  ['ai-firm','ai-name','ai-email','ai-check','ai-why','ai-next'].forEach(id => document.getElementById(id).value='');
+  document.getElementById('ai-section').value = 'Tier 1 Leads';
+  document.getElementById('ai-stage').value = 'Outreach';
+  document.getElementById('ai-msg').className = 'modal-msg';
+  openModal('add-inv-modal');
+  setTimeout(() => document.getElementById('ai-firm').focus(), 80);
+}
+
+function saveNewInvestor() {
+  const firm = document.getElementById('ai-firm').value.trim();
+  if (!firm) {
+    const m = document.getElementById('ai-msg');
+    m.textContent='Firm name is required.'; m.className='modal-msg err'; return;
+  }
+  const inv = {
+    id:      Date.now(),
+    firm,
+    name:    document.getElementById('ai-name').value.trim(),
+    email:   document.getElementById('ai-email').value.trim(),
+    check:   document.getElementById('ai-check').value.trim(),
+    section: document.getElementById('ai-section').value,
+    stage:   document.getElementById('ai-stage').value,
+    why:     document.getElementById('ai-why').value.trim(),
+    next:    document.getElementById('ai-next').value.trim(),
+  };
+  ADDED.push(inv);
+  saveAdded();
+
+  // Inject into ALL array
+  ALL.unshift({ Firm: inv.firm, Contact: inv.name, Email: inv.email,
+                'Check Target': inv.check, Section: inv.section, Stage: inv.stage,
+                'Why Dyrt Fit': inv.why, 'Next Action': inv.next, Priority: '1' });
+
+  closeModal('add-inv-modal');
+  // Uncollapse target section
+  COLLAPSED.delete(inv.section);
+  saveColl();
+  render();
+  bgSyncNewInvestor(inv);
+}
+
+// ── Settings ──────────────────────────────────────────────────────────────────
+function openSettings() {
+  document.getElementById('gh-pat').value = localStorage.getItem('dyrt_gh_pat') || '';
+  openModal('settings-modal');
+}
+function savePat() {
+  const v = document.getElementById('gh-pat').value.trim();
+  if (v) localStorage.setItem('dyrt_gh_pat', v);
+  else localStorage.removeItem('dyrt_gh_pat');
+  closeModal('settings-modal');
+}
+
+// ── Modals ────────────────────────────────────────────────────────────────────
+function openModal(id)  { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.querySelectorAll('.overlay.open').forEach(el => el.classList.remove('open'));
+});
+
+// ── GitHub sync ───────────────────────────────────────────────────────────────
+const GH = 'https://api.github.com/repos/' + REPO + '/contents/';
+
+async function ghGet(tok, path) {
+  const r = await fetch(GH + path, { headers: { Authorization:'token '+tok, Accept:'application/vnd.github.v3+json' } });
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+async function ghPut(tok, path, content, sha, msg) {
+  const b64e = s => btoa(unescape(encodeURIComponent(s)));
+  const body = { message: msg, content: b64e(content) };
+  if (sha) body.sha = sha;
+  const r = await fetch(GH + path, { method:'PUT',
+    headers:{ Authorization:'token '+tok, 'Content-Type':'application/json', Accept:'application/vnd.github.v3+json' },
+    body: JSON.stringify(body) });
+  if (!r.ok) throw new Error(r.status);
+}
+
+function getTok() { return localStorage.getItem('dyrt_gh_pat'); }
+
+async function bgSyncStage(key, stage) {
+  const tok = getTok(); if (!tok) return;
+  const inv = ALL.find(r => normKey(r.Firm) === key); if (!inv) return;
+  const path = invMdPath(inv);
+  if (!path) return;
+  try {
+    const d = await ghGet(tok, path);
+    const md = atob(d.content.replace(/\n/g,''));
+    const updated = md.replace(/(\*\*Status\*\*\s*:\s*)[^|\n]+/, (_, pre) => pre + stage + ' ');
+    await ghPut(tok, path, updated, d.sha, 'Status → ' + stage + ' (' + inv.Firm + ')');
+  } catch(e) { console.info('GH sync skipped:', e.message); }
+}
+
+async function bgSyncNote(key, note) {
+  const tok = getTok(); if (!tok) return;
+  const inv = ALL.find(r => normKey(r.Firm) === key); if (!inv) return;
+  const path = invMdPath(inv);
+  if (!path) return;
+  try {
+    const d = await ghGet(tok, path);
+    const b64d = s => decodeURIComponent(escape(atob(s.replace(/\n/g,''))));
+    let md = b64d(d.content);
+    const row = `| ${note.date} | ${note.type} | ${(note.points||'').replace(/\|/g,'–').replace(/\n/g,' ')} | ${(note.next||'—').replace(/\|/g,'–')} |`;
+    const lines = md.split('\n'); let last = -1;
+    for (let i = lines.length-1; i>=0; i--) if (lines[i].trim().startsWith('|')) { last=i; break; }
+    if (last === -1) md = md.trimEnd() + '\n\n---\n\n## Meeting Notes\n\n| Date | Type | Key Points | Next Step |\n|------|------|-----------|----------|\n' + row + '\n';
+    else { lines.splice(last+1,0,row); md = lines.join('\n'); }
+    await ghPut(tok, path, md, d.sha, 'Note: ' + note.points.slice(0,60));
+  } catch(e) { console.info('GH sync skipped:', e.message); }
+}
+
+async function bgSyncNewInvestor(inv) {
+  const tok = getTok(); if (!tok) return;
+  const folder = { 'Active Diligence':'active-diligence','Tier 1 Leads':'tier1-leads',
+    'NM Track':'nm-investors','Follow-on Pool':'followon','Expansion':'expansion' }[inv.section] || 'followon';
+  const slug = inv.firm.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const path = `investors/${folder}/${slug}.md`;
+  const md = `# ${inv.firm}\n\n**Status**: ${inv.stage} | **Priority**: 1\n\n---\n\n## Contact\n- **${inv.name||'—'}** — ${inv.email||'no email'}\n\n## Firm Overview\n- Check size: ${inv.check||'TBD'}\n${inv.why?`- ${inv.why}`:''}\n\n## Next Action\n**${inv.next||'TBD'}**\n\n---\n\n## Meeting Notes\n\n| Date | Type | Key Points | Next Step |\n|------|------|-----------|----------|\n| ${today()} | Note | Added via CRM | ${inv.next||'—'} |\n`;
+  try {
+    try { await ghGet(tok, path); } // skip if exists
+    catch { await ghPut(tok, path, md, null, 'Add investor: ' + inv.firm); }
+  } catch(e) { console.info('GH sync skipped:', e.message); }
+}
+
+function invMdPath(inv) {
+  const sec = inv.Section || '';
+  const folder = { 'Active Diligence':'active-diligence','Tier 1 Leads':'tier1-leads',
+    'NM Track':'nm-investors','Follow-on Pool':'followon','Expansion':'expansion',
+    'Backlog':'pitchbook' }[sec];
+  if (!folder) return null;
+  const slug = (inv.Folder || inv.Firm.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''));
+  return `investors/${folder}/${slug}.md`;
+}
+
+// ── Start ─────────────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
