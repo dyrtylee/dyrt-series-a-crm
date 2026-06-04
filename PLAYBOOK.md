@@ -20,7 +20,7 @@ A $20M Series A with a $3–5M lead needs one conviction investor to anchor — 
 > "Dyrt is the ERP layer for waste — the missing operating system that turns every ton of organic waste from a landfill liability into a data-verified asset. 450% growth, 0% churn, and $38M in pipeline with Disney, Marriott, and Intuit Dome already live."
 
 ### For Growth Equity (Noro-Moseley, Mainsail)
-> "$1M ARR, annualized January 2026. 450% YoY. 45 enterprise customers. $1,700 avg rev/month. 0% churn. $38M pipeline ARR. The unit economics are proven — this is a scaling capital conversation, not a product risk conversation."
+> "$1M ARR. 450% YoY. 45 enterprise customers. $1,700 avg rev/month. 0% churn. $38M pipeline ARR. The unit economics are proven — this is a scaling capital conversation, not a product risk conversation."
 
 ### For NM-Angle Investors (NMSIC-backed funds)
 > "New Mexico has committed $12M in confirmed state incentives to our facility buildout — LEDA, JTIP, tax credits, and 20-year property tax abatement. We're one of the highest-incentivized composting facilities in the country. NMSIC-backed funds have NM portfolio mandates — this is a natural fit."

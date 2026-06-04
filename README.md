@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| ARR | $1M (annualized Jan 2026) |
+| ARR | $1M |
 | YoY Growth | 450% |
 | Churn | 0% |
 | Pipeline ARR | $38M |

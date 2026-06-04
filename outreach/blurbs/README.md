@@ -28,7 +28,22 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## 3-Sentence Investor Blurb
 
-> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned composting operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR (annualized Jan 2026), 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $20M Series A to replicate our composting facility model nationally, starting with New Mexico where the state has estimated $7.3M+ in incentives for the first site.
+> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned composting operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR, 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $20M Series A to replicate our composting facility model nationally, starting with New Mexico where the state has estimated $7.3M+ in incentives for the first site.
+
+---
+
+## Investor Forwarding Blurb
+
+*For investors passing the deck to a contact in their network. Three versions — choose based on relationship warmth.*
+
+### Warm pass (investor knows the contact well)
+> I've been watching Dyrt Labs for a while — Lee Robinson's team built a composting facility in LA to understand the waste business from the ground up, then built the software to run it. Disney, Marriott, AEG, and Intuit Dome signed up. $1M ARR, 450% YoY, 0% churn, 45 enterprise customers, 525 Sprouts locations contracted. They're raising a $20M Series A and the NM facility has $12M+ in confirmed state incentives. I thought of you immediately. Worth 20 minutes with Lee — I can make the intro.
+
+### Standard pass (investor has a relevant portfolio/thesis connection)
+> Wanted to put a company on your radar — Dyrt Labs, building the physical and digital backbone of waste management. AI-powered SaaS + owned composting infrastructure. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations. They're raising a $20M Series A. Given your [climate/waste/infrastructure/enterprise SaaS] focus, I thought it was right in your wheelhouse. Happy to intro you to the CEO.
+
+### Light touch (investor is sending cold, just passing the deck)
+> Came across a company you might find interesting — Dyrt Labs. Building the operating system for enterprise waste management. $1M ARR, 450% YoY, 0% churn. Raising $20M Series A. Deck attached. Lee Robinson is the CEO — lee@dyrt.co — direct if you want to reach out.
 
 ---
 
