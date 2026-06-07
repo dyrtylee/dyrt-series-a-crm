@@ -8,7 +8,7 @@
     "Notes": "2026-02-27 | Diligence | Financial model review | Follow up on decision\nMultiple | Meetings | Deep financials + model | Close to decision",
     "Contact": "Sam Bogen",
     "Email": "sam@alphaedison.com",
-    "Last_Contact": "2026-02-06"
+    "Last Contact": "2026-02-06"
   },
   {
     "Firm": "Bandera Capital",
@@ -17,7 +17,7 @@
     "Stage": "Diligence",
     "Next Action": "Follow up \u2014 Series A deck + blurb sent May 26. Gabriel Reyna awaiting response. Were in IC process prior.",
     "Notes": "2026-02-20 | Diligence | SAFE terms, financials | In IC process\nMultiple | Meetings | Financials, data room | IC decision pending",
-    "Last_Contact": "2026-05-26"
+    "Last Contact": "2026-05-26"
   },
   {
     "Firm": "Elysian Park Ventures",
@@ -39,7 +39,7 @@
     "Section": "Active Diligence",
     "Priority": "1",
     "Stage": "Meeting",
-    "Next Action": "Follow up \u2014 Series A deck sent to Erik + Jenn June 2. Mentioned Sprouts live, AEG/Disney/Live Nation nearing launch, Marriott 90-day timeline.",
+    "Next Action": "Follow up on June 5 meeting (Jenn + Erik). Confirm next steps \u2014 pro-rata intent and intro opportunities.",
     "Notes": "Ongoing | Existing investor | Pro-rata committed | Send deck, confirm pro-rata",
     "Contact": "William Hsu (Co-Founder)",
     "Email": "info@muckercapital.com",
@@ -47,9 +47,8 @@
     "AUM": "$200M",
     "Why Dyrt Fit": "LA early-stage SaaS; already in CRM but key for local relationship building",
     "Source": "Expansion",
-    "Last Contact": "Wed, 9 Oct",
-    "Check Target": "\u2014",
-    "Last_Contact": "2026-06-02"
+    "Last Contact": "2026-06-05",
+    "Check Target": "\u2014"
   },
   {
     "Firm": "Noro-Moseley Partners \u2014 INBOUND LEAD TARGET",
@@ -61,8 +60,7 @@
     "Notes": "2026-02-02 | Inbound inquiry | Proactively reached out | Schedule Series A pitch",
     "Contact": "Vasant Kamath",
     "Email": "vkamath@noro-moseley.com",
-    "Last Contact": "Mon, 2 Feb",
-    "Last_Contact": "2026-02-02"
+    "Last Contact": "2026-02-02"
   },
   {
     "Firm": "Regeneration VC",
@@ -72,7 +70,7 @@
     "Pitch Angle": "Keep it short. Lead with \"the constraint you mentioned is gone.\" |  | > \"Dan \u2014 quick note. Following up on our earlier conversations about Dyrt. We're now doing a priced Series A ($20M, $40M pre-money), w",
     "Next Action": "Follow up \u2014 deck + valuation context sent June 3 ($35M-$80M range). Dan at regeneration.vc. Previously couldn't do uncapped SAFE; priced A solves it.",
     "Notes": "Prior | Intro/Pass | Couldn't do uncapped notes | Re-engage with priced A",
-    "Last_Contact": "2026-06-03"
+    "Last Contact": "2026-06-03"
   },
   {
     "Firm": "Closed Loop Partners",
@@ -353,7 +351,7 @@
     "Stage": "Pass",
     "Next Action": "Pass \u2014 monitor revenue growth, re-engage at $3M+ ARR",
     "Notes": "May 27: Jason Frankel \u2014 \"We're believers in what you're building but it's early for us on the revenue side.\" Soft pass. Had multiple meetings Mar-May 2026. Hannah Yerex intro'd Jason Frankel (waste mgmt partner).",
-    "Last_Contact": "2026-05-27"
+    "Last Contact": "2026-05-27"
   },
   {
     "Firm": "Okapi",
@@ -627,16 +625,17 @@
     "Firm": "Supply Change Capital",
     "Section": "Expansion",
     "Priority": "1",
-    "Stage": "Backlog",
-    "Contact": "Shayna Harris / Noramay Cadena",
-    "Email": "hello@supplychange.capital",
+    "Stage": "Meeting",
+    "Contact": "Rachel",
+    "Email": "rachel@supplychange.fund",
     "HQ": "Los Angeles, CA",
     "AUM": "$50M",
     "Type": "Food Supply Chain VC",
     "Pitch Angle": "LA-based, mission-aligned. Circular economy through food waste diversion. SaaS platform for the supply chain layer that makes composting economically viable at scale.",
-    "Next Action": "**Email: hello@supplychange.capital. Find warm intro through LA food/climate ecosystem.**  ---",
+    "Next Action": "MEETING June 10 at 9:30am \u2014 Rachel at Supply Change Capital. LA-based, circular economy + food supply chain thesis. K\u20132M check.",
     "Why Dyrt Fit": "LA-based; circular economy + food waste = Dyrt's exact thesis",
-    "Source": "Expansion"
+    "Source": "Expansion",
+    "Last Contact": "2026-06-07"
   },
   {
     "Firm": "Existing Investors \u2014 Cap Table Summary",
@@ -670,13 +669,12 @@
     "Firm": "Redwoods Climate Capital",
     "Contact": "Justin Ashton",
     "Email": "justin@redwoodsclimatecapital.com",
-    "Last Contact": "Wed, 9 Oct",
+    "Last Contact": "2026-05-28",
     "Notes": "Series A SAFE closed. $157,800 total: $25K Ecotone (prior) + $132,800 wire received May 28 2026. WSGR-managed. Justin is board member; next board meeting June 29.",
     "Section": "Existing Investors",
     "Stage": "Closed",
     "Check Target": "Lead \u2013 Seed + Bridge SPV",
-    "Priority": "3",
-    "Last_Contact": "2026-05-28"
+    "Priority": "3"
   },
   {
     "Firm": "Robrady",
@@ -7790,14 +7788,13 @@
     "Warm/Cold": "Warm",
     "Source": "Existing relationship",
     "Email": "Doug@uncommonvc.com",
-    "Last Contact": "2026-04-15",
+    "Last Contact": "2026-05-27",
     "Next Action": "UNREAD: Reply to Doug's May 27 email \u2014 address Q1 revenue dip ($720K run rate vs $1M EOY 2025). Explain ramp, Sprouts scale-up timing.",
     "Next Action Date": "2026-05-16",
     "Notes": "Climate/impact focus. Met in Q1. Interested in waste-tech.",
     "Type": "VC",
     "Priority": "3",
-    "Section": "Backlog",
-    "Last_Contact": "2026-05-27"
+    "Section": "Backlog"
   },
   {
     "Firm": "Lincoln Capital",
@@ -9047,11 +9044,10 @@
     "Why Dyrt Fit": "Santa Fe-based, NMFA-backed, sustainability-focused -- DIRECT Dyrt mission match",
     "Source": "Expansion",
     "Stage": "Backlog",
-    "Last Contact": "Wed, 8 Oct",
+    "Last Contact": "2026-06-03",
     "Notes": "Jan 9, 2026 meeting notes: Gaby confirmed potential investment from their NM fund or a family office. Main fund has no reserves to follow on. NM funds prefer $5\u201310M checks. Follow up on Monday post internal discussions. | VC contact at Dangerous. Offered to make an intro to a work associate (undisclosed) who is also an LP in their fund.",
     "Priority": "3",
     "Section": "Backlog",
-    "Last_Contact": "2026-06-03",
     "Next Action": "CALL TOMORROW June 4 at 4:30pm \u2014 Gaby + Ward. Discuss NM trip + NM funds. Ward intro'd Rep. Nathan Small (interested in meeting). Ward will coordinate EDD, NM MEP meetings."
   },
   {
@@ -11347,12 +11343,11 @@
     "Firm": "SA Recycling",
     "Contact": "Terry Adams (10575 HQ)",
     "Email": "tadams@sarecycling.com",
-    "Last Contact": "Wed, 7 Jan",
+    "Last Contact": "2026-06-03",
     "Notes": "President SA Recycling. Board advisor (75k equity shares). Cove Fund notes: 'Terry typically writes a $100k to $500k check' and 'is most interested in investing.' Intro'd via Justin Ashton Jan 8 2026. Advisory equity in progress.",
     "Stage": "Backlog",
     "Priority": "3",
     "Section": "Backlog",
-    "Last_Contact": "2026-06-03",
     "Next Action": "Call June 4 at 10:30am \u2014 Terry confirmed OK with deck reference. He has sent outreach to WM and Republic on Dyrt's behalf."
   },
   {
@@ -14031,10 +14026,10 @@
     "Contact": "Olivia Katcher",
     "Email": "olivia@sonarcapital.com",
     "Priority": "3",
-    "Last_Contact": "2026-05-31",
     "Notes": "Had meeting March 24. Lee re-engaged May 26. Olivia replied May 31: \"Unfortunately the round is just [not a fit].\" Soft pass.",
     "Next Action": "Pass",
-    "Source": "Inbound"
+    "Source": "Inbound",
+    "Last Contact": "2026-05-31"
   },
   {
     "Firm": "Waldo Capital",
@@ -14046,10 +14041,10 @@
     "AUM": "225",
     "HQ": "New York, NY",
     "Type": "Venture Capital",
-    "Last_Contact": "2026-05-26",
     "Notes": "Inbound March 2026. $225M fund, early-growth stage. Lee re-engaged May 26 with deck. No reply yet.",
     "Next Action": "Follow up \u2014 deck sent May 26, no reply",
-    "Source": "Inbound"
+    "Source": "Inbound",
+    "Last Contact": "2026-05-26"
   },
   {
     "Firm": "Avenue Growth Partners",
@@ -14060,10 +14055,10 @@
     "Priority": "2",
     "HQ": "Washington DC / LA",
     "Type": "Venture Capital",
-    "Last_Contact": "2026-05-26",
     "Notes": "Inbound March 2026. Had initial call. Lee re-engaged May 26 with deck. No reply yet.",
     "Next Action": "Follow up \u2014 deck sent May 26, no reply",
-    "Source": "Inbound"
+    "Source": "Inbound",
+    "Last Contact": "2026-05-26"
   },
   {
     "Firm": "Abode Money",
@@ -14073,11 +14068,11 @@
     "Email": "tyler@abodemoney.com",
     "Priority": "2",
     "HQ": "Austin, TX",
-    "Last_Contact": "2026-05-28",
     "Notes": "Ethan Austin (Outside VC) intro May 22. Tyler available 1-4pm CT on Fridays. Has not yet scheduled call.",
     "Next Action": "Schedule call with Tyler \u2014 he's available 1-4pm CT. Ethan Austin intro.",
     "Source": "Ethan Austin / Outside VC intro",
-    "Why Dyrt Fit": "LP in Outside VC (Ethan Austin). LA/climate-adjacent."
+    "Why Dyrt Fit": "LP in Outside VC (Ethan Austin). LA/climate-adjacent.",
+    "Last Contact": "2026-05-28"
   },
   {
     "Firm": "SRQ Ventures",
@@ -14088,9 +14083,9 @@
     "Priority": "2",
     "HQ": "Sarasota, FL",
     "Type": "Venture Capital",
-    "Last_Contact": "2026-05-27",
     "Notes": "Via ROBRADY design group (Rob Brady). Replied to Series A deck May 27 \u2014 in Barcelona keynoting healthcare congress. Expressed interest.",
     "Next Action": "Re-engage Michael \u2014 said \"Congratulations on Series A kickoff. Nice way to start with Disney.\" Schedule intro call.",
-    "Source": "Rob Brady / ROBRADY"
+    "Source": "Rob Brady / ROBRADY",
+    "Last Contact": "2026-05-27"
   }
 ]
