@@ -17,10 +17,10 @@
 - Met Alok at same NM ecosystem event as UP.Partners
 
 ## Current Status
-Met in person at NM event. Warm relationship. Need to follow up with formal materials.
+Recurring 1:1 cadence confirmed on calendar ("Alok / Lee," standing weekly slot through at least 2026-07-28) — this has moved past the single NM-event meetup into an ongoing relationship. Confirm current substance/ask on the next call since no notes have been logged since the initial event.
 
 ## Next Action
-**Schedule call with Alok. Reference NM event meeting. Send NM facility brief.**
+**Use the standing call to get a concrete read: check size interest, timeline, and what they need to move toward a term sheet.**
 
 Email: alok@tagrowth.com
 Template: [nm-angle-outreach.md](../../outreach/email-templates/nm-angle-outreach.md)
@@ -32,3 +32,4 @@ Template: [nm-angle-outreach.md](../../outreach/email-templates/nm-angle-outreac
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
 | 2026-03-02 | NM Event | Met in person | Schedule follow-up call |
+| 2026-07-28 | Call (recurring) | Standing "Alok / Lee" 1:1 — no detailed notes logged yet | Log substance from next call |

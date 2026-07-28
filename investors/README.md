@@ -1,6 +1,6 @@
 # Master Investor Tracker
 
-**Last updated: 2026-05-24**
+**Last updated: 2026-07-27**
 
 ## Pipeline Stages
 `Backlog` → `Outreach` → `Intro` → `Meeting` → `Diligence` → `Term Sheet` → `Closed` | `Pass`
@@ -38,6 +38,8 @@
 | 1 | Erik Rannala | [Mucker Capital](investors/active-diligence/mucker-capital.md) | erik@muckercapital.com | $250–500K | No | Meeting | Send Series A deck | Existing investor. Pro-rata for life. |
 | 1 | Luke Kurtz | [Elysian Park Ventures](investors/active-diligence/elysian-park.md) | luke@elysianpark.ventures | $1–3M | Maybe | Meeting | Follow up | PGA/sports venue connections. |
 | 1 | Caroline Barry | [Closed Loop Partners](investors/active-diligence/closed-loop-partners.md) | cbarry@closedlooppartners.com | $1–5M | **YES** | Outreach | **SEND DECK + NM ANGLE** | TOP FIT. Composting Consortium. |
+| 1 | Ethan Kulkin | [Insight Partners](investors/followon/insight-partners.md) | aarditi@insightpartners.com | $5–10M | Maybe | Meeting | Re-engage with Series A update | $12.5B fund, 2 meetings (Jul 2025, May 2026). In-house 140-person GTM/scaling team. |
+| 1 | Jordan Clancy | [ABO Ventures](investors/active-diligence/abo-ventures.md) | jordan@abo-ventures.com | $500K | No | Diligence | Send IC two-pager materials | NM family office, moving to IC. Floated bridge participation. |
 
 ---
 
@@ -64,6 +66,14 @@
 
 ---
 
+## Connectors ⚪
+
+| Name | Firm/Role | Contact | Intros Made | Next Action |
+|------|-----------|---------|--------------|-------------|
+| [Ben Padnos](investors/tier1-leads/ben-padnos.md) | Unconfirmed — recurring 1:1, personal booking domain (thinkfish.co) | ben@thinkfish.co | Virta Ventures (Russell), Harrison Clay | Confirm firm affiliation; check status on both intros |
+
+---
+
 ## NM Track 🟢
 
 | Pri | Name | Firm | Email | Check | NMSIC $ | Next Action |
@@ -78,6 +88,7 @@
 | 2 | — | [Tramway Ventures](investors/nm-investors/tramway-ventures.md) | tramwayventures.com | $500K–3M | $20M | Cold outreach — ABQ-based |
 | 2 | Mark Suster | [Upfront Ventures](investors/nm-investors/upfront-ventures.md) | mss@upfront.com | $2–10M | $50M | Email — on Mailchimp, LA-based |
 | 2 | — | [DCVC Climate](investors/nm-investors/dcvc-climate.md) | matt@dcvc.com | $5–20M | $100M | Email Matt — on Mailchimp |
+| 2 | Mark | [NM Vintage Fund](investors/nm-investors/nm-vintage-fund.md) | mark@nmvintagefund.com | Unconfirmed | Unconfirmed | Follow up 1:1 — thesis/check size unconfirmed. Sourced via ABO Ventures joint call. |
 
 ---
 
@@ -115,6 +126,8 @@
 | 3 | Mairi Robertson | Ezra Climate | mairi.robertson@ezraclimate.com | $1–3M | Outreach | Re-engage — May 2024 |
 | 3 | Hanif | Mission Driven Finance | hanif@missiondrivenfinance.com | debt | Outreach | Explore debt for NM facility |
 | 3 | Shaun | Elemental Excelerator | shaun@elementalexcelerator.com | grant | Outreach | Climate accelerator / project finance |
+| 2 | Russell | [Virta Ventures](investors/followon/virta-ventures.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — capital-light climate fund |
+| 3 | — | [Harrison Clay](investors/followon/harrison-clay.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — wealthy individual |
 | 2 | — | [Endeavor Catalyst](investors/pitchbook/endeavor-catalyst.md) | — | $1–5M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |
 | 2 | — | [NGP Capital](investors/pitchbook/ngp-capital.md) | — | $2–10M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |
 | 2 | — | [Govo Venture Partners](investors/pitchbook/govo-venture-partners.md) | — | $250K–1M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |

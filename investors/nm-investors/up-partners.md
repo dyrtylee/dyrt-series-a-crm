@@ -13,6 +13,10 @@
 
 ## Firm Overview
 - NMSIC committed **$80M** to UP.Ventures II + UP.Abundance I + UP.Labs I (November 2024)
+- Per David (2026-07-01): **$20M from NM SIC + ~$26M more raised last year** on the NM vehicle
+- **Check size: up to $1M**, with **follow-on** capacity — **co-invests around larger leads** (not a lead itself)
+- **16 investments** to date; thesis is add value + **unlock New Mexico**
+- David Ellmann runs the **climate** focus
 - Co-organized NM-focused VC event — extremely warm relationship
 - UP.Abundance = impact/sustainability arm with NM mandate
 
@@ -25,10 +29,10 @@ Lead with the relationship first, then NM facility credentials.
 > "Great to be connected since the Unlocking Abundance event. Following up with the Series A — we've finalized the NM facility model and confirmed $12M in state incentives. Given UP.Abundance's NM mandate, this seems like a natural fit."
 
 ## Next Action
-**Schedule call with David Ellmann. CC Brian Adams (badams@up.partners).**
+**Send deck + NM facility one-pager to David; sequence UP as NM co-investor once a lead check is anchored.**
 
 Email: david.ellmann@up.partners
-Template: [nm-angle-outreach.md](../../outreach/email-templates/nm-angle-outreach.md) — Template C
+Meeting note: [2026-07-01 — David Ellmann](../../meeting-notes/2026-07-01-up-partners-david-ellmann.md)
 
 ---
 
@@ -37,3 +41,4 @@ Template: [nm-angle-outreach.md](../../outreach/email-templates/nm-angle-outreac
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
 | 2026-03-02 | NM Event | Co-organized event | Follow up with Series A details |
+| 2026-07-01 | Call | David (climate). $20M SIC + $26M last yr; ≤$1M checks + follow-on; co-invests around leads; 16 investments; unlock-NM thesis | Send deck + NM one-pager; loop in once lead anchored |

@@ -16,6 +16,7 @@
 - [Regeneration VC](investors/active-diligence/regeneration-vc.md)
 - [Mucker Capital](investors/active-diligence/mucker-capital.md)
 - [Elysian Park Ventures](investors/active-diligence/elysian-park.md)
+- [ABO Ventures](investors/active-diligence/abo-ventures.md)
 
 - *Tier 1 Leads*
 - [Ecosystem Integrity Fund ★](investors/tier1-leads/ecosystem-integrity-fund.md)
@@ -27,6 +28,7 @@
 - [Pulse Fund ★](investors/tier1-leads/pulse-fund.md)
 - [Fifth Wall](investors/tier1-leads/fifth-wall.md)
 - [Valor VC](investors/tier1-leads/valor-vc.md)
+- [Ben Padnos (connector)](investors/tier1-leads/ben-padnos.md)
 
 - *NM Track*
 - [UP.Partners](investors/nm-investors/up-partners.md)
@@ -39,6 +41,7 @@
 - [Tramway Ventures](investors/nm-investors/tramway-ventures.md)
 - [Upfront Ventures](investors/nm-investors/upfront-ventures.md)
 - [DCVC Climate](investors/nm-investors/dcvc-climate.md)
+- [NM Vintage Fund](investors/nm-investors/nm-vintage-fund.md)
 
 - *Follow-on Pool*
 - [Spero Ventures](investors/followon/spero-ventures.md)
@@ -54,6 +57,9 @@
 - [SOSV](investors/followon/sosv.md)
 - [RevHubOC](investors/followon/revhub-oc.md)
 - [Cerulean Ventures](investors/followon/cerulean-ventures.md)
+- [Insight Partners](investors/followon/insight-partners.md)
+- [Virta Ventures](investors/followon/virta-ventures.md)
+- [Harrison Clay](investors/followon/harrison-clay.md)
 
 - *Cap Table*
 - [Existing Investors](investors/existing/cap-table.md)
@@ -71,7 +77,7 @@
 - [Overture VC 🔴](investors/expansion/overture-vc.md)
 
 - *PitchBook Prospects*
-- [Full PitchBook Index ★](investors/pitchbook/README.md)
+- [Full PitchBook List ★](investors/pitchbook/list.html)
 - [Tech Square Ventures](investors/pitchbook/tech-square-ventures.md)
 - [Capria Ventures](investors/pitchbook/capria-ventures.md)
 - [Capricorn Investment Group](investors/pitchbook/capricorn-investment-group.md)

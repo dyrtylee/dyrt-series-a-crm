@@ -65,3 +65,13 @@ NM family office (jordan@abo-ventures.com), intro'd by Gaby Darbyshire at Danger
 
 ## Internal Notes
 NM family office connection ties into the broader NM strategy. Bridge round participation is the near-term opportunity — clarify bridge structure before next touch.
+
+---
+
+## Update — 2026-07-24
+
+**Format**: Call — "Abo <> Dyrt" (calendar), joint with NM Vintage Fund (mark@nmvintagefund.com)
+
+Jordan brought in a second NM-based fund contact (NM Vintage Fund) on this call — treat as a parallel NM lead rather than folding into ABO's own IC process. See [NM Vintage Fund](../nm-investors/nm-vintage-fund.md) for the new contact.
+
+**Next Step**: Confirm what ABO's IC needs for the two-pager (per 2026-06-29 note) and separately track NM Vintage Fund's own interest/check size.

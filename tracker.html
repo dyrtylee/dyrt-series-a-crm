@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♻️</text></svg>">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
     :root {
       --green:        #1a9e8a;
@@ -124,10 +125,10 @@
                color: #fff; }
 
     /* ── Stage badge ── */
-    .stage-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px;
-                   font-weight: 700; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+    .stage-badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px;
+                   font-weight: 700; letter-spacing: .03em; text-transform: uppercase; cursor: pointer;
                    border: 1px solid transparent; white-space: nowrap; transition: opacity .1s; }
-    .stage-badge:hover { opacity: .8; }
+    .stage-badge:hover { opacity: .75; }
     .stage-select { font-size: 12px; padding: 2px 6px; border: 1px solid var(--green);
                     border-radius: 4px; outline: none; background: #fff; cursor: pointer; }
 
@@ -234,19 +235,23 @@
     <input type="search" id="search" placeholder="Search investors, contacts, notes…" oninput="onSearch(this.value)">
     <select class="hdr-select" id="filter-stage" onchange="onFilter()">
       <option value="">All Stages</option>
-      <option>Diligence</option>
-      <option>Meeting</option>
-      <option>Intro</option>
+      <option>Active Diligence</option>
+      <option>First Meeting Scheduled</option>
+      <option>First Meeting Complete</option>
+      <option>Follow Up</option>
+      <option>Warm Intro</option>
       <option>Outreach</option>
       <option>Backlog</option>
-      <option>Term Sheet</option>
+      <option>Inbound</option>
       <option>Closed</option>
-      <option>Pass</option>
+      <option>Term Sheet</option>
+      <option>Passed</option>
     </select>
     <select class="hdr-select" id="filter-section" onchange="onFilter()">
       <option value="">All Sections</option>
       <option>Active Diligence</option>
       <option>Tier 1 Leads</option>
+      <option>Warm Intro</option>
       <option>NM Track</option>
       <option>Follow-on Pool</option>
       <option>Expansion</option>
@@ -255,6 +260,8 @@
       <option>Passed</option>
     </select>
     <div class="hdr-sep"></div>
+    <button class="hdr-btn ghost" onclick="triggerPBImport()">↑ PitchBook</button>
+    <input type="file" id="pb-file-input" accept=".xlsx,.csv" style="display:none" onchange="handlePBFile(this)">
     <button class="hdr-btn" onclick="openAddInv()">+ Add Investor</button>
     <button class="hdr-btn ghost" onclick="openSettings()">⚙</button>
   </div>
@@ -312,7 +319,9 @@
       <div class="field"><label>Stage</label>
         <select id="ai-stage">
           <option>Backlog</option><option selected>Outreach</option>
-          <option>Intro</option><option>Meeting</option><option>Diligence</option>
+          <option>Warm Intro</option><option>Follow Up</option>
+          <option>First Meeting Scheduled</option><option>Active Diligence</option>
+          <option>Closed</option><option>Passed</option>
         </select>
       </div>
     </div>
@@ -349,6 +358,19 @@
   </div>
 </div>
 
+<!-- PitchBook Import Modal -->
+<div id="pb-modal" class="overlay" onclick="if(event.target===this)closeModal('pb-modal')">
+  <div class="modal" style="width:480px">
+    <div class="modal-title">PitchBook Import</div>
+    <div id="pb-status" style="font-size:13px;color:var(--text-muted);margin-bottom:14px;min-height:40px"></div>
+    <div id="pb-preview" style="max-height:240px;overflow-y:auto;font-size:12px;display:none"></div>
+    <div class="modal-footer">
+      <button class="btn ghost" onclick="closeModal('pb-modal')">Cancel</button>
+      <button class="btn" id="pb-confirm-btn" style="display:none" onclick="confirmPBImport()">Import</button>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── Config ────────────────────────────────────────────────────────────────────
 const PASSCODE   = 'dyrt2026';
@@ -371,24 +393,41 @@ const COLL_KEY  = 'dyrt_collapsed_v1';
 let COLLAPSED;  // Set of collapsed section names
 
 const SECTION_ORDER = [
-  'Active Diligence','Tier 1 Leads','NM Track','Follow-on Pool',
+  'Active Diligence','Tier 1 Leads','Warm Intro','NM Track','Follow-on Pool',
   'Expansion','Existing Investors','Backlog','Passed'
 ];
 const STAGE_COLORS = {
-  'Diligence':  { bg:'#fef3c7', fg:'#92400e', bd:'#fcd34d' },
-  'Term Sheet': { bg:'#d1fae5', fg:'#065f46', bd:'#6ee7b7' },
-  'Closed':     { bg:'#a7f3d0', fg:'#065f46', bd:'#34d399' },
-  'Meeting':    { bg:'#dbeafe', fg:'#1e40af', bd:'#93c5fd' },
-  'Intro':      { bg:'#e0e7ff', fg:'#3730a3', bd:'#a5b4fc' },
-  'Outreach':   { bg:'#e0f2fe', fg:'#075985', bd:'#7dd3fc' },
-  'Pass':       { bg:'#fee2e2', fg:'#991b1b', bd:'#fca5a5' },
-  'Backlog':    { bg:'#f3f4f6', fg:'#6b7280', bd:'#d1d5db' },
+  // Active pipeline stages
+  'Active Diligence':         { bg:'#fef3c7', fg:'#92400e', bd:'#fcd34d' },
+  'First Meeting Scheduled':  { bg:'#dbeafe', fg:'#1e40af', bd:'#93c5fd' },
+  'First Meeting Complete':   { bg:'#c7d2fe', fg:'#3730a3', bd:'#818cf8' },
+  'Follow Up':                { bg:'#ffedd5', fg:'#9a3412', bd:'#fdba74' },
+  'Warm Intro':               { bg:'#e0e7ff', fg:'#3730a3', bd:'#a5b4fc' },
+  'Warm Intro Pending':       { bg:'#ede9fe', fg:'#5b21b6', bd:'#c4b5fd' },
+  'Outreach':                 { bg:'#e0f2fe', fg:'#075985', bd:'#7dd3fc' },
+  'Inbound':                  { bg:'#d1fae5', fg:'#065f46', bd:'#6ee7b7' },
+  // Terminal stages
+  'Closed':                   { bg:'#a7f3d0', fg:'#065f46', bd:'#34d399' },
+  'Term Sheet':               { bg:'#bbf7d0', fg:'#14532d', bd:'#4ade80' },
+  'Passed':                   { bg:'#fee2e2', fg:'#991b1b', bd:'#fca5a5' },
+  // Legacy/alternate names
+  'Diligence':                { bg:'#fef3c7', fg:'#92400e', bd:'#fcd34d' },
+  'Meeting':                  { bg:'#dbeafe', fg:'#1e40af', bd:'#93c5fd' },
+  'Intro':                    { bg:'#e0e7ff', fg:'#3730a3', bd:'#a5b4fc' },
+  'Warm':                     { bg:'#e0e7ff', fg:'#3730a3', bd:'#a5b4fc' },
+  'Pass':                     { bg:'#fee2e2', fg:'#991b1b', bd:'#fca5a5' },
+  'Backlog':                  { bg:'#f3f4f6', fg:'#6b7280', bd:'#d1d5db' },
 };
 const SECTION_BG = {
-  'Active Diligence':  '#1a3a4a', 'Tier 1 Leads': '#1a4a3a',
-  'NM Track':          '#2d4a1a', 'Follow-on Pool':'#3a3a4a',
-  'Expansion':         '#4a3a1a', 'Existing Investors':'#1a4a2a',
-  'Backlog':           '#4a4a4a', 'Passed':         '#5a1a1a',
+  'Active Diligence':   '#0f4c3a',
+  'Tier 1 Leads':       '#0f3a4c',
+  'NM Track':           '#2d4a1a',
+  'Follow-on Pool':     '#1e3a5f',
+  'Expansion':          '#2d3a52',
+  'Warm Intro':         '#3a2d52',
+  'Existing Investors': '#1a3a2a',
+  'Backlog':            '#2d3748',
+  'Passed':             '#4a1a1a',
 };
 const PRI_COLOR = ['','#ef4444','#f59e0b','#9ca3af'];
 
@@ -530,8 +569,10 @@ function render() {
     if (recs.length === 0 && !isFiltering) return;
     const collapsed = COLLAPSED.has(sec) && !isFiltering;
     const bg = SECTION_BG[sec] || '#4a4a4a';
-    if (['Active Diligence','Tier 1 Leads','NM Track','Follow-on Pool'].includes(sec))
-      totalActive += recs.filter(r => ['Diligence','Meeting','Intro','Outreach'].includes(r.Stage)).length;
+    const ACTIVE_STAGES = new Set(['Active Diligence','First Meeting Scheduled','First Meeting Complete',
+      'Follow Up','Warm Intro','Warm Intro Pending','Warm','Outreach','Inbound','Diligence','Meeting','Intro']);
+    if (['Active Diligence','Tier 1 Leads','Warm Intro','NM Track','Follow-on Pool'].includes(sec))
+      totalActive += recs.filter(r => ACTIVE_STAGES.has(r.Stage)).length;
 
     html += `<div class="sec" id="sec-${sec.replace(/\s+/g,'-')}">`;
     html += `<div class="sec-hdr" style="background:${bg}" onclick="toggleSec('${esc(sec)}')">`;
@@ -561,6 +602,7 @@ function renderTable(sec, recs) {
   h += '<th style="width:22%">Firm</th>';
   h += '<th style="width:14%">Contact</th>';
   h += '<th style="width:16%">Email</th>';
+  h += '<th style="width:34px;text-align:center" title="Emailed">✉</th>';
   h += '<th style="width:8%">Check</th>';
   if (showLead) h += '<th style="width:6%">Lead?</th>';
   h += '<th>Next Action</th>';
@@ -586,7 +628,8 @@ function renderRow(r, showLead) {
   const pri    = parseInt(r.Priority) || 3;
   const action = cleanText(r['Next Action'] || '');
   const lastc  = r['Last Contact'] || '';
-  const cols   = showLead ? 9 : 8;
+  const cols   = showLead ? 10 : 9;
+  const emailed = r.Emailed === true;
 
   let h = `<tr class="inv-row${isExpd?' is-expanded':''}" data-key="${esc(key)}" onclick="toggleExpand('${esc(key)}')">`;
   h += `<td><span class="pri-dot" style="background:${PRI_COLOR[pri]||'#9ca3af'}">${pri}</span></td>`;
@@ -596,6 +639,7 @@ function renderRow(r, showLead) {
   h += `</td>`;
   h += `<td>${esc(r.Contact||'—')}</td>`;
   h += `<td>${r.Email ? `<a href="mailto:${esc(r.Email)}" onclick="event.stopPropagation()">${esc(r.Email)}</a>` : '—'}</td>`;
+  h += `<td style="text-align:center" onclick="event.stopPropagation()"><input type="checkbox" ${emailed?'checked':''} title="${emailed?'Emailed':'Not yet emailed'}" onchange="toggleEmailed('${esc(key)}',this.checked)"></td>`;
   h += `<td>${esc(r['Check Target']||'—')}</td>`;
   if (showLead) h += `<td>${esc(r['Lead?']||'—')}</td>`;
   h += `<td onclick="event.stopPropagation()">`;
@@ -662,17 +706,24 @@ function renderStats(activeCount) {
   });
   const days = Math.ceil((CLOSE_DATE - new Date()) / 86400000);
 
+  const diligence = (byStage['Active Diligence']||0) + (byStage['Diligence']||0);
+  const meetings  = (byStage['First Meeting Scheduled']||0) + (byStage['First Meeting Complete']||0) + (byStage['Meeting']||0);
+  const followUp  = byStage['Follow Up']||0;
+  const warmIntro = (byStage['Warm Intro']||0) + (byStage['Warm Intro Pending']||0) + (byStage['Warm']||0);
+  const closed    = byStage['Closed']||0;
+
   let h = '';
   h += stat(days + 'd', 'To Close', days < 30 ? 'red' : days < 60 ? 'amber' : '');
   h += `<div class="stat-sep"></div>`;
   h += stat(ALL.length, 'Total Firms');
-  h += stat(activeCount, 'Active Pipeline', 'blue');
+  h += stat(diligence + meetings + followUp + warmIntro, 'Active Pipeline', 'blue');
   h += `<div class="stat-sep"></div>`;
-  h += stat(byStage['Diligence']||0, 'Diligence', 'amber');
-  h += stat(byStage['Meeting']||0,   'Meeting',   'blue');
-  h += stat(byStage['Outreach']||0,  'Outreach');
+  h += stat(diligence,  'Diligence', 'amber');
+  h += stat(meetings,   'Meetings',  'blue');
+  h += stat(followUp,   'Follow Up');
+  h += stat(warmIntro,  'Warm Intro');
   h += `<div class="stat-sep"></div>`;
-  h += stat(byStage['Closed']||0,    'Closed',    'green');
+  h += stat(closed, 'Closed', 'green');
   document.getElementById('stats').innerHTML = h;
 }
 function stat(n, label, cls='') {
@@ -692,6 +743,10 @@ function loadMore() {
   render();
 }
 
+function toggleEmailed(key, checked) {
+  setOverride(key, 'Emailed', checked);
+}
+
 function toggleExpand(key) {
   if (EXPD.has(key)) EXPD.delete(key);
   else EXPD.add(key);
@@ -703,7 +758,7 @@ function toggleExpand(key) {
   const r = getRecord(inv);
   const sec = r.Section || 'Backlog';
   const showLead = ['Active Diligence','Tier 1 Leads'].includes(sec);
-  const cols = showLead ? 9 : 8;
+  const cols = showLead ? 10 : 9;
 
   // Remove existing detail row if present
   const next = row.nextElementSibling;
@@ -719,7 +774,7 @@ function toggleExpand(key) {
 
 // Stage badge → inline select
 function openStageEdit(el, key) {
-  const stages = ['Backlog','Outreach','Intro','Meeting','Diligence','Term Sheet','Closed','Pass'];
+  const stages = ['Backlog','Outreach','Warm Intro','Follow Up','First Meeting Scheduled','First Meeting Complete','Active Diligence','Term Sheet','Closed','Passed','Inbound'];
   const cur = el.textContent.trim();
   const sel = document.createElement('select');
   sel.className = 'stage-select';
@@ -803,7 +858,7 @@ function saveNote() {
       const r = getRecord(inv);
       const sec = r.Section || 'Backlog';
       const showLead = ['Active Diligence','Tier 1 Leads'].includes(sec);
-      const cols = showLead ? 9 : 8;
+      const cols = showLead ? 10 : 9;
       detailRow.outerHTML = renderDetail(r, _noteKey, cols);
     }
   }
@@ -968,6 +1023,155 @@ function invMdPath(inv) {
   if (!folder) return null;
   const slug = (inv.Folder || inv.Firm.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''));
   return `investors/${folder}/${slug}.md`;
+}
+
+// ── PitchBook Import ──────────────────────────────────────────────────────────
+let PB_PENDING = [];
+
+function triggerPBImport() {
+  document.getElementById('pb-file-input').value = '';
+  document.getElementById('pb-file-input').click();
+}
+
+function normFirmName(s) {
+  return String(s||'').toLowerCase()
+    .replace(/\b(ventures?|capital|vc|partners?|investments?|group|fund|inc|llc|ltd|the|corp)\b/g,'')
+    .replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,' ').trim();
+}
+
+function handlePBFile(input) {
+  const file = input.files[0]; if (!file) return;
+  document.getElementById('pb-status').textContent = 'Reading file…';
+  document.getElementById('pb-preview').style.display = 'none';
+  document.getElementById('pb-confirm-btn').style.display = 'none';
+  document.getElementById('pb-modal').classList.add('open');
+
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const wb = XLSX.read(e.target.result, {type:'array'});
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      const raw = XLSX.utils.sheet_to_json(ws, {header:1});
+
+      // Find header row (contains "Investors" or "Investor")
+      let hdrIdx = -1;
+      for (let i = 0; i < Math.min(raw.length, 15); i++) {
+        const row = raw[i].map(c => String(c||'').toLowerCase());
+        if (row.some(c => c.includes('investor'))) { hdrIdx = i; break; }
+      }
+      if (hdrIdx === -1) { document.getElementById('pb-status').textContent = '⚠ Could not find header row. Is this a PitchBook export?'; return; }
+
+      const headers = raw[hdrIdx].map(c => String(c||'').trim());
+      const col = name => headers.findIndex(h => h.toLowerCase().includes(name.toLowerCase()));
+      const iInvestor = col('Investors');
+      const iContact  = col('Primary Contact');
+      const iEmail    = col('Primary Contact Email');
+      const iAum      = col('AUM');
+      const iType     = col('Primary Investor Type');
+      const iHQ       = col('HQ Location');
+      const iDesc     = col('Description');
+
+      // Build set of existing firm norms
+      const existingNorms = new Set(ALL.map(r => normFirmName(r.Firm || r.HQ || '')));
+
+      // US state pattern
+      const usStates = /,\s*(CA|NY|TX|MA|CO|WA|FL|GA|IL|NC|VA|DC|OR|UT|OH|MN|AZ|NV|NJ|CT|TN|MI|WI|IN|PA|MD|LA|MO|KS|NE|ID|MT|ND|SD|OK|AR|MS|AL|SC|KY|WV|DE|NH|RI|VT|ME|HI|AK|NM)\b/;
+      const skipTypes = new Set(['Angel (individual)','Corporation','Real Estate','Hedge Fund','VC-Backed Company','PE-Backed Company','Investment Bank']);
+
+      const newRows = [];
+      for (let i = hdrIdx + 1; i < raw.length; i++) {
+        const row = raw[i];
+        const firm = String(row[iInvestor]||'').trim();
+        if (!firm || firm === 'undefined') continue;
+        const hq   = String(row[iHQ]||'');
+        const type = String(row[iType]||'');
+        if (!usStates.test(hq) && !hq.includes('United States')) continue;
+        if (skipTypes.has(type)) continue;
+        const n = normFirmName(firm);
+        if (!n) continue;
+        // Dedup check
+        let found = existingNorms.has(n);
+        if (!found) {
+          for (const en of existingNorms) {
+            if (en.length > 3 && (n.includes(en) || en.includes(n))) { found = true; break; }
+          }
+        }
+        if (found) continue;
+        const aum = row[iAum];
+        newRows.push({
+          Firm: firm,
+          Contact: String(row[iContact]||'').trim(),
+          Email: String(row[iEmail]||'').trim(),
+          Stage: 'Outreach',
+          Source: 'PitchBook Import',
+          'Last Contact': '',
+          Notes: String(row[iDesc]||'').trim().slice(0,300),
+          AUM: aum ? '$' + Math.round(Number(aum)) + 'M' : '',
+          HQ: hq,
+          'Fund Stage': type,
+        });
+        existingNorms.add(n);
+      }
+
+      PB_PENDING = newRows;
+
+      if (newRows.length === 0) {
+        document.getElementById('pb-status').textContent = '✓ All firms in this file are already in your CRM. Nothing new to import.';
+        return;
+      }
+
+      document.getElementById('pb-status').innerHTML =
+        `Found <strong>${newRows.length} net-new investors</strong> not in your CRM. Preview:`;
+
+      const preview = document.getElementById('pb-preview');
+      preview.style.display = 'block';
+      preview.innerHTML = newRows.slice(0, 50).map(r =>
+        `<div style="padding:4px 0;border-bottom:1px solid var(--border)">
+           <strong>${r.Firm}</strong>
+           <span style="color:var(--text-muted);margin-left:8px">${r['Fund Stage']||''}</span>
+           <span style="color:var(--text-faint);margin-left:8px">${r.HQ}</span>
+         </div>`
+      ).join('') + (newRows.length > 50 ? `<div style="padding:6px 0;color:var(--text-muted)">…and ${newRows.length-50} more</div>` : '');
+
+      document.getElementById('pb-confirm-btn').style.display = '';
+      document.getElementById('pb-confirm-btn').textContent = `Import ${newRows.length} investors`;
+    } catch(err) {
+      document.getElementById('pb-status').textContent = '⚠ Error reading file: ' + err.message;
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+async function confirmPBImport() {
+  const btn = document.getElementById('pb-confirm-btn');
+  btn.disabled = true;
+  btn.textContent = 'Saving…';
+
+  // Add to ALL in memory
+  PB_PENDING.forEach(inv => ALL.push(inv));
+
+  // Save to data.json via GitHub if PAT available
+  const tok = getTok();
+  if (tok) {
+    try {
+      const d = await ghGet(tok, 'investors/data.json');
+      await ghPut(tok, 'investors/data.json', JSON.stringify(ALL, null, 2), d.sha,
+        `PitchBook import: +${PB_PENDING.length} investors`);
+      document.getElementById('pb-status').innerHTML =
+        `✓ Imported ${PB_PENDING.length} investors and synced to GitHub.`;
+    } catch(e) {
+      document.getElementById('pb-status').innerHTML =
+        `✓ Added ${PB_PENDING.length} investors to view. <span style="color:#e53e3e">GitHub sync failed — save data.json manually.</span>`;
+    }
+  } else {
+    document.getElementById('pb-status').innerHTML =
+      `✓ Added ${PB_PENDING.length} investors to this session. Set a GitHub PAT in ⚙ Settings to persist changes.`;
+  }
+
+  document.getElementById('pb-preview').style.display = 'none';
+  btn.style.display = 'none';
+  PB_PENDING = [];
+  render();
 }
 
 // ── Start ─────────────────────────────────────────────────────────────────────
