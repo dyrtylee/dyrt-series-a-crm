@@ -29,6 +29,8 @@
 | Wonder | — | — | Hardware objection. |
 | [Bandera Capital](bandera-capital.md) | Gabriel Reyna | gabriel@bandera.capital | Passed on the Series A (confirmed by Lee 2026-07-27; specific email not located in search — was in active IC process through Jun 2026). |
 | [Noro-Moseley Partners](noro-moseley.md) | Vasant Kamath | vkamath@noro-moseley.com | Passed (confirmed by Lee 2026-07-27; specific email not located in search — was the #1 inbound lead, last contact 2026-06-08). |
+| [UP.Partners / UP.Abundance](up-partners.md) | David Ellmann | david.ellmann@up.partners | Passed by email 2026-07-06 — "too many question marks around the path to being a multibillion dollar outcome." Left door open for next round. |
+| [JMI Equity](jmi-equity.md) | Alex Giummo | agiummo@jmi.com | Passed by email 2026-06-23 — capital-intensity/infrastructure objection. |
 
 ---
 

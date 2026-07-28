@@ -11,7 +11,8 @@
 - **Source**: Inbound — they proactively reached out to Dyrt in Jan 2026
 
 ## Pass Details
-- **Reason**: Passed. Per Lee (2026-07-27) — confirmed pass. Note: a thorough search of Gmail (multiple queries, full thread reads on all `vkamath@noro-moseley.com` correspondence through 2026-07-27) did not turn up the specific pass email — the last located contact is Vasant's "Lee / Vasant catch up" Zoom invite on 2026-06-08, with no reply or follow-up found since. If you have a date or the email came via another channel (call/text), flag it so this can be sourced precisely.
+- **Reason**: Per Lee (2026-07-27) — described as a clear pass / "sit this round out." Note: a second, more exhaustive search (domain-wide `noro-moseley.com`, phrase searches for "stand down," "sit this round out," "sit this one out") still did not turn up this specific email from Vasant — the last located contact is his "Lee / Vasant catch up" Zoom invite on 2026-06-08, nothing after.
+- **Possible mix-up worth checking**: This same search *did* turn up a clear, confirmed pass from **David Ellmann at UP.Partners** (2026-07-06 — "too many question marks around the path to being a multibillion dollar outcome"), a similarly NM-adjacent growth-stage relationship. UP.Partners has been moved to Passed based on that email — see [up-partners.md](up-partners.md). Worth double-checking whether that's the email being remembered as "Noro-Moseley," since no Noro-Moseley pass could be located despite the extra pass.
 - **Re-engage?**: Unclear — no stated objection on record. This was previously the #1 inbound lead (growth equity, $5–20M check, could anchor the round), so worth confirming the reason before writing it off entirely.
 
 ## Prior History (for context)

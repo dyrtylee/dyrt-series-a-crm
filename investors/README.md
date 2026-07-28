@@ -76,7 +76,6 @@
 
 | Pri | Name | Firm | Email | Check | NMSIC $ | Next Action |
 |-----|------|------|-------|-------|---------|-------------|
-| 1 | David Ellmann | [UP.Partners](investors/nm-investors/up-partners.md) | david.ellmann@up.partners | $2–5M | $80M | Follow up — co-organized NM event |
 | 1 | Shuo | [Lowercarbon NM Fund](investors/nm-investors/lowercarbon-nm.md) | shuo@lowercarboncapital.com | $5–15M | $150M | Email with NM carbon math |
 | 1 | — | [J2 / Tierra Adentro](investors/nm-investors/j2-tierra-adentro.md) | j2vp.com | $2–10M | $100M | Get Ward Hendon intro |
 | 1 | — | [8VC / Build NM](investors/nm-investors/8vc-build-nm.md) | 8vc.com | $2–10M | $100M | Ward Hendon intro |
@@ -249,6 +248,8 @@
 | Lightspeed | Out of scope |
 | Bandera Capital | Passed on Series A (confirmed by Lee 2026-07-27) — was in active IC process through Jun 2026 |
 | Noro-Moseley Partners | Passed (confirmed by Lee 2026-07-27) — was #1 inbound lead, growth equity, $5-20M check |
+| UP.Partners / UP.Abundance | Passed by email 2026-07-06 (David Ellmann) — "too many question marks around the path to being a multibillion dollar outcome." Left door open for next round. |
+| JMI Equity | Passed by email 2026-06-23 (Alex Giummo) — capital-intensity/infrastructure objection, not a market fit issue. |
 
 ---
 

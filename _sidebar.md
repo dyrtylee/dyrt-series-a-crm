@@ -29,7 +29,6 @@
 - [Ben Padnos (connector)](investors/tier1-leads/ben-padnos.md)
 
 - *NM Track*
-- [UP.Partners](investors/nm-investors/up-partners.md)
 - [Lowercarbon NM Fund ★](investors/nm-investors/lowercarbon-nm.md)
 - [J2 / Tierra Adentro](investors/nm-investors/j2-tierra-adentro.md)
 - [8VC / Build NM](investors/nm-investors/8vc-build-nm.md)
@@ -64,6 +63,8 @@
 - [Passed Investors](investors/passed/passed-investors.md)
 - [Bandera Capital (Passed)](investors/passed/bandera-capital.md)
 - [Noro-Moseley Partners (Passed)](investors/passed/noro-moseley.md)
+- [UP.Partners (Passed)](investors/passed/up-partners.md)
+- [JMI Equity (Passed)](investors/passed/jmi-equity.md)
 
 - *Expansion — Top Picks*
 - [Generate Capital 🔴](investors/expansion/generate-capital.md)

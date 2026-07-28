@@ -11,7 +11,7 @@
 - **Source**: Direct relationship
 
 ## Pass Details
-- **Reason**: Passed on the Series A. Per Lee (2026-07-27) — confirmed pass. Note: a thorough search of Gmail (multiple queries, full thread reads on all `gabriel@bandera.capital` correspondence through 2026-07-27) did not turn up the specific pass email — the last located exchange is Lee proposing times on 2026-06-05 with no reply since. If you have a date or the email is on another channel (call/text), flag it so this can be sourced precisely.
+- **Reason**: Per Lee (2026-07-27) — Bandera stated they didn't have time to dig into it. Note: a second, more exhaustive search of Gmail (domain-wide search on `bandera.capital` with no date restriction, plus targeted phrase searches) still did not turn up this specific email — the last located exchange in the mailbox is Lee proposing call times on 2026-06-05, with nothing from Bandera after that. If the pass came by phone/text, or from a different email address, flag it and it can be re-sourced.
 - **Re-engage?**: Unclear — no hardware/space objection on record, so worth a soft re-engage once there's fresh traction to report.
 
 ## Prior History (for context)
