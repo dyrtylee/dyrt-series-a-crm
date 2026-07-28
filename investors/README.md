@@ -246,8 +246,8 @@
 | Boost VC / Relay / TenOneTen | Too much hardware |
 | Third Sphere | Not interested in space |
 | Lightspeed | Out of scope |
-| Bandera Capital | Passed on Series A (confirmed by Lee 2026-07-27) — was in active IC process through Jun 2026 |
-| Noro-Moseley Partners | Passed (confirmed by Lee 2026-07-27) — was #1 inbound lead, growth equity, $5-20M check |
+| Bandera Capital | Passed by email 2026-06-18 — capacity/bandwidth, committed to other deals in play |
+| Noro-Moseley Partners | Passed by email 2026-06-23 — too capital-intensive/infrastructure-heavy for their thesis |
 | UP.Partners / UP.Abundance | Passed by email 2026-07-06 (David Ellmann) — "too many question marks around the path to being a multibillion dollar outcome." Left door open for next round. |
 | JMI Equity | Passed by email 2026-06-23 (Alex Giummo) — capital-intensity/infrastructure objection, not a market fit issue. |
 

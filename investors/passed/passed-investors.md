@@ -27,8 +27,8 @@
 | Serra Ventures | — | — | Too capital intensive. |
 | Switch | — | — | Too much hardware. |
 | Wonder | — | — | Hardware objection. |
-| [Bandera Capital](bandera-capital.md) | Gabriel Reyna | gabriel@bandera.capital | Passed on the Series A (confirmed by Lee 2026-07-27; specific email not located in search — was in active IC process through Jun 2026). |
-| [Noro-Moseley Partners](noro-moseley.md) | Vasant Kamath | vkamath@noro-moseley.com | Passed (confirmed by Lee 2026-07-27; specific email not located in search — was the #1 inbound lead, last contact 2026-06-08). |
+| [Bandera Capital](bandera-capital.md) | Gabriel Reyna | gabriel@bandera.capital | Passed by email 2026-06-18 — "pass on this due to capacity... don't have the bandwidth this time." Asked to stay on the update list. |
+| [Noro-Moseley Partners](noro-moseley.md) | Vasant Kamath | vkamath@noro-moseley.com | Passed by email 2026-06-23 — "too far afield for us" given the capital-intensive build-out; complimentary about the business otherwise. |
 | [UP.Partners / UP.Abundance](up-partners.md) | David Ellmann | david.ellmann@up.partners | Passed by email 2026-07-06 — "too many question marks around the path to being a multibillion dollar outcome." Left door open for next round. |
 | [JMI Equity](jmi-equity.md) | Alex Giummo | agiummo@jmi.com | Passed by email 2026-06-23 — capital-intensity/infrastructure objection. |
 

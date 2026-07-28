@@ -11,14 +11,20 @@
 - **Source**: Direct relationship
 
 ## Pass Details
-- **Reason**: Per Lee (2026-07-27) — Bandera stated they didn't have time to dig into it. Note: a second, more exhaustive search of Gmail (domain-wide search on `bandera.capital` with no date restriction, plus targeted phrase searches) still did not turn up this specific email — the last located exchange in the mailbox is Lee proposing call times on 2026-06-05, with nothing from Bandera after that. If the pass came by phone/text, or from a different email address, flag it and it can be re-sourced.
-- **Re-engage?**: Unclear — no hardware/space objection on record, so worth a soft re-engage once there's fresh traction to report.
+- **Reason (confirmed by email, 2026-06-18)**: Gabriel Reyna: *"We are going to pass on this due to capacity, we are committed to several deals already in play and don't have the bandwidth this time. Good luck on the raise and please keep me on the update list."*
+- **Re-engage?**: Capacity/bandwidth reason, not a fit objection — asked to stay on the update list. Worth a light re-touch once some of Bandera's other deals clear.
+
+## Timeline
+- 2026-06-04: Call scheduled
+- 2026-06-09: Lee sent Financial Model, Sprouts Case Study, and industry infographic
+- 2026-06-18 (3:42am): Lee followed up
+- 2026-06-18 (10:26am): **Passed** — capacity/bandwidth, committed to other deals in play
+- 2026-06-18 (8:14pm): Lee replied graciously, wished them luck
 
 ## Prior History (for context)
 - VC / growth, check size $500K–1M (smaller check, good co-investor)
 - Gabriel had been in deal conversations across multiple rounds (SAFE terms reviewed Nov 2024, meetings through Jan/Mar/Jun 2026)
-- Was last described as "in internal investment committee process," reviewing financials, SAFE terms, and the data room
-- Feb 2025: Bandera cited being mid-raise on their own new fund and paused new investments until their first close — did not fully drop off after that, re-engaged through 2026
+- Feb 2025: Bandera cited being mid-raise on their own new fund and paused new investments until their first close — re-engaged afterward, so this pattern of "no bandwidth" recurs with this contact
 
 ---
 
@@ -28,4 +34,5 @@
 |------|------|-----------|-----------|
 | 2026-02-20 | Diligence | SAFE terms, financials | In IC process |
 | Multiple | Meetings | Financials, data room, through Jun 2026 | — |
-| 2026-06-05 | Call proposed | Lee proposed times; no reply found in search | Passed — per Lee 2026-07-27 |
+| 2026-06-09 | Email | Sent financial model, Sprouts case study, industry infographic | Await feedback |
+| 2026-06-18 | Email | **Passed** — capacity/bandwidth, committed to other deals in play. Asked to stay on the update list. | Closed out; re-engage lightly later |

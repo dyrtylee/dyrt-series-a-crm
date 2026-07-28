@@ -11,15 +11,21 @@
 - **Source**: Inbound — they proactively reached out to Dyrt in Jan 2026
 
 ## Pass Details
-- **Reason**: Per Lee (2026-07-27) — described as a clear pass / "sit this round out." Note: a second, more exhaustive search (domain-wide `noro-moseley.com`, phrase searches for "stand down," "sit this round out," "sit this one out") still did not turn up this specific email from Vasant — the last located contact is his "Lee / Vasant catch up" Zoom invite on 2026-06-08, nothing after.
-- **Possible mix-up worth checking**: This same search *did* turn up a clear, confirmed pass from **David Ellmann at UP.Partners** (2026-07-06 — "too many question marks around the path to being a multibillion dollar outcome"), a similarly NM-adjacent growth-stage relationship. UP.Partners has been moved to Passed based on that email — see [up-partners.md](up-partners.md). Worth double-checking whether that's the email being remembered as "Noro-Moseley," since no Noro-Moseley pass could be located despite the extra pass.
-- **Re-engage?**: Unclear — no stated objection on record. This was previously the #1 inbound lead (growth equity, $5–20M check, could anchor the round), so worth confirming the reason before writing it off entirely.
+- **Reason (confirmed by email, 2026-06-23)**: Vasant Kamath: *"I think this opportunity is going to be tough, given the building of sites and plants as a result of this round. It totally makes sense for you given the strategy, but it's too far afield for us. I like this idea a lot, good luck with the round and the business!"*
+- **Re-engage?**: Capital-intensity/infrastructure-build objection (same pattern as JMI Equity and UP.Partners), not a market or team objection — he was complimentary about the business. Low near-term priority but a genuinely warm relationship if the story shifts (e.g., SaaS-only framing, or after the NM facility is built and de-risked).
+
+## Timeline
+- 2026-01-23: Vasant reached out cold, introducing himself and Noro-Moseley
+- 2026-02-02: First call
+- 2026-06-08/09: Reconnected, sent market-size materials
+- 2026-06-17/22: Lee followed up twice checking on internal team discussion
+- 2026-06-23: **Passed** — too capital-intensive/infrastructure-heavy for their thesis
+- 2026-07-23: Lee replied graciously, closing the loop
 
 ## Prior History (for context)
 - Growth equity firm, $1B+ invested, 200+ companies, Fund IX active
 - Check size $5–20M — could have anchored the round alone
 - Sweet spot: B2B companies $2–10M ARR
-- Multiple calls Jan–Jun 2026 (Jan 23, Jan 29, Feb 2 x2, Jun 8)
 
 ---
 
@@ -29,4 +35,5 @@
 |------|------|-----------|-----------|
 | 2026-01-23 | Inbound inquiry | Vasant introduced himself and NMP | Follow up |
 | 2026-02-02 | Call | Scheduled catch-up | — |
-| 2026-06-08 | Call invite | "Lee / Vasant catch up" Zoom sent | Passed — per Lee 2026-07-27 |
+| 2026-06-08/09 | Email/Call | Reconnected, sent market-size materials | Await internal team discussion |
+| 2026-06-23 | Email | **Passed** — too capital-intensive/infrastructure-heavy ("too far afield for us"), complimentary about the business otherwise | Closed out |
