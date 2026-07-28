@@ -27,6 +27,8 @@
 | Serra Ventures | — | — | Too capital intensive. |
 | Switch | — | — | Too much hardware. |
 | Wonder | — | — | Hardware objection. |
+| [Bandera Capital](bandera-capital.md) | Gabriel Reyna | gabriel@bandera.capital | Passed on the Series A (confirmed by Lee 2026-07-27; specific email not located in search — was in active IC process through Jun 2026). |
+| [Noro-Moseley Partners](noro-moseley.md) | Vasant Kamath | vkamath@noro-moseley.com | Passed (confirmed by Lee 2026-07-27; specific email not located in search — was the #1 inbound lead, last contact 2026-06-08). |
 
 ---
 

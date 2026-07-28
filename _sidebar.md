@@ -10,9 +10,7 @@
 
 - *Active Diligence*
 - [Closed Loop Partners ★](investors/active-diligence/closed-loop-partners.md)
-- [Noro-Moseley Partners ★](investors/active-diligence/noro-moseley.md)
 - [Alpha Edison](investors/active-diligence/alpha-edison.md)
-- [Bandera Capital](investors/active-diligence/bandera-capital.md)
 - [Regeneration VC](investors/active-diligence/regeneration-vc.md)
 - [Mucker Capital](investors/active-diligence/mucker-capital.md)
 - [Elysian Park Ventures](investors/active-diligence/elysian-park.md)
@@ -64,6 +62,8 @@
 - *Cap Table*
 - [Existing Investors](investors/existing/cap-table.md)
 - [Passed Investors](investors/passed/passed-investors.md)
+- [Bandera Capital (Passed)](investors/passed/bandera-capital.md)
+- [Noro-Moseley Partners (Passed)](investors/passed/noro-moseley.md)
 
 - *Expansion — Top Picks*
 - [Generate Capital 🔴](investors/expansion/generate-capital.md)

@@ -32,10 +32,8 @@
 | Pri | Name | Firm | Email | Check | Lead? | Stage | Next Action | Notes |
 |-----|------|------|-------|-------|-------|-------|-------------|-------|
 | 1 | Sam Bogen | [Alpha Edison](investors/active-diligence/alpha-edison.md) | sam@alphaedison.com | $2–5M | Maybe | Diligence | Follow up — close to decision | Deep fin model review. No NDA policy. |
-| 1 | Gabriel Reyna | [Bandera Capital](investors/active-diligence/bandera-capital.md) | gabriel@bandera.capital | $500K–1M | Maybe | Diligence | Re-engage — IC process | Multiple meetings. In IC. |
-| 1 | Vasant Kamath | [Noro-Moseley Partners](investors/active-diligence/noro-moseley.md) | vkamath@noro-moseley.com | $5–20M | Maybe | Meeting | **URGENT: Schedule pitch** | INBOUND. Growth equity. $5–20M checks. |
 | 1 | Dan Fishman | [Regeneration VC](investors/active-diligence/regeneration-vc.md) | dan@regeneration.vc | $1–2M | Maybe | Outreach | Re-engage — priced round ready | Can't do uncapped. Priced A solves it. |
-| 1 | Erik Rannala | [Mucker Capital](investors/active-diligence/mucker-capital.md) | erik@muckercapital.com | $250–500K | No | Meeting | Send Series A deck | Existing investor. Pro-rata for life. |
+| 1 | Jenn Kranz Guillen | [Mucker Capital](investors/active-diligence/mucker-capital.md) | jenn@muckercapital.com | $250–500K | No | Meeting | **Send updated deck — waiting on it** | Existing investor. Pro-rata for life. Jenn is main day-to-day contact (Erik co-founder). |
 | 1 | Luke Kurtz | [Elysian Park Ventures](investors/active-diligence/elysian-park.md) | luke@elysianpark.ventures | $1–3M | Maybe | Meeting | Follow up | PGA/sports venue connections. |
 | 1 | Caroline Barry | [Closed Loop Partners](investors/active-diligence/closed-loop-partners.md) | cbarry@closedlooppartners.com | $1–5M | **YES** | Outreach | **SEND DECK + NM ANGLE** | TOP FIT. Composting Consortium. |
 | 1 | Ethan Kulkin | [Insight Partners](investors/followon/insight-partners.md) | aarditi@insightpartners.com | $5–10M | Maybe | Meeting | Re-engage with Series A update | $12.5B fund, 2 meetings (Jul 2025, May 2026). In-house 140-person GTM/scaling team. |
@@ -249,6 +247,8 @@
 | Boost VC / Relay / TenOneTen | Too much hardware |
 | Third Sphere | Not interested in space |
 | Lightspeed | Out of scope |
+| Bandera Capital | Passed on Series A (confirmed by Lee 2026-07-27) — was in active IC process through Jun 2026 |
+| Noro-Moseley Partners | Passed (confirmed by Lee 2026-07-27) — was #1 inbound lead, growth equity, $5-20M check |
 
 ---
 

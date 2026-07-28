@@ -38,7 +38,7 @@
 
 ## Key Notes
 
-- **Mucker Capital** (Erik Rannala) has pro-rata rights for life — this is the most significant existing investor obligation. Coordinate with Erik early on Series A terms.
+- **Mucker Capital** (Erik Rannala, cap table holder) has pro-rata rights for life — this is the most significant existing investor obligation. **Jenn Kranz Guillen (jenn@muckercapital.com) is the day-to-day contact for the Series A process** — she's waiting on an updated deck as of 2026-07-27. Coordinate with Erik on terms, Jenn on materials/process.
 - **Raj Yavatkar** — highest conviction angel, family connection, may want to increase position
 - **Jordan Fliegel** (Outside VC LP) — former Techstars MD, offered Pacers president intro (sports venue channel — valuable for sales, not just cap table)
 - **Terry Adams** (SA Recycling) — strategic investor, potential enterprise channel partner
@@ -49,7 +49,7 @@
 
 Send monthly updates to:
 - Justin Ashton (Redwood CC) — Board member
-- Erik Rannala (Mucker)
+- Jenn Kranz Guillen / Erik Rannala (Mucker)
 - Skiddy von Stade (Uncommon)
 - Ethan Austin (Outside VC)
 - Gaby Darbyshire (Dangerous Ventures)
