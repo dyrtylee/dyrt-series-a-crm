@@ -1,24 +1,23 @@
 # Bluestein Ventures
 
-**Status**: Outreach | **Priority**: 2 | **Section**: Pipeline
+**Status**: Passed | **Priority**: N | **Section**: Pipeline
 
-> Source: Calendar
+> Source: Calendar + Gmail research, 2026-08-14
 
 ---
 
 ## Contact
-- **Contact**: Aaditi Tamhankar
-- **Email**: aaditi@bluesteinventures.com
+- **Aaditi Tamhankar** — aaditi@bluesteinventures.com
 
 ## Firm Overview
 - **Type**: VC
 - **Check Target**: $500K–2M
 
-## Notes
-Had meeting Nov 2024. Bluestein Ventures — follow up with Series A deck.
+## Pass Details
+Real multi-year relationship, not a cold miss: Techstars intro 2023, repeated screening calls, a Nov/Dec 2024 diligence round ("very impressed with your margins"). **Passed during the current Series A, 2026-06-23**: *"Thank you for reaching out and congrats on the progress. This is not the right fit for us at this time."*
 
 ## Next Action
-Re-engage — had meeting Nov 2024
+No further action — confirmed pass, most recent (this round). Low priority to revisit.
 
 ---
 
@@ -26,4 +25,6 @@ Re-engage — had meeting Nov 2024
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2024-11-04 | — | See notes above | — |
+| 2023 | Intro | Techstars intro | — |
+| 2024-11 to 2024-12 | Diligence | Screening calls, impressed with margins | — |
+| 2026-06-23 | Email | Aaditi: "not the right fit for us at this time" | Confirmed pass |

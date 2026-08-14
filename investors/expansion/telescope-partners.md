@@ -2,23 +2,22 @@
 
 **Status**: Outreach | **Priority**: 1 | **Section**: Pipeline
 
-> Source: Calendar
+> Source: Calendar + Gmail research, 2026-08-14 — corrected contact name
 
 ---
 
 ## Contact
-- **Contact**: Claire
-- **Email**: claire@telescopepartners.com
+- **Claire Owens** — claire@telescopepartners.com (previously tracked as just "Claire")
 
 ## Firm Overview
 - **Type**: VC
 - **Check Target**: $2M–5M
 
 ## Notes
-Had meeting Feb 2026. Telescope Partners — need to research fund focus and follow up with Series A materials.
+Active across two rounds: meeting held Feb 2026, cold email re-sent June 2026. No pass found on file.
 
 ## Next Action
-Follow up — had meeting Feb 2026
+Follow up — research fund focus and send Series A materials, per the existing note.
 
 ---
 
@@ -26,4 +25,5 @@ Follow up — had meeting Feb 2026
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2026-02-25 | — | See notes above | — |
+| 2026-02-25 | Meeting | Initial meeting with Claire Owens | — |
+| 2026-06 | Email | Cold email re-sent | Awaiting reply |

@@ -153,6 +153,16 @@
 | 3 | Eddie Cardenti | [K&M Foodservice](investors/followon/km-foodservice.md) | ecardenti@kmfoodservice.com | Unconfirmed | Outreach | Asked to forward to K&M owner (unnamed) |
 | 2 | Russell | [Virta Ventures](investors/followon/virta-ventures.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — capital-light climate fund |
 | 3 | — | [Harrison Clay](investors/followon/harrison-clay.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — wealthy individual |
+| N | Aaditi Tamhankar | [Bluestein Ventures](investors/expansion/bluestein-ventures.md) | aaditi@bluesteinventures.com | $500K–2M | Passed | Passed 2026-06-23 — "not the right fit for us at this time" (multi-year relationship, Techstars-sourced) |
+| N | Bri Wang | [NewFund Capital](investors/expansion/newfund-capital.md) | bri@newfundcap.com | $500K–2M | Passed | Passed 2024-12-10 — profitability/exit-expectations concern at that raise size |
+| N | Hale Bullen | [PS27 Ventures](investors/expansion/ps27-ventures.md) | hale@ps27ventures.com | $500K–2M | Passed | IC passed 2025-02-10 — stayed active as a connector afterward |
+| N | Amy Harmon | [Innovent Capital](investors/expansion/innovent-capital.md) | amy@innoventcapital.com | $1–3M | Passed | Passed 2025-02-11 on equity + debt terms — made Sente VC intro right after |
+| 2 | Chris Bishko | [Core VC](investors/expansion/core-vc.md) | chris@corevc.com | $1–3M | Outreach | Fintech+sustainability VC; also a connector — sourced Rusheen Capital intro |
+| 2 | Ben | [EVIG Capital](investors/expansion/evig-capital.md) | ben@evigcapital.com | $1–3M | Outreach | Co-investor on Cove Fund's (untracked) Seed DD process w/ Terry Adams, Aug 2024 |
+| 1 | Daniel Kim | [Greater Sum Ventures](investors/expansion/greater-sum-ventures.md) | daniel.kim@greatersumventures.com | $1–3M | Diligence | NDA executed 2/19/26 — warm, "really impressed" |
+| 2 | Jim McDermott | [Rusheen Capital](investors/expansion/rusheen-capital.md) | jim.mcdermott@rusheen.com | $1–3M | Stalled | Sourced via Core VC; meeting never confirmed held |
+| 2 | Eric Ong | [Lightbank](investors/expansion/lightbank.md) | ong@lightbank.com | $1–3M | Outreach | Chicago-based; meeting held Jan 2025, no reply since |
+| 1 | Claire Owens | [Telescope Partners](investors/expansion/telescope-partners.md) | claire@telescopepartners.com | $2–5M | Outreach | Meeting Feb 2026, cold email re-sent June 2026 |
 | 2 | — | [Endeavor Catalyst](investors/pitchbook/endeavor-catalyst.md) | — | $1–5M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |
 | 2 | — | [NGP Capital](investors/pitchbook/ngp-capital.md) | — | $2–10M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |
 | 2 | — | [Govo Venture Partners](investors/pitchbook/govo-venture-partners.md) | — | $250K–1M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |

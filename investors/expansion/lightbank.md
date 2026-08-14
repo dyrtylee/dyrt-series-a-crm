@@ -2,23 +2,22 @@
 
 **Status**: Outreach | **Priority**: 2 | **Section**: Pipeline
 
-> Source: Calendar
+> Source: Calendar + Gmail research, 2026-08-14 — corrected contact name
 
 ---
 
 ## Contact
-- **Contact**: Ong
-- **Email**: ong@lightbank.com
+- **Eric Ong** — ong@lightbank.com (previously tracked as just "Ong")
 
 ## Firm Overview
-- **Type**: VC
+- **Type**: VC — Chicago-based
 - **Check Target**: $1M–3M
 
 ## Notes
-Had meeting Jan 2025. Lightbank — Chicago-based VC fund. Follow up.
+Meeting held Jan 2025. No reply/resolution found either way since.
 
 ## Next Action
-Re-engage — had meeting Jan 2025
+Re-engage — had meeting Jan 2025, no follow-up on file.
 
 ---
 
@@ -26,4 +25,4 @@ Re-engage — had meeting Jan 2025
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2025-01-31 | — | See notes above | — |
+| 2025-01-31 | Meeting | Initial meeting with Eric Ong | Follow up — no reply found |

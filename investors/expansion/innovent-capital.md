@@ -1,24 +1,25 @@
 # Innovent Capital
 
-**Status**: Outreach | **Priority**: 3 | **Section**: Pipeline
+**Status**: Passed | **Priority**: N | **Section**: Pipeline
 
-> Source: Calendar
+> Source: Calendar + Gmail research, 2026-08-14
 
 ---
 
 ## Contact
-- **Contact**: Amy
-- **Email**: amy@innoventcapital.com
+- **Amy Harmon** — amy@innoventcapital.com
 
 ## Firm Overview
 - **Type**: VC
 - **Check Target**: $1M–3M
 
-## Notes
-Made intro to Serhat @ Sente VC in Feb 2025. Maintain relationship as intro conduit. Had earlier meeting Jan 2025.
+## Pass Details (confirmed by email, 2025-02-11)
+Amy Harmon: *"I sent all over to our Principal and we are a pass for now on the round and terms of debt. I am very excited by what you are building and I would like to stay close to developments."*
+
+Her intro to Serhat @ Sente VC (Feb 2025, already tracked) happened right after this pass — she's stayed an active connector/relationship despite passing on investment.
 
 ## Next Action
-Re-engage — made intro to Sente VC, Feb 2025
+No investment re-engagement — confirmed pass on both equity and debt terms. Maintain relationship as intro conduit (see Sente VC intro).
 
 ---
 
@@ -26,4 +27,6 @@ Re-engage — made intro to Sente VC, Feb 2025
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2025-02-03 | — | See notes above | — |
+| 2025-02-03 | Meeting | Initial meeting | — |
+| 2025-02-11 | Email | Amy: pass on round + debt terms, stayed warm | — |
+| 2025-02 | Intro | Made intro to Serhat @ Sente VC | Maintain as connector |

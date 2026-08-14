@@ -1,24 +1,23 @@
 # Rusheen Capital
 
-**Status**: Outreach | **Priority**: 2 | **Section**: Pipeline
+**Status**: Stalled | **Priority**: 2 | **Section**: Pipeline
 
-> Source: Calendar
+> Source: Calendar + Gmail research, 2026-08-14 — sourced via Chris Bishko (Core VC) intro
 
 ---
 
 ## Contact
-- **Contact**: Jim McDermott
-- **Email**: jim.mcdermott@rusheen.com
+- **Jim McDermott** — jim.mcdermott@rusheen.com
 
 ## Firm Overview
 - **Type**: VC
 - **Check Target**: $1M–3M
 
 ## Notes
-Had meeting Feb 2025. Rusheen Capital — follow up with Series A deck.
+Meeting was scheduled via **Chris Bishko's (Core VC) intro**, but Jim declined the first proposed slot (2026-02-03) and the reschedule thread went cold — **never confirmed as actually held.** Not a pass, just stalled.
 
 ## Next Action
-Re-engage — had meeting Feb 2025
+Confirm with Lee whether this meeting ever happened through another channel; if not, worth one fresh follow-up referencing the original Core VC intro.
 
 ---
 
@@ -26,4 +25,5 @@ Re-engage — had meeting Feb 2025
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2025-02-04 | — | See notes above | — |
+| — | Intro | Sourced via Chris Bishko (Core VC) | — |
+| 2026-02-03 | Scheduling | Jim declined proposed slot, reschedule thread went cold | Confirm whether meeting ever happened |
