@@ -16,8 +16,11 @@
 ## Notes
 **Bigger context than the file previously showed (per research, 2026-08-14)**: Ben was cc'd as a co-investor on **Cove Fund's** (JC Ruffalo) Seed-round due diligence process — Cove Fund's LPs voted to move to DD in July 2024 with a kickoff call **2024-08-05**. **Terry Adams (SA Recycling, already an existing investor) was also cc'd on this thread.** Cove Fund itself was not previously tracked anywhere in the CRM — this reads like a real, serious Seed-round process that wasn't captured. No pass found; no resolution found either way.
 
+## Resolution (per Lee, 2026-08-14)
+**"Cove offered a term sheet and I accepted a different term sheet."** Lee went with Redwoods Climate Capital's term sheet instead — see [Cove Fund](../passed/cove-fund.md) for the full resolved history.
+
 ## Next Action
-Follow up with Ben on where this landed. Separately, consider adding **Cove Fund (JC Ruffalo)** as its own tracked entity given the LP-voted DD process — ask Lee whether Cove Fund ended up investing, passing, or going cold.
+Closed out — no further action needed on the Cove Fund thread itself. Could still follow up with Ben (EVIG Capital) directly if there's a separate, standalone EVIG relationship worth maintaining.
 
 ---
 

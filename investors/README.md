@@ -158,7 +158,7 @@
 | N | Hale Bullen | [PS27 Ventures](investors/expansion/ps27-ventures.md) | hale@ps27ventures.com | $500K–2M | Passed | IC passed 2025-02-10 — stayed active as a connector afterward |
 | N | Amy Harmon | [Innovent Capital](investors/expansion/innovent-capital.md) | amy@innoventcapital.com | $1–3M | Passed | Passed 2025-02-11 on equity + debt terms — made Sente VC intro right after |
 | 2 | Chris Bishko | [Core VC](investors/expansion/core-vc.md) | chris@corevc.com | $1–3M | Outreach | Fintech+sustainability VC; also a connector — sourced Rusheen Capital intro |
-| 2 | Ben | [EVIG Capital](investors/expansion/evig-capital.md) | ben@evigcapital.com | $1–3M | Outreach | Co-investor on Cove Fund's (untracked) Seed DD process w/ Terry Adams, Aug 2024 |
+| N | Ben | [EVIG Capital](investors/expansion/evig-capital.md) | ben@evigcapital.com | $1–3M | Closed | Resolved — was on Cove Fund's Seed DD; Cove offered a term sheet, Lee accepted Redwoods' instead |
 | 1 | Daniel Kim | [Greater Sum Ventures](investors/expansion/greater-sum-ventures.md) | daniel.kim@greatersumventures.com | $1–3M | Diligence | NDA executed 2/19/26 — warm, "really impressed" |
 | 2 | Jim McDermott | [Rusheen Capital](investors/expansion/rusheen-capital.md) | jim.mcdermott@rusheen.com | $1–3M | Stalled | Sourced via Core VC; meeting never confirmed held |
 | 2 | Eric Ong | [Lightbank](investors/expansion/lightbank.md) | ong@lightbank.com | $1–3M | Outreach | Chicago-based; meeting held Jan 2025, no reply since |
