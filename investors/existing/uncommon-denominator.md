@@ -11,9 +11,9 @@
 - **Doug Perlson** — partner at Uncommon, has become the most active/critical voice on the round as of 2026-08-11 — see below.
 
 ## Firm Overview
-- **Type**: Series Seed
-- **Investment**: $500,000
-- **Equity %**: 4.32%
+- **Type**: Series Seed + Bridge SAFE
+- **Investment**: **$586,324.87 total** (per Carta cap table export, 2026-08-13) — $499,999.87 Series Seed + $86,325 bridge SAFE (issued 2026-02-06)
+- **Equity %**: 4.97%
 - **Interest in A?**: Likely
 
 ## Notes
@@ -32,7 +32,7 @@ Active investor/partner. Tried to broker Costco intro via Tony James. Helped wit
 - **All NMSIC/NM funds have now formally declined to lead** (follow-on only) — the NM lead-track strategy is effectively dead.
 - 1,087 cold emails sent, 27 meetings held, 3 follow-on commits, **still no lead investor** as of 8/11 — one day before the original 8/14 Series A close target.
 
-**Update (per Lee): Uncommon has committed $200,000 — conditional on other investors also participating.** This is a matching-style commitment, not unconditional cash in hand.
+**Update (per Lee): Uncommon has committed $200,000 — conditional on other investors also participating.** This is a matching-style commitment, not unconditional cash in hand — separate from and additional to the $586,324.87 already invested per Carta above.
 
 **Target for this tranche: $1M total from all investors** (per Lee, 2026-08-13). Confirmed breakdown (per Lee, 2026-08-13): **$200K from other (existing) investors + $200K from Uncommon (conditional) = $400K committed of the $1M target, $600K remaining to fill.**
 

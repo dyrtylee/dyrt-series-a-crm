@@ -249,15 +249,24 @@
 
 ## Existing Investors ✅
 
+*Reconciled against Carta cap table export, 2026-08-13 — see [cap-table.md](investors/existing/cap-table.md) for the full reconciliation, corrections, and open identity questions. Figures below supersede prior Google Sheet/email-sourced amounts where they conflict.*
+
 | Name | Firm | Email | Investment | Interest in A? |
 |------|------|-------|-----------|----------------|
-| Justin Ashton | Redwood Climate Capital | justin@redwoodsclimatecapital.com | $25K SAFE | **Yes — Board member** |
-| Erik Rannala | Mucker Capital | erik@muckercapital.com | $500K + pro-rata | **Yes — taking pro-rata** |
-| Skiddy von Stade | Uncommon Denominator | Skiddy@uncommonvc.com | $500K Seed | Likely |
-| Ethan Austin | Outside VC | ethan@outsideventurecapital.com | $200K Seed | Yes |
-| Gaby Darbyshire | Dangerous Ventures | gaby@dangerous.co | $75K Seed | Yes — pro-rata |
-| Terry Adams | SA Recycling | tadams@sarecycling.com | $150K Bridge | Unknown |
-| Raj Yavatkar | Angel | ryavatkar@gmail.com | $200K Bridge | Yes — high conviction |
+| Justin Ashton | Redwood Climate Capital | justin@redwoodsclimatecapital.com | **$1,282,799.70** (largest position — was $157,800/$25K in prior tracking) | **Yes — Board member** |
+| Erik Rannala | Mucker Capital | erik@muckercapital.com | **$1,180,890.62** (was $500K + undefined pro-rata) | **Yes — taking pro-rata** |
+| Skiddy von Stade / Doug Perlson | Uncommon Denominator | Skiddy@uncommonvc.com | **$586,324.87** (was $500K) | Likely |
+| Ed Paik | Lincolnshire LLC | edpaik@gmail.com | **$586,324.87** — newly surfaced, no prior CRM record | Unknown |
+| Robrady, Inc. | — | — | **$560,000** — newly surfaced, no prior CRM record | Unknown |
+| — | The SoCal Catalyst Fund 1 LP | — | **$299,999.81** — newly surfaced, no prior CRM record | Unknown |
+| Ethan Austin | Outside VC (two vehicles) | ethan@outsideventurecapital.com | **$267,499.51** ($199,999.51 Seed + $67,500 bridge via separate DY-0225 vehicle) | Yes |
+| Bryan Caster | Angel | bryan.caster@sbcglobal.net | **$225,000** | Unknown |
+| Gaby Darbyshire | Dangerous Ventures (two vehicles) | gaby@dangerous.co | **$164,963.32** (was $75K) | Yes — pro-rata |
+| Terry & Leslie Adams (Trust) | SA Recycling (Terry Adams, personal trust) | tadams@sarecycling.com | $150K Bridge (confirmed) | Unknown |
+| Mike (Proponent Advisors) | Ecotone Growth Ventures, LLC | mike@proponentadvisors.com | **$124,999.97** — newly surfaced, no prior CRM record | Unknown |
+| Rajiv Choudhary ("Rajiv Uncle") | Angel | pdxrajiv@gmail.com | $200K Bridge (was tracked as "Raj Yavatkar"/ryavatkar@gmail.com — identity corrected, see cap-table.md) | Yes — high conviction |
+| Milind Khare | Angel (individual) | milind@mkhare.com | **$50,000** (was $200K — corrected; the $200K Seed position is a separate family entity, "Milind and Layyong Khare") | Unknown |
+| Joseph (Michael) Phillips | Outside VC LP | mike.phillips.3@gmail.com | **$24,999.67** (was $200K — corrected, ~8x overstatement) | Maybe |
 | Stephen Wemple | Spero Ventures | stephen@spero.vc | Prior round | Yes |
 
 ---

@@ -12,7 +12,8 @@
 
 ## Firm Overview
 - **Type**: Bridge SAFE
-- **Investment**: $150,000
+- **Investment**: $150,000 (confirmed per Carta cap table export, 2026-08-13 — SAFE-28, issued 2026-03-11)
+- **Legal entity**: The Terry and Leslie Adams Irrevocable Trust — a personal/family investment vehicle, not SA Recycling the company
 - **Interest in A?**: Unknown
 
 ## Notes

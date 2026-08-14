@@ -12,14 +12,15 @@
 - **Ward Hendon** — ward@dangerous.co, primary NM-ecosystem intro source (currently OOO)
 
 ## Firm Overview
-- **Type**: VC
-- **Check Target**: $75K invested
-- **Investment**: $75,000
-- **Equity %**: 0.65%
+- **Type**: VC — two separate legal fund vehicles per Carta cap table export, 2026-08-13
+- **Investment**: **$164,963.32 combined total**
+  - **Dangerous Ventures New Mexico Fund I, LP** — $75,000 bridge SAFE (2026-03-09)
+  - **Dangerous Ventures Fund I, LP** — $89,963.32 total ($14,963.78 bridge SAFE + $74,999.54 converted Seed)
+- **Equity %**: 1.40% combined
 - **Interest in A?**: Yes — pro-rata
 
 ## Notes
-Committed investor — DV NM Fund I ($75K) + DV Fund I pro-rata ($14,963). SAFE executed. Series A pro-rata expected. Key NM VC relationship.
+Committed investor across two separate fund vehicles: DV NM Fund I ($75,000 bridge SAFE) and DV Fund I ($89,963.32 — $74,999.54 converted Seed + $14,963.78 bridge SAFE). Combined $164,963.32 per Carta, 2026-08-13 — corrects the prior combined figure which undercounted DV Fund I's converted Seed tranche. SAFEs executed. Series A pro-rata expected across both vehicles. Key NM VC relationship.
 
 ## Next Action
 Portfolio reporting + Series A allocation discussion. **2026-08-13**: Lee introduced [Terry Adams (SA Recycling)](sa-recycling.md) to the Dangerous team to discuss the recycling/downstream market in more detail. Also: Ward flagged (7/17) real urgency around runway — **"The 3-month runway has us a bit worried about your leverage in Series A fundraising conversations, so extending the runway with a bridge might be the best move right now."** Worth keeping Dangerous looped on bridge progress given they're actively worried about negotiating leverage.
