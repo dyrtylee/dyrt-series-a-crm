@@ -244,6 +244,22 @@
 | 3 | — | [Tiger Global Management](investors/pitchbook/tiger-global-management.md) | — | $5–25M | Maybe | Backlog | Cold — PitchBook [1/30] |
 | 3 | — | [Operator Stack](investors/pitchbook/operator-stack.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook [0/30] |
 | 3 | — | [Vermilion Cliffs Ventures](investors/pitchbook/vermilion-cliffs-ventures.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook [0/30] |
+| 3 | — | [Angelor](investors/pitchbook/angelor.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Ellerston Capital](investors/pitchbook/ellerston-capital.md) | — | $1–5M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Jalex Futures](investors/pitchbook/jalex-futures.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 2 | — | [Meanings Capital Partners](investors/pitchbook/meanings-capital-partners.md) | — | $1–5M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 2 | — | [X Machina Capital Strategies](investors/pitchbook/x-machina-capital-strategies.md) | — | $500K–2M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [1435 Capital Management](investors/pitchbook/1435-capital-management.md) | — | $1–5M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Alpha Founders Capital (Bangkok)](investors/pitchbook/alpha-founders-capital-bangkok.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Callais Capital Management](investors/pitchbook/callais-capital-management.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Corpeq Holding (Veenendaal)](investors/pitchbook/corpeq-holding-veenendaal.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 2 | — | [EBSCO Capital](investors/pitchbook/ebsco-capital.md) | — | $500K–2M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Four G Capital](investors/pitchbook/four-g-capital.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 2 | — | [Illusian Founder Office](investors/pitchbook/illusian-founder-office.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Kairos Capital Partners (Singapore)](investors/pitchbook/kairos-capital-partners-singapore.md) | — | $1–5M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [NLC Health Ventures](investors/pitchbook/nlc-health-ventures.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [Primordial (Accelerator/Incubator)](investors/pitchbook/primordial-accelerator-incubator.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
+| 3 | — | [The Family Office at Synovus](investors/pitchbook/family-office-at-synovus.md) | — | $250K–1M | Maybe | Backlog | Cold — PitchBook, family office list [0/30] |
 
 ---
 

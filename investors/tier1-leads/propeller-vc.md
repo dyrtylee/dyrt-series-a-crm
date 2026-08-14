@@ -11,6 +11,7 @@
 - **Steven** — steven@propellervc.com (partner)
 - Possibly **Rodrigo** (mentioned as a potential addition to meetings, not confirmed)
 - **Brian Halligan** — leads the fund per Kevin Mukai's intro note
+- **Evi Steyer** — also connected here per Lee, 2026-08-14 (she's the primary contact at [Ponderosa](../followon/ponderosa-evi.md), a soft pass earlier this round on ownership-criteria grounds) — worth clarifying whether this is a formal Propeller role or a network tie.
 
 ## Firm Overview
 - East Coast VC, ocean-focused thesis (per Kevin Mukai's original framing, 6/4). **Not a direct thesis fit for Dyrt, but per Lee (2026-08-13): "they said they can make it work."**
