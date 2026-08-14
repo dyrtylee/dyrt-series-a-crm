@@ -1,6 +1,6 @@
 # Antler U.S. — New Mexico Fund (US Criticality Fund)
 
-**Status**: Follow Up | **Priority**: 1 | **Section**: New Mexico
+**Status**: Passed | **Priority**: N | **Section**: New Mexico
 
 > Source: Warm intro via Ward Hendon (Dangerous Ventures), 2026-06-23
 
@@ -14,10 +14,12 @@
 - Check size: $250K–1M. Deep tech / critical infrastructure focus.
 
 ## Current Status
-Warm intro from Ward Hendon 6/23 ("Kelly and Lee — Please meet!"). Meeting rescheduled twice due to Kelly's conflicts, finally held **2026-07-06**. Lee sent a follow-up 7/23 ("Dyrt <> Antler Follow Up") — no reply found yet as of 7/29.
+Warm intro from Ward Hendon 6/23 ("Kelly and Lee — Please meet!"). Meeting rescheduled twice due to Kelly's conflicts, finally held **2026-07-06**. Lee sent a follow-up 7/23 ("Dyrt <> Antler Follow Up").
+
+**Pass confirmed (per email, 2026-08-04)**: Kelly LaBuff: *"We had our team conversation, and unfortunately we are not going to be able to join this round. Personally a big fan of your sector and the traction so far..."* Lee asked for specific feedback the same day (8/4) — no reply on file yet.
 
 ## Next Action
-**Follow up again on the 7/23 email — no response in 6 days.**
+No further action needed to close this out — confirmed pass. Optional: follow up once more on the specific-feedback ask from 8/4 for future-round intelligence, not urgent.
 
 ---
 
@@ -28,3 +30,4 @@ Warm intro from Ward Hendon 6/23 ("Kelly and Lee — Please meet!"). Meeting res
 | 2026-06-23 | Intro | Ward Hendon (Dangerous) intro'd Kelly LaBuff | Schedule meeting |
 | 2026-07-06 | Meeting | Held (after two reschedules) | Send follow-up |
 | 2026-07-23 | Email | Lee follow-up sent | Awaiting reply |
+| 2026-08-04 | Email | Kelly LaBuff: team passed on the round, complimentary about sector/traction. Lee asked for specific feedback same day. | Optional feedback follow-up only |

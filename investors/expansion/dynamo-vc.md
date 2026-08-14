@@ -1,6 +1,6 @@
 # Dynamo VC
 
-**Status**: Outreach | **Priority**: 2 | **Section**: Pipeline
+**Status**: Passed | **Priority**: N | **Section**: Pipeline
 
 > Source: Calendar
 
@@ -15,10 +15,15 @@
 - **Check Target**: $500K–2M
 
 ## Notes
-Had meeting Nov 2024. Dynamo VC — follow up.
+Had meeting Nov 2024.
+
+## Pass Details (confirmed by email, 2024-11-18)
+Derrek Li: *"We've since had a discussion and are opting to pass on this round. While we're impressed by your ability to hold together all of the different parts of the business, we're concerned about where the compost market ends up long term outside of the core states."*
+
+**Re-engage?**: Market-scope/geography objection (compost market's addressable size outside core states), not a team or execution concern. Worth revisiting once national expansion (NM facility, additional states) is further along and can directly counter this objection.
 
 ## Next Action
-Re-engage — had meeting Nov 2024
+No near-term action — confirmed pass. Revisit once multi-state expansion has visible proof points.
 
 ---
 
@@ -26,4 +31,5 @@ Re-engage — had meeting Nov 2024
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| 2024-11-12 | — | See notes above | — |
+| 2024-11-12 | Meeting | Initial meeting | — |
+| 2024-11-18 | Email | Derrek Li: passed, concerned about compost market size outside core states | Revisit after multi-state expansion proof points |

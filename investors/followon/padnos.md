@@ -10,7 +10,8 @@
 - **Kevin Everhart** — Kevin.Everhart@padnos.com, Chief of Staff
 
 ## Firm Overview
-- Large Michigan-based scrap/metal recycling company. CEO is Jonathan — **a cousin of [Ben Padnos](../tier1-leads/ben-padnos.md) (ThinkFISH)**, who made this intro through the family connection.
+- Large Michigan-based scrap/metal recycling company. CEO is Jonathan Padnos — **a cousin of [Ben Padnos](../tier1-leads/ben-padnos.md) (ThinkFISH)**, who made this intro through the family connection.
+- **Full intro chain (per research, 2026-08-14)**: Ben Padnos → his cousin Jonathan Padnos (CEO) → Kevin Everhart (Chief of Staff), who made the actual meeting-acceptance 2026-07-29/30.
 - Similar profile to Terry Adams / SA Recycling — a strategic industry player rather than a pure financial investor, potential channel/strategic angle alongside any check.
 
 ## Current Status

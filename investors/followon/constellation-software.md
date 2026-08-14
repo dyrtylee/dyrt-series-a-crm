@@ -12,7 +12,7 @@
 Purchase criteria noted: low churn, sub-10% YoY growth targets (i.e., they buy mature/stable businesses, not hypergrowth ones), long-term sustainable companies, minimum $3M ARR on the software side. Small internal investment team, decisions run through the CEO.
 
 ## Current Status
-Inbound email, scheduling a call. Want to stay in touch every ~6 months.
+**More substantive than a one-line "inbound" suggests (per research, 2026-08-14)**: a real ongoing M&A-interest conversation with Matt Columbia since **2026-07-15**, with Lee engaging directly on **2026-07-21** ("What are you looking to discuss?"). Still an inbound-originated, low-cadence relationship — not part of the fundraise pipeline — but worth tracking as an active thread rather than a passive one-off.
 
 ## Next Action
 **Keep warm as a long-term M&A/exit-optionality contact — not part of the Series A or bridge round pipeline. Revisit roughly every 6 months, and once ARR clears the $3M threshold this becomes more relevant.**
@@ -23,4 +23,5 @@ Inbound email, scheduling a call. Want to stay in touch every ~6 months.
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| — | Inbound | Scheduling a call | Stay in touch every 6 months |
+| 2026-07-15 | Inbound | Matt Columbia reached out, M&A-interest conversation began | Lee to respond |
+| 2026-07-21 | Email | Lee: "What are you looking to discuss?" | Awaiting reply |

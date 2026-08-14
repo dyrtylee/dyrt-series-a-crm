@@ -15,7 +15,7 @@
 - **Check Target**: $500K–1M
 
 ## Notes
-Had meeting Dec 2024. Old tracker notes say 'discussing.' Focus on infrastructure. $500K–$1M checks. Seed to Series B. Had a detailed conversation previously.
+Had a warm-intro meeting Dec 2024. Old tracker notes say 'discussing.' Focus on infrastructure. $500K–$1M checks. Seed to Series B. Had a detailed conversation previously. Marlena (Marlena Guttman) had previously invested in **CheckSammy** — a portfolio overlap worth referencing given the thesis adjacency.
 
 ## Next Action
 Re-engage — was 'discussing' in prior tracker

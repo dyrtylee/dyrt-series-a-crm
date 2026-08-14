@@ -8,7 +8,7 @@
 
 ## Contact
 - **Seth Udelson** — seth@eif.vc
-- **Prior meeting**: March 2024 (full meeting — warmer than prior tracker showed)
+- **Relationship history (per research, 2026-08-14)**: genuinely warm, multi-year relationship — meetings in **March 2024**, **December 2024**, and **June 2025** — not just a single cold-ish touchpoint. No pass or explicit Series A commitment found on file yet.
 
 ## Firm Overview
 - $600M+ AUM
@@ -42,3 +42,5 @@ Template: [warm-reintro-lead.md](../../outreach/email-templates/warm-reintro-lea
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
 | 2024-03-12 | Meeting | Full intro meeting | Re-engage for Series A |
+| 2024-12 | Meeting | Follow-up meeting | — |
+| 2025-06 | Meeting | Follow-up meeting | Re-engage with Series A update |

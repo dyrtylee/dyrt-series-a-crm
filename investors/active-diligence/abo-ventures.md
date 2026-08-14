@@ -75,3 +75,6 @@ NM family office connection ties into the broader NM strategy. Bridge round part
 Jordan brought in a second NM-based fund contact (NM Vintage Fund) on this call — treat as a parallel NM lead rather than folding into ABO's own IC process. See [NM Vintage Fund](../nm-investors/nm-vintage-fund.md) for the new contact.
 
 **Next Step**: Confirm what ABO's IC needs for the two-pager (per 2026-06-29 note) and separately track NM Vintage Fund's own interest/check size.
+
+## Update — 2026-08-14 (research)
+Since the 7/24 joint call, the follow-up meeting has been rescheduled 5+ times (personal matter, declined invite, no-shows). Lee's 2026-07-15 follow-up got no reply as of this check. Worth flagging to Lee: keep pursuing given the 4/5 conviction signal, or deprioritize given the stall?

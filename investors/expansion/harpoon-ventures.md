@@ -15,7 +15,7 @@
 - **Check Target**: $1M–3M
 
 ## Notes
-Had meeting May 2025, rescheduled at least once. Harpoon Ventures — follow up with Series A materials.
+Warm intro via Ben Padnos / Ryan Cooper (Industry Partners network). Multiple real meetings held Apr-May 2025 (rescheduled at least once), with ongoing rapport ("hope you're free next week" per the thread) — a genuinely warm relationship, not a one-off cold meeting.
 
 ## Next Action
 Re-engage — had meeting May 2025
