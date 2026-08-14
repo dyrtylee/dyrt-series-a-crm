@@ -8,7 +8,8 @@
 
 ## Contact
 - **Seth Udelson** — seth@eif.vc
-- **Relationship history (per research, 2026-08-14)**: genuinely warm, multi-year relationship — meetings in **March 2024**, **December 2024**, and **June 2025** — not just a single cold-ish touchpoint. No pass or explicit Series A commitment found on file yet.
+- **Relationship history (per research, 2026-08-14)**: genuinely warm, multi-year relationship — meetings in **March 2024**, **December 2024**, and **June 2025** — not just a single cold-ish touchpoint.
+- **Bridge round note (per Lee, 2026-08-14)**: EIF wasn't a fit for the bridge round, but **is** a fit for the Series A — this record (formerly duplicated as "EIF (prior round)" in the passed list) is the single source of truth going forward.
 
 ## Firm Overview
 - $600M+ AUM
