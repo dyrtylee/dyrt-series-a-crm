@@ -78,6 +78,7 @@
 - [Fay Wells](investors/followon/fay-wells.md)
 - [Glenn Frese](investors/followon/glenn-frese.md)
 - [Adam Block](investors/followon/adam-block.md)
+- [Mailchimp Priority List](investors/followon/mailchimp-priority-list.md)
 - [Constellation Software (Strategic)](investors/followon/constellation-software.md)
 
 - *Cap Table*

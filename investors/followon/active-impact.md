@@ -8,6 +8,7 @@
 
 ## Contact
 - **Qhalisa Khan** — qhalisak@activeimpactinvestments.com (Investment Team)
+- **Sophia Khan** — sophiak@activeimpactinvestments.com — a **different person** from Qhalisa (confirmed by Lee, 2026-08-14). **Passed on the Seed round but was very interested — worth a follow-up for the Series A.**
 - **Mike Winterfield** — Founder & Managing Partner — linkedin.com/in/mike-winterfield-827408
 - **Tom Boddez** — General Partner — linkedin.com/in/tom-boddez-5a92b933
 - HQ: North Vancouver, BC, Canada
@@ -29,7 +30,7 @@
 > "You backed Dispatch Goods, which is building circular packaging logistics for the same food service customers we serve in LA — including venues that fall under SB 1383 mandates. Dyrt is the organics diversion data platform for those same operators. We're closing a $10M Series A and thought the portfolio synergy was worth a conversation."
 
 ## Next Action
-**Re-engage Qhalisa Khan with Series A deck.** Mention Dispatch Goods overlap as the opening. Won't lead, but $1.5–2M co-invest is worth keeping warm.
+**Re-engage both Qhalisa Khan AND Sophia Khan with the Series A deck.** Sophia passed on the Seed but was very interested per Lee — a real, warm follow-up target. Mention Dispatch Goods overlap as the opening. Won't lead, but $1.5–2M co-invest is worth keeping warm.
 
 Email: qhalisak@activeimpactinvestments.com
 

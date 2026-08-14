@@ -7,6 +7,8 @@
 ---
 
 ## Duplicate-Tracking Note (important)
+
+**Confirmed by Lee, 2026-08-14**: "They are on the list but I don't think I have targeted them in a very long time." So this is the same fund, and the Mucker/Dangerous 'active' listing is aspirational, not something actually re-approached yet — haven't been actively re-targeted recently despite being on the live outreach lists.
 **This is the same fund as [Buoyant Ventures](../expansion/buoyant-ventures.md)** (Amy Francetic, info@buoyant.vc), which is currently tracked as an **active "Target Intro" candidate on the live Mucker Capital Google Sheet** and being pursued fresh for the Series A. Lee cold-emailed **laura@buoyant.vc** on 2026-06-22 for the current round (no reply yet) — same domain, and Laura Katzman also appears on the LACI Road to 2028 attendee list.
 
 This historical "Too capital intensive" pass predates the current approach and doesn't necessarily block it — different messenger (Mucker), more traction since — but Lee should know both records refer to the same firm.

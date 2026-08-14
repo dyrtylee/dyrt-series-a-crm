@@ -112,6 +112,7 @@
 
 | Pri | Name | Firm | Email | Check | Stage | Next Action |
 |-----|------|------|-------|-------|-------|-------------|
+| 1 | — | [Mailchimp Priority List](investors/followon/mailchimp-priority-list.md) | — | Unconfirmed | Outreach | 28 VCs/mentors on the Dyrty Update list, per Lee — higher priority for bridge round |
 | 1 | Stephen Wemple | [Spero Ventures](investors/followon/spero-ventures.md) | stephen@spero.vc | $500K–1M | Meeting | Send Series A materials — back from paternity leave |
 | 1 | Hannah Yerex | [Mainsail Partners](investors/followon/mainsail-partners.md) | hannah@mainsailpartners.com | $5–20M | Outreach | Re-engage — March 2026 meeting |
 | 1 | Jeff Bocan | [Okapi VC](investors/followon/okapi-vc.md) | bocan@okapivc.com | $1–3M | Outreach | Re-engage — met July 2024 |
