@@ -8,6 +8,7 @@
 
 ## Contact
 - **Stephen Wemple** — stephen@spero.vc
+- **Marc Tarpenning** — marc@spero.vc — second partner, cc'd on Sept 2024 term-sheet check-in, direct correspondence since June 2024 (per research, 2026-08-14)
 - Also: existing investor from prior round
 
 ## Firm Overview

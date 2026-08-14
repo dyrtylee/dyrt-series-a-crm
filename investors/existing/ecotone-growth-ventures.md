@@ -7,8 +7,9 @@
 ---
 
 ## Contact
-- **Contact**: Mike (Proponent Advisors)
-- **Email**: mike@proponentadvisors.com
+- **Mike Butler** (Proponent Advisors) — mike@proponentadvisors.com
+- **Matt Brand** — matt@proponentadvisors.com
+- **Joey Butler** — joey@proponentadvisors.com — distinct, active third contact, engaging since at least Aug 2025 asking for updated decks (per research, 2026-08-14)
 
 ## Firm Overview
 - **Type**: Series Seed (converted)
@@ -19,8 +20,10 @@
 ## Notes
 Surfaced for the first time in the 2026-08-13 Carta cap table reconciliation. Legal entity is "Ecotone Growth Ventures, LLC" — the contact email (mike@proponentadvisors.com) ties this to "Proponent Advisors," previously mentioned in passing in the fundraise tracker sheet but never tracked with an investment amount.
 
+**Corrected 2026-08-14**: this is NOT a cold, uncontacted relationship — Joey Butler has been actively engaging since at least Aug 2025, asking for updated decks.
+
 ## Next Action
-Reach out directly and gauge Series A interest.
+Respond to Joey's deck request with the current Series A materials.
 
 ---
 

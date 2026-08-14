@@ -84,6 +84,7 @@
 | [Ryan Cooper](investors/tier1-leads/ryan-cooper-connector.md) | Former job candidate, now paid commission-only fundraise referral partner | sustainablematerialsmanagement@gmail.com | Laurel Mountain, Clairvest | Follow up on both referrals |
 | [Lauren (Repurpose.com)](investors/tier1-leads/lauren-repurpose.md) | Offered to forward materials to her network | lauren@repurpose.com | TBD | Follow up on forwards |
 | Katie McAuley | Colleague/connector — heavy repeat DocSend engagement across multiple cities/devices, likely forwarding widely | kmcauley23@gmail.com | — | No action needed — passive high-intent signal, monitor for downstream intros |
+| [JB Rajsky](investors/tier1-leads/jb-rajsky-connector.md) | Co-Founder/CEO of Mantari — connector | jbrajsky@gmail.com / jb@mantari.com | Lou (Lincolnshire), Jonathan Adler, Eric Eide (Alliance SoCal) | Keep warm, no direct ask |
 
 ---
 
@@ -151,6 +152,10 @@
 | 2 | Adam P. | [Clairvest](investors/followon/clairvest.md) | adamp@clairvest.com | Unconfirmed | Outreach | PE firm, sourced via Ryan Cooper — no reply yet |
 | 2 | Keith Larson | [Keith Larson](investors/followon/keith-larson.md) | krlarson00@gmail.com | Unconfirmed | Outreach | Second lead sourced via Milind Khare |
 | 3 | Eddie Cardenti | [K&M Foodservice](investors/followon/km-foodservice.md) | ecardenti@kmfoodservice.com | Unconfirmed | Outreach | Asked to forward to K&M owner (unnamed) |
+| 1 | Vamsi Sistla | [Vamsi Sistla](investors/followon/vamsi-sistla.md) | vamsi.sistla@gmail.com | Unconfirmed | Outreach | Techstars intro 11/24, sent term sheet, no resolution found — revive |
+| 2 | Fay Wells | [Fay Wells](investors/followon/fay-wells.md) | fwells@gmail.com | Unconfirmed | Outreach | Warm relationship since Sep 2024, invited to visit Vernon facility |
+| 2 | Glenn Frese | [Glenn Frese](investors/followon/glenn-frese.md) | glennfrese@gmail.com | Unconfirmed | Outreach | Warm, engaged with monthly updates, discussed Nashville expansion |
+| 2 | Adam Block | [Adam Block](investors/followon/adam-block.md) | adam.m.block@gmail.com | Unconfirmed | Outreach | Intro via Ethan Austin 12/25, former Simple Energy CFO, sounding board |
 | 2 | Russell | [Virta Ventures](investors/followon/virta-ventures.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — capital-light climate fund |
 | 3 | — | [Harrison Clay](investors/followon/harrison-clay.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — wealthy individual |
 | N | Aaditi Tamhankar | [Bluestein Ventures](investors/expansion/bluestein-ventures.md) | aaditi@bluesteinventures.com | $500K–2M | Passed | Passed 2026-06-23 — "not the right fit for us at this time" (multi-year relationship, Techstars-sourced) |

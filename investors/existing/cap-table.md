@@ -30,7 +30,10 @@
 | — | DY-0225 Fund I, a series of Outside Venture Capital, LP | outsideventurecapital@angellist.com | **$67,500** | $67,500 (2026-03-18) | — | 0.57% | Unknown — separate vehicle from Ethan Austin's original Outside VC fund above |
 | Milind Khare (individual) | — | milind@mkhare.com | **$50,000** | $50,000 (2026-07-24) | — | 0.42% | Corrects prior CRM overstatement — see note below |
 | Rajendra Yavatkar | Angel / Family | ryavatkar@gmail.com (unconfirmed) | **$50,000** | — | $50,000 (converted) | 0.42% | Separate person from Rajiv Choudhary above — see note below |
-| Mithun Rathore, Jonathan Glaser, Brian Ross, Justin Ashton (personal) | — | — | **$25,000 each** | — | $25,000 each (converted) | 0.21% each | Justin Ashton's personal $25K is separate from his Redwoods SPV position above |
+| Mithun Rathore | Angel | mithun.rathore@gmail.com / mrathore@aqc-inc.com (Air Quality Consultants) | **$25,000** | — | $25,000 (converted) | 0.21% | Emails confirmed via Mailchimp export cross-ref, 2026-08-14 |
+| Jonathan "Yoni" Glaser | Angel | glaserjonathan@gmail.com | **$25,000** | No | $25,000 (converted) | 0.21% | **Passed on the current bridge round, 2026-02-02**: "I think I'll sit this one out but appreciate the opportunity." |
+| Brian Ross | Angel | fullofhimself@gmail.com | **$25,000** | — | $25,000 (converted) | 0.21% | Email confirmed via Mailchimp export cross-ref, 2026-08-14 |
+| Justin Ashton (personal) | Angel | justin@redwoodscapital.com | **$25,000** | — | $25,000 (converted) | 0.21% | Separate from his Redwoods SPV position above |
 | Joseph (Michael) Phillips | Fund I, a series of Outside Venture Capital, LP | mike.phillips.3@gmail.com | **$24,999.67** | — | $24,999.67 | 0.21% | Corrects prior CRM overstatement (was $200,000) — see note below |
 | Jordan Fliegel | Outside VC LP | jfliegel3@gmail.com | *(not separately broken out in Carta — grouped under Outside VC entities above; historically tracked at $200K, unconfirmed against Carta)* | — | — | — | Maybe |
 | Hunter Woods LLC | — | chris.swallow@gmail.com (unconfirmed) | **$20,000** | — | $20,000 (converted) | 0.17% | — |

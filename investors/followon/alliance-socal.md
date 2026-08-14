@@ -7,8 +7,8 @@
 ---
 
 ## Contact
-- **Contact**: Dan
-- **Email**: dan@alliancesocal.org
+- **Dan** — dan@alliancesocal.org
+- **Eric Eide** — eric@alliancesocal.org — replied enthusiastically to an Oct 2025 Investor Demo Day invite (per research, 2026-08-14)
 
 ## Notes
 Catalyst Fund invested ~$300K in seed round.

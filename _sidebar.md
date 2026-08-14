@@ -31,6 +31,7 @@
 - [H/L Ventures](investors/tier1-leads/hl-ventures.md)
 - [Ben Padnos (connector)](investors/tier1-leads/ben-padnos.md)
 - [Ryan Cooper (connector)](investors/tier1-leads/ryan-cooper-connector.md)
+- [JB Rajsky (connector)](investors/tier1-leads/jb-rajsky-connector.md)
 - [Lauren (Repurpose.com)](investors/tier1-leads/lauren-repurpose.md)
 
 - *NM Track*
@@ -73,6 +74,10 @@
 - [Clairvest](investors/followon/clairvest.md)
 - [Keith Larson](investors/followon/keith-larson.md)
 - [K&M Foodservice](investors/followon/km-foodservice.md)
+- [Vamsi Sistla](investors/followon/vamsi-sistla.md)
+- [Fay Wells](investors/followon/fay-wells.md)
+- [Glenn Frese](investors/followon/glenn-frese.md)
+- [Adam Block](investors/followon/adam-block.md)
 - [Constellation Software (Strategic)](investors/followon/constellation-software.md)
 
 - *Cap Table*

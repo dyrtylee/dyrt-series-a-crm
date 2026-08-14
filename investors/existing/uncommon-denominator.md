@@ -9,6 +9,7 @@
 ## Contact
 - **Contact**: Skiddy von Stade — Skiddy@uncommonvc.com, 917-689-7198
 - **Doug Perlson** — partner at Uncommon, has become the most active/critical voice on the round as of 2026-08-11 — see below.
+- **David Honig** — david@uncommonvc.com — third contact, confirmed via research 2026-08-14, consistently cc'd on major investor updates alongside Skiddy/Doug.
 
 ## Firm Overview
 - **Type**: Series Seed + Bridge SAFE

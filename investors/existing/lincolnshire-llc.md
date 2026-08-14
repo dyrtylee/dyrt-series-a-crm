@@ -7,20 +7,20 @@
 ---
 
 ## Contact
-- **Contact**: Ed Paik
-- **Email**: edpaik@gmail.com
+- **Ed Paik** — edpaik@gmail.com
+- **"Lou" (Paiklou)** — paiklou@gmail.com — Ed's partner/spouse, consistently addressed jointly ("Ed and Lou") on all Lincolnshire correspondence including the bridge round and SAFE/ownership discussion (per research, 2026-08-14)
 
 ## Firm Overview
 - **Type**: Series Seed + Bridge SAFE
 - **Investment**: **$586,324.87 total** — $499,999.87 Series Seed (converted) + $86,325 bridge SAFE (issued 2026-02-17)
 - **Equity %**: 4.97%
-- **Interest in A?**: Unknown — not yet contacted regarding the Series A
+- **Interest in A?**: Unknown — Series A specifically hasn't come up, but this is NOT a cold, uncontacted relationship
 
 ## Notes
-Surfaced for the first time in the 2026-08-13 Carta cap table reconciliation. This position is essentially a peer of [Uncommon Denominator](uncommon-denominator.md) in size ($586K each, same tranche structure: ~$500K Seed + ~$86K bridge) but had no dedicated CRM tracking before now. Worth a direct outreach/relationship check given the size of the position and the fact he hasn't been part of any bridge/Series A conversation on record.
+**Corrected 2026-08-14**: earlier assumption that Ed "hasn't been part of any bridge/Series A conversation on record" was wrong — Ed (and Lou) ARE on real bridge-round and SAFE/ownership correspondence. This position is essentially a peer of [Uncommon Denominator](uncommon-denominator.md) in size ($586K each, same tranche structure: ~$500K Seed + ~$86K bridge).
 
 ## Next Action
-Reach out directly — establish contact and gauge Series A interest given the size of the existing position.
+Reach out specifically about the Series A (not a cold intro — a warm continuation of the existing bridge-round relationship) given the size of the position.
 
 ---
 
