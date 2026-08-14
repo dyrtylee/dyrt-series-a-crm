@@ -29,7 +29,7 @@
 | 1 | [Energize Capital](investors/expansion/energize-capital.md) | info@energizecap.com | $2–10M | Backlog | Digitization of sustainable industries. $430M Fund III. |
 | 1 | [Buoyant Ventures](investors/expansion/buoyant-ventures.md) | info@buoyant.vc | $1–3M | Backlog | AI/SaaS for resource efficiency. Exact Dyrt thesis match. |
 | 1 | [Overture VC](investors/expansion/overture-vc.md) | hello@overture.vc | $500K–2M | Backlog | LA-based. Climate + NM govt incentives navigation. |
-| 1 | [Waste Management Sustainability Ventures](investors/expansion/waste-management-ventures.md) | info@wm.com | Strategic | Backlog | Largest US hauler CVC. SaaS tools for their network. |
+| 1 | [Waste Management Sustainability Ventures](investors/tier1-leads/wm-waste-management.md) | info@wm.com | Strategic | Discussing Internally | Largest US hauler CVC. Live discussion — 3 concrete asks proposed 7/27, awaiting reply. |
 | 1 | [Republic Services Innovation](investors/expansion/republic-services-innovation.md) | info@republicservices.com | Strategic | Backlog | #2 US hauler CVC. Waste tech + organics innovation. |
 | 1 | [Circularity Capital](investors/expansion/circularity-capital.md) | info@circularitycapital.com | $1–5M | Backlog | Circular economy specialist fund. Organics = core play. |
 | 1 | [B Capital Group](investors/expansion/b-capital-group.md) | info@bcapgroup.com | $2–10M | Backlog | LA-based. Backed CurbWaste. Waste ops enterprise SaaS. |
@@ -58,7 +58,7 @@
 |-----|------|------|-------|-------|-------|-------|-------------|
 | 1 | Seth Udelson | [Ecosystem Integrity Fund](investors/tier1-leads/ecosystem-integrity-fund.md) | seth@eif.vc | $2–5M | Yes | Outreach | Re-engage — met March 2024, LED GLACIER |
 | 1 | Michael Krutz | [S2G Investments](investors/tier1-leads/s2g-investments.md) | michael.krutz@s2gventures.com | $3–10M | Yes | Backlog | Find warm intro — $1B fund, Flashfood+Enthos |
-| 1 | Urwashi Govindji | [Prelude Ventures](investors/tier1-leads/prelude-ventures.md) | ugovindji@preludeventures.com | $5–15M | Maybe | Outreach | Email directly — food/waste/soil thesis |
+| N | Urwashi Govindji | [Prelude Ventures](investors/tier1-leads/prelude-ventures.md) | ugovindji@preludeventures.com | $5–15M | No | Passed | Confirmed pass 6/9 — already backs Mill (portfolio conflict) |
 | 1 | — | [Congruent Ventures](investors/tier1-leads/congruent-ventures.md) | investors@congruentvc.com | $2–5M | Yes | Outreach | Re-engage — went dark, $275M Fund III |
 | 1 | Harry Seherr-Thoss | [Enlightened Hospitality Investments ★](investors/tier1-leads/enlightened-hospitality.md) | harry.seherr-thoss@ehi.fund | $10–30M | Maybe | Outreach | Cold — Danny Meyer fund, RTI parallel, hospitality customer overlap |
 | 1 | Katharina Sommerrock | [Lightrock ★](investors/tier1-leads/lightrock.md) | lightrock.com/get-in-touch | $10–40M | Maybe | Outreach | Warm intro via AiDASH/Mainspring OR cold to IR — US-investing EU fund |
@@ -99,7 +99,7 @@
 | 1 | — | [Roadrunner Fund](investors/nm-investors/roadrunner-fund.md) | roadrunnerventurestudios.com | $1–5M | $50M | Cold outreach via NMSIC ecosystem |
 | 1 | — | [Acequia Capital](investors/nm-investors/acequia-capital.md) | — | $500K–2M | $15M | Find contact — very new fund Nov 2025 |
 | 1 | Alok Sindher | [TAG Capital](investors/nm-investors/tag-capital.md) | alok@tagrowth.com | $500K–2M | NMSIC-backed | Schedule call — met NM event |
-| 1 | Kelly LaBuff | [Antler US (NM Fund)](investors/nm-investors/antler-u-s-new-mexico-fund.md) | kelly.labuff@antler.co | $250K–1M | $65M | Follow up again — no reply since 7/23 |
+| N | Kelly LaBuff | [Antler US (NM Fund)](investors/nm-investors/antler-u-s-new-mexico-fund.md) | kelly.labuff@antler.co | $250K–1M | $65M | Passed 8/4 — team declined, complimentary on sector/traction |
 | 2 | — | [Tramway Ventures](investors/nm-investors/tramway-ventures.md) | tramwayventures.com | $500K–3M | $20M | Cold outreach — ABQ-based |
 | 2 | Mark Suster | [Upfront Ventures](investors/nm-investors/upfront-ventures.md) | mss@upfront.com | $2–10M | $50M | Email — on Mailchimp, LA-based |
 | 2 | — | [DCVC Climate](investors/nm-investors/dcvc-climate.md) | matt@dcvc.com | $5–20M | $100M | Email Matt — on Mailchimp |
@@ -128,18 +128,18 @@
 | 2 | — | SJF Ventures | arumer@sjfventures.com | $1–3M | Outreach | Re-engage — impact VC, Nov 2025 |
 | 2 | — | Hitachi Ventures | nir.amin@hitachi-ventures.com | $1–5M | Outreach | Re-engage — industrial IoT fit |
 | 2 | Shruti | Symphonic VC | shruti@symphonic.vc | $1–3M | Outreach | Re-engage — Oct 2025 meeting |
-| 2 | Matias | Harpoon Ventures | matias@harpoon.vc | $1–3M | Outreach | Re-engage — May 2025 |
+| 2 | Matias | Harpoon Ventures | matias@harpoon.vc | $1–3M | Outreach | Re-engage — warm via Ben Padnos/Ryan Cooper, multiple meetings Apr-May 2025 |
 | 2 | Jess Valencia | Reformation VC | jess@reformation.vc | $1–3M | Outreach | Re-engage — Apr 2025 |
 | 2 | Emanuel Martinez | Greenhill Ventures | mmartinez@greenhillsventures.com | $1–5M | Outreach | Re-engage — pre-invest meeting |
-| 2 | Derrek Li | Dynamo VC | derrek@dynamo.vc | $500K–2M | Outreach | Re-engage — Nov 2024 |
+| N | Derrek Li | Dynamo VC | derrek@dynamo.vc | $500K–2M | Passed | Passed 2024-11-18 — concerned re: compost market size outside core states |
 | 2 | Julia Puzzo | Scope VC | julia@scopvc.com | $500K–2M | Outreach | Re-engage — was "discussing" |
-| 2 | Marlena | Zero Infinity | marlena@zeroinfinitypartners.com | $500K–1M | Outreach | Re-engage — infrastructure focus |
+| 2 | Marlena | Zero Infinity | marlena@zeroinfinitypartners.com | $500K–1M | Outreach | Re-engage — invested in CheckSammy (portfolio overlap) |
 | 2 | Tony James | J River Capital | James@jrivercapital.com | $500K–2M | Outreach | Family office — was brokering Costco |
 | 2 | Brett Clarke | VoLo Earth | brettc@voloearth.com | $2–5M | Outreach | Email — Mailchimp contact |
 | 2 | TX Zhuo | FIKA Ventures | tx@fika.vc | $1–5M | Outreach | Email — LA-based B2B SaaS |
 | 2 | Charlotte Xia | Fusion Fund | charlotte@fusionfund.com | $2–8M | Outreach | Email — Mailchimp contact |
-| 3 | Mairi Robertson | Ezra Climate | mairi.robertson@ezraclimate.com | $1–3M | Outreach | Re-engage — May 2024 |
-| 3 | Hanif | Mission Driven Finance | hanif@missiondrivenfinance.com | debt | Outreach | Explore debt for NM facility |
+| N | Mairi Robertson | Ezra Climate | mairi.robertson@ezraclimate.com | $1–3M | Passed | Business-model pivot 2024-08-29, no longer does direct climate investing |
+| 2 | Crystal Sevilla | Mission Driven Finance | (equity track, warm 8/4) | debt + equity | Outreach | Book call w/ Crystal (equity); Peter Metz debt track — terms called "not a great deal" |
 | 3 | Shaun | Elemental Excelerator | shaun@elementalexcelerator.com | grant | Outreach | Climate accelerator / project finance |
 | 2 | Vijen | [81 Collection](investors/followon/81-collection.md) | — | Unconfirmed | Meeting | Call scheduled 8/1 via Dangerous — objection: not fond of software business |
 | 2 | Kevin Everhart | [PADNOS](investors/followon/padnos.md) | Kevin.Everhart@padnos.com | Strategic | Discussing Internally | Follow up in a few days if no word |
