@@ -23,7 +23,7 @@ In 2024 we built a composting facility in LA — permits, trucks, 990,000 lbs/mo
 
 Most platforms stop at data. We built the infrastructure too — and permitted facilities take 6+ months to obtain.
 
-Raising $20M Series A. Looking for a lead ($3–5M). Happy to send the deck.
+Raising $10M Series A. Looking for a lead ($3–5M). Happy to send the deck.
 
 Lee Robinson
 lee@dyrt.co
@@ -51,7 +51,7 @@ Dyrt Labs is building the physical and digital backbone of waste management — 
 - 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations)
 - $21M pipeline we can't serve fast enough
 
-Raising $20M Series A. 20 minutes to walk through the NM model?
+Raising $10M Series A. 20 minutes to walk through the NM model?
 
 Lee Robinson
 lee@dyrt.co
@@ -78,7 +78,7 @@ Dyrt is an enterprise SaaS + physical operations platform for waste management. 
 
 Three recurring revenue streams per customer: data & compliance ($200/mo/location), waste processing ($27K–$150K/yr/location), managed services ($320+/mo/location). Each customer expands across all three.
 
-Raising $20M Series A. Worth a look?
+Raising $10M Series A. Worth a look?
 
 Lee Robinson
 lee@dyrt.co
@@ -99,7 +99,7 @@ Dyrt is the SaaS and compliance layer that enterprises like [relevant customer] 
 
 **Live customers**: Disney Productions, Marriott International, Intuit Dome, AEG, Sprouts (525 locations contracted).
 
-$1M ARR, 450% YoY, 0% churn. Demand already exceeds our physical capacity. Raising a $20M Series A — given [company]'s presence in [hospitality / food / venues / logistics], wanted to reach out.
+$1M ARR, 450% YoY, 0% churn. Demand already exceeds our physical capacity. Raising a $10M Series A — given [company]'s presence in [hospitality / food / venues / logistics], wanted to reach out.
 
 Lee Robinson
 lee@dyrt.co

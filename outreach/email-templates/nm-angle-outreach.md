@@ -26,7 +26,7 @@ The carbon math: at full capacity, 100 tons/day diverted from landfill — ~21,9
 - 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations contracted)
 - $21M pipeline we can't serve fast enough
 
-Raising $20M Series A. Happy to send the deck and NM facility model.
+Raising $10M Series A. Happy to send the deck and NM facility model.
 
 Lee Robinson
 lee@dyrt.co
@@ -56,7 +56,7 @@ Given [firm]'s NMSIC commitment, wanted to share directly:
 - $1M ARR, 450% YoY, 0% churn, NRR >130%
 - Disney, Marriott, Intuit Dome, AEG, Sprouts (525 locations) as customers
 
-Raising $20M Series A. 20 minutes to walk through the NM model?
+Raising $10M Series A. 20 minutes to walk through the NM model?
 
 Lee Robinson
 lee@dyrt.co
@@ -78,7 +78,7 @@ Quick update:
 - NM facility model finalized: $6.5M build, 80% debt / 20% equity, cash flow positive month 20
 - HoldCo/OpCo structure — facility financing doesn't dilute SaaS equity investors
 
-Raising $20M. Given UP.Abundance's NM mandate ($80M NMSIC), wanted to make sure you had the full picture.
+Raising $10M. Given UP.Abundance's NM mandate ($80M NMSIC), wanted to make sure you had the full picture.
 
 Can we schedule a call this week?
 

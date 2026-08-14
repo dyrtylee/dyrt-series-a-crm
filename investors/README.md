@@ -1,6 +1,16 @@
 # Master Investor Tracker
 
-**Last updated: 2026-07-27**
+**Last updated: 2026-08-13**
+
+## ⚠️ Critical Status (2026-08-13)
+- **No lead investor** despite 1,087 cold emails and 27 meetings, as of 2026-08-11 — one day before the original 8/14 Series A close target.
+- **Cash on hand: $311,457**. Burn ~$170K/mo after a headcount cut. Under two months of runway at current burn.
+- **NM lead track is dead** — all NMSIC/NM-mandate funds have formally declined to lead (follow-on only).
+- Bridge SAFE **extended by an additional $1M** (same terms: 20% discount, MFN). **If any accredited VC prices/caps the round, it unlocks an additional $5.5M in already-soft-circled commitments.**
+- **[Propeller VC](investors/tier1-leads/propeller-vc.md)** wants to price the round — potentially the catalyst for that unlock. Top priority.
+- **Doug Perlson (Uncommon Denominator)** requested a Thursday 1pm ET call "to help you get properly capitalized" — see [uncommon-denominator.md](investors/existing/uncommon-denominator.md).
+- **Jenn Kranz (Mucker) is blocked on an updated deck** she asked for on 8/12 — confirm it's been sent before using the prepared intro list.
+- **Bridge tranche target: $1M total.** $400K committed so far ($200K from other/existing investors + $200K from Uncommon Denominator, conditional) — **$600K still to fill.** Propeller VC pricing the round is the highest-leverage path to closing that gap (triggers the $5.5M unlock).
 
 ## Pipeline Stages
 `Backlog` → `Outreach` → `Intro` → `Meeting` → `Diligence` → `Term Sheet` → `Closed` | `Pass`
@@ -15,7 +25,6 @@
 | 1 | [Spring Lane Capital](investors/expansion/spring-lane-capital.md) | info@springlanecapital.com | $2–10M | Backlog | Hybrid project capital for waste/food/water infra. |
 | 1 | [Frontier Growth](investors/expansion/frontier-growth.md) | info@frontier-growth.com | $2–8M | Backlog | Led Hauler Hero (waste SaaS) Series A. Knows the space. |
 | 1 | [Socium Ventures](investors/expansion/socium-ventures.md) | info@sociumventures.com | $2–10M | Backlog | Backed CurbWaste $28M Series B. Direct comp investor. |
-| 1 | [Acre Venture Partners](investors/expansion/acre-venture-partners.md) | info@acre.vc | $1–5M | Backlog | Food waste reduction mandate. Santa Monica-based. |
 | 1 | [Supply Change Capital](investors/expansion/supply-change-capital.md) | hello@supplychange.capital | $500K–2M | Backlog | LA-based. Circular economy + food supply chain thesis. |
 | 1 | [Energize Capital](investors/expansion/energize-capital.md) | info@energizecap.com | $2–10M | Backlog | Digitization of sustainable industries. $430M Fund III. |
 | 1 | [Buoyant Ventures](investors/expansion/buoyant-ventures.md) | info@buoyant.vc | $1–3M | Backlog | AI/SaaS for resource efficiency. Exact Dyrt thesis match. |
@@ -36,8 +45,10 @@
 | 1 | Jenn Kranz Guillen | [Mucker Capital](investors/active-diligence/mucker-capital.md) | jenn@muckercapital.com | $250–500K | No | Meeting | **Send updated deck — waiting on it** | Existing investor. Pro-rata for life. Jenn is main day-to-day contact (Erik co-founder). |
 | 1 | Luke Kurtz | [Elysian Park Ventures](investors/active-diligence/elysian-park.md) | luke@elysianpark.ventures | $1–3M | Maybe | Meeting | Follow up | PGA/sports venue connections. |
 | 1 | Caroline Barry | [Closed Loop Partners](investors/active-diligence/closed-loop-partners.md) | cbarry@closedlooppartners.com | $1–5M | **YES** | Outreach | **SEND DECK + NM ANGLE** | TOP FIT. Composting Consortium. |
+| 1 | — | [Propeller VC](investors/tier1-leads/propeller-vc.md) | — | — | YES | Active Diligence | Get direct contact; push toward $3M; may unlock $5.5M in soft-circled commitments if they price the round | **Top priority** — wants to price the round |
 | 1 | Ethan Kulkin | [Insight Partners](investors/followon/insight-partners.md) | aarditi@insightpartners.com | $5–10M | Maybe | Meeting | Re-engage with Series A update | $12.5B fund, 2 meetings (Jul 2025, May 2026). In-house 140-person GTM/scaling team. |
 | 1 | Jordan Clancy | [ABO Ventures](investors/active-diligence/abo-ventures.md) | jordan@abo-ventures.com | $500K | No | Diligence | Send IC two-pager materials | NM family office, moving to IC. Floated bridge participation. |
+| 1 | Laura DiBonaventura | [MUUS & Company](investors/tier1-leads/muus-and-company.md) | — | Unconfirmed | Maybe | Active Diligence | Send revised deck reflecting the locked $10M round | Confirmed deploying capital; asked for materials directly. |
 
 ---
 
@@ -54,6 +65,7 @@
 | 1 | Tenzin Seldon | [Pulse Fund ★](investors/tier1-leads/pulse-fund.md) | — | $1–5M | Maybe | Outreach | **Ask Aria Safar for warm intro** — LA-based, food+infrastructure |
 | 2 | — | [Fifth Wall](investors/tier1-leads/fifth-wall.md) | cchar@fifthwall.com | $3–8M | Maybe | Outreach | Call the "Series A" promise |
 | 2 | — | [Valor VC](investors/tier1-leads/valor-vc.md) | — | $2–5M | Maybe | Outreach | Call the "follow up Series A" promise |
+| 2 | Alexis Dulan | [H/L Ventures](investors/tier1-leads/hl-ventures.md) | alexis@h-l.vc | Unconfirmed | Unconfirmed | Outreach | Never responded — bumped 7/27, follow up again |
 | 2 | — | [Tech Square Ventures](investors/pitchbook/tech-square-ventures.md) | — | $500K–2M | No | Backlog | Cold outreach — PitchBook [18/30] |
 | 2 | — | [Capria Ventures](investors/pitchbook/capria-ventures.md) | — | $500K–2M | No | Backlog | Cold outreach — PitchBook [17/30] |
 | 2 | — | [Vannevar Ventures](investors/pitchbook/vannevar-ventures.md) | — | $500K–2M | No | Backlog | Cold outreach — PitchBook [16/30] |
@@ -68,11 +80,16 @@
 
 | Name | Firm/Role | Contact | Intros Made | Next Action |
 |------|-----------|---------|--------------|-------------|
-| [Ben Padnos](investors/tier1-leads/ben-padnos.md) | Unconfirmed — recurring 1:1, personal booking domain (thinkfish.co) | ben@thinkfish.co | Virta Ventures (Russell), Harrison Clay | Confirm firm affiliation; check status on both intros |
+| [Ben Padnos](investors/tier1-leads/ben-padnos.md) | Runs ThinkFISH — paid outreach/prospecting service (resolved, not a fund) | ben@thinkfish.co | Virta Ventures (Russell), Harrison Clay, PADNOS (family) | Decide on hiring ThinkFISH for bridge + Series A outreach |
+| [Ryan Cooper](investors/tier1-leads/ryan-cooper-connector.md) | Former job candidate, now paid commission-only fundraise referral partner | sustainablematerialsmanagement@gmail.com | Laurel Mountain, Clairvest | Follow up on both referrals |
+| [Lauren (Repurpose.com)](investors/tier1-leads/lauren-repurpose.md) | Offered to forward materials to her network | lauren@repurpose.com | TBD | Follow up on forwards |
+| Katie McAuley | Colleague/connector — heavy repeat DocSend engagement across multiple cities/devices, likely forwarding widely | kmcauley23@gmail.com | — | No action needed — passive high-intent signal, monitor for downstream intros |
 
 ---
 
-## NM Track 🟢
+## NM Track 🔴 (Lead track dead as of 2026-08-11)
+
+**⚠️ All NMSIC/NM-mandate funds have formally declined to lead the round** (per Doug Perlson/Uncommon correspondence, 2026-08-11) — they remain follow-on-only prospects. Individual file statuses below may not yet reflect this; treat any "active"/"follow up" note in this section as downgraded to follow-on-only until each file is individually corrected.
 
 | Pri | Name | Firm | Email | Check | NMSIC $ | Next Action |
 |-----|------|------|-------|-------|---------|-------------|
@@ -82,6 +99,7 @@
 | 1 | — | [Roadrunner Fund](investors/nm-investors/roadrunner-fund.md) | roadrunnerventurestudios.com | $1–5M | $50M | Cold outreach via NMSIC ecosystem |
 | 1 | — | [Acequia Capital](investors/nm-investors/acequia-capital.md) | — | $500K–2M | $15M | Find contact — very new fund Nov 2025 |
 | 1 | Alok Sindher | [TAG Capital](investors/nm-investors/tag-capital.md) | alok@tagrowth.com | $500K–2M | NMSIC-backed | Schedule call — met NM event |
+| 1 | Kelly LaBuff | [Antler US (NM Fund)](investors/nm-investors/antler-u-s-new-mexico-fund.md) | kelly.labuff@antler.co | $250K–1M | $65M | Follow up again — no reply since 7/23 |
 | 2 | — | [Tramway Ventures](investors/nm-investors/tramway-ventures.md) | tramwayventures.com | $500K–3M | $20M | Cold outreach — ABQ-based |
 | 2 | Mark Suster | [Upfront Ventures](investors/nm-investors/upfront-ventures.md) | mss@upfront.com | $2–10M | $50M | Email — on Mailchimp, LA-based |
 | 2 | — | [DCVC Climate](investors/nm-investors/dcvc-climate.md) | matt@dcvc.com | $5–20M | $100M | Email Matt — on Mailchimp |
@@ -123,6 +141,16 @@
 | 3 | Mairi Robertson | Ezra Climate | mairi.robertson@ezraclimate.com | $1–3M | Outreach | Re-engage — May 2024 |
 | 3 | Hanif | Mission Driven Finance | hanif@missiondrivenfinance.com | debt | Outreach | Explore debt for NM facility |
 | 3 | Shaun | Elemental Excelerator | shaun@elementalexcelerator.com | grant | Outreach | Climate accelerator / project finance |
+| 2 | Vijen | [81 Collection](investors/followon/81-collection.md) | — | Unconfirmed | Meeting | Call scheduled 8/1 via Dangerous — objection: not fond of software business |
+| 2 | Kevin Everhart | [PADNOS](investors/followon/padnos.md) | Kevin.Everhart@padnos.com | Strategic | Discussing Internally | Follow up in a few days if no word |
+| 3 | Evi | [Ponderosa](investors/followon/ponderosa-evi.md) | — | Unconfirmed | Soft Pass | Very interested, ownership criteria mismatch — revisit once terms set |
+| 2 | Aslam Khader | [Aslam Khader](investors/followon/aslam-khader.md) | aslamkhader1@yahoo.com | Unconfirmed | Outreach | Ex-Amazon exec, sourced via Milind Khare — deck sent 8/12, follow-up 8/13 |
+| 2 | Dave Bottomley | [Dave Bottomley](investors/followon/dave-bottomley.md) | bottomley.az@gmail.com | Unconfirmed | Outreach | Longtime contact, offered to forward materials to his network 8/11 |
+| 2 | Brett Jones | [City Fibers](investors/followon/city-fibers.md) | brett@cityfibers.com | Unconfirmed | Outreach | Existing operational relationship pivoted to investment ask 8/11 — discussing with partners |
+| 2 | Meredith Mattson | [Laurel Mountain](investors/followon/laurel-mountain.md) | mmattson@laurelmountain.com | Unconfirmed | Outreach | Sourced via Ryan Cooper — will review |
+| 2 | Adam P. | [Clairvest](investors/followon/clairvest.md) | adamp@clairvest.com | Unconfirmed | Outreach | PE firm, sourced via Ryan Cooper — no reply yet |
+| 2 | Keith Larson | [Keith Larson](investors/followon/keith-larson.md) | krlarson00@gmail.com | Unconfirmed | Outreach | Second lead sourced via Milind Khare |
+| 3 | Eddie Cardenti | [K&M Foodservice](investors/followon/km-foodservice.md) | ecardenti@kmfoodservice.com | Unconfirmed | Outreach | Asked to forward to K&M owner (unnamed) |
 | 2 | Russell | [Virta Ventures](investors/followon/virta-ventures.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — capital-light climate fund |
 | 3 | — | [Harrison Clay](investors/followon/harrison-clay.md) | — | Unconfirmed | Outreach | Sourced via Ben Padnos — wealthy individual |
 | 2 | — | [Endeavor Catalyst](investors/pitchbook/endeavor-catalyst.md) | — | $1–5M | Maybe | Backlog | Cold outreach — PitchBook [9/30] |
@@ -234,6 +262,14 @@
 
 ---
 
+## Strategic / Future M&A — Not Fundraise Targets ⚪
+
+| Firm | Contact | Notes |
+|------|---------|-------|
+| [Constellation Software](investors/followon/constellation-software.md) | Inbound | Acquires businesses outright only, never sells. Not a fit until ARR clears ~$3M. Keep warm, touch every 6 months. |
+
+---
+
 ## Confirmed Pass — Do Not Re-engage
 
 | Firm | Reason |
@@ -250,6 +286,8 @@
 | Noro-Moseley Partners | Passed by email 2026-06-23 — too capital-intensive/infrastructure-heavy for their thesis |
 | UP.Partners / UP.Abundance | Passed by email 2026-07-06 (David Ellmann) — "too many question marks around the path to being a multibillion dollar outcome." Left door open for next round. |
 | JMI Equity | Passed by email 2026-06-23 (Alex Giummo) — capital-intensity/infrastructure objection, not a market fit issue. |
+| Acre Venture Partners | Passed by email 2026-07-27 (via LACI forward) — "we are a pass on Dyrt," no reason given. |
+| Sovereign Capital | Passed by email 2026-07-14 — team impressed but lacks domain expertise to add value / underwrite unknown outcomes. Warm, complimentary tone. |
 
 ---
 

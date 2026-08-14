@@ -26,7 +26,7 @@
 **Key warm bridge: Dispatch Goods** — Active Impact portfolio company operating in SoCal/LA serving food service operators. If Dyrt and Dispatch Goods share any customers (Cook Unity, corporate cafeterias, stadiums), that is the cleanest intro path. Find a Dispatch Goods contact first.
 
 ## Pitch Angle
-> "You backed Dispatch Goods, which is building circular packaging logistics for the same food service customers we serve in LA — including venues that fall under SB 1383 mandates. Dyrt is the organics diversion data platform for those same operators. We're closing a $20M Series A and thought the portfolio synergy was worth a conversation."
+> "You backed Dispatch Goods, which is building circular packaging logistics for the same food service customers we serve in LA — including venues that fall under SB 1383 mandates. Dyrt is the organics diversion data platform for those same operators. We're closing a $10M Series A and thought the portfolio synergy was worth a conversation."
 
 ## Next Action
 **Re-engage Qhalisa Khan with Series A deck.** Mention Dispatch Goods overlap as the opening. Won't lead, but $1.5–2M co-invest is worth keeping warm.

@@ -27,7 +27,7 @@ Only European-headquartered fund in the PitchBook dataset with a confirmed US in
 - Comment on Pål Erik Sjåtil's LinkedIn content before cold outreach
 
 ## Pitch Angle
-> "Your Climate Impact Fund's mandate — recycling & waste, sustainable food systems, circular economy — maps exactly to what Dyrt is building. We're the AI-powered compliance and data platform for commercial organics diversion in California, serving Disney, Marriott, and major arenas under SB 1383. We're closing a $20M Series A and believe the GHG diversion story (methane avoidance from landfills) aligns with your climate mandate."
+> "Your Climate Impact Fund's mandate — recycling & waste, sustainable food systems, circular economy — maps exactly to what Dyrt is building. We're the AI-powered compliance and data platform for commercial organics diversion in California, serving Disney, Marriott, and major arenas under SB 1383. We're closing a $10M Series A and believe the GHG diversion story (methane avoidance from landfills) aligns with your climate mandate."
 
 Lead with the methane/GHG framing — Lightrock responds to measurable climate impact, not just "waste is a problem."
 

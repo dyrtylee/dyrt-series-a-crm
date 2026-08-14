@@ -15,6 +15,8 @@
 - [Mucker Capital](investors/active-diligence/mucker-capital.md)
 - [Elysian Park Ventures](investors/active-diligence/elysian-park.md)
 - [ABO Ventures](investors/active-diligence/abo-ventures.md)
+- [MUUS & Company](investors/tier1-leads/muus-and-company.md)
+- [Propeller VC](investors/tier1-leads/propeller-vc.md)
 
 - *Tier 1 Leads*
 - [Ecosystem Integrity Fund ★](investors/tier1-leads/ecosystem-integrity-fund.md)
@@ -26,7 +28,10 @@
 - [Pulse Fund ★](investors/tier1-leads/pulse-fund.md)
 - [Fifth Wall](investors/tier1-leads/fifth-wall.md)
 - [Valor VC](investors/tier1-leads/valor-vc.md)
+- [H/L Ventures](investors/tier1-leads/hl-ventures.md)
 - [Ben Padnos (connector)](investors/tier1-leads/ben-padnos.md)
+- [Ryan Cooper (connector)](investors/tier1-leads/ryan-cooper-connector.md)
+- [Lauren (Repurpose.com)](investors/tier1-leads/lauren-repurpose.md)
 
 - *NM Track*
 - [Lowercarbon NM Fund ★](investors/nm-investors/lowercarbon-nm.md)
@@ -35,6 +40,7 @@
 - [Roadrunner Fund](investors/nm-investors/roadrunner-fund.md)
 - [Acequia Capital](investors/nm-investors/acequia-capital.md)
 - [TAG Capital](investors/nm-investors/tag-capital.md)
+- [Antler US (NM Fund)](investors/nm-investors/antler-u-s-new-mexico-fund.md)
 - [Tramway Ventures](investors/nm-investors/tramway-ventures.md)
 - [Upfront Ventures](investors/nm-investors/upfront-ventures.md)
 - [DCVC Climate](investors/nm-investors/dcvc-climate.md)
@@ -57,6 +63,17 @@
 - [Insight Partners](investors/followon/insight-partners.md)
 - [Virta Ventures](investors/followon/virta-ventures.md)
 - [Harrison Clay](investors/followon/harrison-clay.md)
+- [81 Collection](investors/followon/81-collection.md)
+- [PADNOS](investors/followon/padnos.md)
+- [Ponderosa (Evi)](investors/followon/ponderosa-evi.md)
+- [Aslam Khader](investors/followon/aslam-khader.md)
+- [Dave Bottomley](investors/followon/dave-bottomley.md)
+- [City Fibers](investors/followon/city-fibers.md)
+- [Laurel Mountain](investors/followon/laurel-mountain.md)
+- [Clairvest](investors/followon/clairvest.md)
+- [Keith Larson](investors/followon/keith-larson.md)
+- [K&M Foodservice](investors/followon/km-foodservice.md)
+- [Constellation Software (Strategic)](investors/followon/constellation-software.md)
 
 - *Cap Table*
 - [Existing Investors](investors/existing/cap-table.md)
@@ -65,13 +82,14 @@
 - [Noro-Moseley Partners (Passed)](investors/passed/noro-moseley.md)
 - [UP.Partners (Passed)](investors/passed/up-partners.md)
 - [JMI Equity (Passed)](investors/passed/jmi-equity.md)
+- [Acre Venture Partners (Passed)](investors/passed/acre-venture-partners.md)
+- [Sovereign Capital (Passed)](investors/passed/sovereign-capital.md)
 
 - *Expansion — Top Picks*
 - [Generate Capital 🔴](investors/expansion/generate-capital.md)
 - [Spring Lane Capital 🔴](investors/expansion/spring-lane-capital.md)
 - [Frontier Growth 🔴](investors/expansion/frontier-growth.md)
 - [Socium Ventures 🔴](investors/expansion/socium-ventures.md)
-- [Acre Venture Partners 🔴](investors/expansion/acre-venture-partners.md)
 - [Supply Change Capital 🔴](investors/expansion/supply-change-capital.md)
 - [Energize Capital 🔴](investors/expansion/energize-capital.md)
 - [Buoyant Ventures 🔴](investors/expansion/buoyant-ventures.md)
@@ -79,6 +97,7 @@
 
 - *PitchBook Prospects*
 - [Full PitchBook List ★](investors/pitchbook/list.html)
+- [LACI Road to 2028 Attendees](investors/pitchbook/laci-road-to-2028-attendees.md)
 - [Tech Square Ventures](investors/pitchbook/tech-square-ventures.md)
 - [Capria Ventures](investors/pitchbook/capria-ventures.md)
 - [Capricorn Investment Group](investors/pitchbook/capricorn-investment-group.md)
@@ -95,6 +114,8 @@
 - **OUTREACH**
 - [Blurbs & Pitches](outreach/blurbs/README.md)
 - [Warm Intro Map](outreach/intro-requests/warm-intro-map.md)
+- [Dangerous Ventures Intro List v2](outreach/intro-requests/dangerous-ventures-intro-list-v2.md)
+- [Mucker (Jenn Kranz) Intro List](outreach/intro-requests/mucker-jenn-kranz-intro-list.md)
 
 - *Email Templates*
 - [Cold Outreach](outreach/email-templates/cold-outreach.md)

@@ -22,13 +22,13 @@ Quick-grab versions for any context. Updated Q2 2026.
 >
 > Most platforms stop at data. We built the infrastructure too. That's the moat — permitted facilities take 6+ months to obtain and can't be replicated quickly.
 >
-> We're raising $20M Series A to close the gap between the demand we have and the capacity we're building.
+> We're raising $10M Series A to close the gap between the demand we have and the capacity we're building.
 
 ---
 
 ## 3-Sentence Investor Blurb
 
-> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned waste operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR, 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand our operational footprint, starting with a New Mexico facility backed by $7.3M+ in confirmed state incentives.
+> Dyrt is building the physical and digital backbone of waste management — AI-powered SaaS + owned waste operations that give enterprises real-time visibility, compliance proof, and 30–70% cost reductions on waste. $1M ARR, 450% YoY growth, 0% churn, with 45 enterprise customers including Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted — and demand already exceeds what we can physically process. Raising $10M Series A to build sales, marketing, and executive management to continue closing national deals and expand our operational footprint, starting with a New Mexico facility backed by $7.3M+ in confirmed state incentives.
 
 ---
 
@@ -37,19 +37,19 @@ Quick-grab versions for any context. Updated Q2 2026.
 *For investors passing the deck to a contact in their network. Three versions — choose based on relationship warmth.*
 
 ### Warm pass (investor knows the contact well)
-> I've been watching Dyrt Labs for a while — Lee Robinson's team built a composting facility in LA to understand the waste business from the ground up, then built the software to run it. Disney, Marriott, AEG, and Intuit Dome signed up. $1M ARR, 450% YoY, 0% churn, 45 enterprise customers, 525 Sprouts locations contracted. They're raising a $20M Series A and the NM facility has $12M+ in confirmed state incentives. I thought of you immediately. Worth 20 minutes with Lee — I can make the intro.
+> I've been watching Dyrt Labs for a while — Lee Robinson's team built a composting facility in LA to understand the waste business from the ground up, then built the software to run it. Disney, Marriott, AEG, and Intuit Dome signed up. $1M ARR, 450% YoY, 0% churn, 45 enterprise customers, 525 Sprouts locations contracted. They're raising a $10M Series A and the NM facility has $12M+ in confirmed state incentives. I thought of you immediately. Worth 20 minutes with Lee — I can make the intro.
 
 ### Standard pass (investor has a relevant portfolio/thesis connection)
-> Wanted to put a company on your radar — Dyrt Labs, building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations. They're raising a $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand their operational footprint. I thought it was right in your wheelhouse. Happy to intro you to the CEO, or you can call him because he is a pretty chill guy. lee@dyrt.co or 813-390-8559
+> Wanted to put a company on your radar — Dyrt Labs, building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations. They're raising a $10M Series A to build sales, marketing, and executive management to continue closing national deals and expand their operational footprint. I thought it was right in your wheelhouse. Happy to intro you to the CEO, or you can call him because he is a pretty chill guy. lee@dyrt.co or 813-390-8559
 
 ### Light touch (investor is sending cold, just passing the deck)
-> Came across a company you might find interesting — Dyrt Labs. Building the operating system for enterprise waste management. $1M ARR, 450% YoY, 0% churn. Raising $20M Series A. Deck attached. Lee Robinson is the CEO — lee@dyrt.co — direct if you want to reach out.
+> Came across a company you might find interesting — Dyrt Labs. Building the operating system for enterprise waste management. $1M ARR, 450% YoY, 0% churn. Raising $10M Series A. Deck attached. Lee Robinson is the CEO — lee@dyrt.co — direct if you want to reach out.
 
 ---
 
 ## Email Intro Blurb (forwardable)
 
-> Lee Robinson is the CEO of Dyrt Labs — they're building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY growth, 0% churn. Customers include Disney Productions, Marriott International, Intuit Dome, AEG, and 525 Sprouts locations now contracted. Demand already exceeds current physical capacity — $21M pipeline they can't yet serve. Raising a $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand their operational footprint. Worth a conversation.
+> Lee Robinson is the CEO of Dyrt Labs — they're building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY growth, 0% churn. Customers include Disney Productions, Marriott International, Intuit Dome, AEG, and 525 Sprouts locations now contracted. Demand already exceeds current physical capacity — $21M pipeline they can't yet serve. Raising a $10M Series A to build sales, marketing, and executive management to continue closing national deals and expand their operational footprint. Worth a conversation.
 >
 > Lee Robinson | lee@dyrt.co | 813.390.8559
 
@@ -57,13 +57,13 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## LinkedIn Connection Request
 
-> Hi [Name] — I run Dyrt Labs. We built a composting facility in LA, then the software to manage it — Disney, Marriott, AEG, and Sprouts signed up. $1M ARR, 450% YoY, 0% churn. Raising $20M Series A. [Firm]'s [thesis] looks like a fit. Would love to connect.
+> Hi [Name] — I run Dyrt Labs. We built a composting facility in LA, then the software to manage it — Disney, Marriott, AEG, and Sprouts signed up. $1M ARR, 450% YoY, 0% churn. Raising $10M Series A. [Firm]'s [thesis] looks like a fit. Would love to connect.
 
 ---
 
 ## Conference / Event Pitch (30 seconds)
 
-> We didn't design a waste app — we collected waste until we understood it. Built a composting facility in LA, built the software to run it, and Disney and Marriott found the dashboards. $1M ARR, 450% YoY, 0% churn — 45 enterprise customers and 525 Sprouts locations contracted. Demand exceeds what we can physically process. Raising $20M to build that capacity. What are you looking at in waste or circular economy?
+> We didn't design a waste app — we collected waste until we understood it. Built a composting facility in LA, built the software to run it, and Disney and Marriott found the dashboards. $1M ARR, 450% YoY, 0% churn — 45 enterprise customers and 525 Sprouts locations contracted. Demand exceeds what we can physically process. Raising $10M to build that capacity. What are you looking at in waste or circular economy?
 
 ---
 
@@ -81,10 +81,10 @@ Quick-grab versions for any context. Updated Q2 2026.
 
 ## Vision / Long-Form Closer
 
-> Today — food waste. Next — the feedstock layer of the circular economy. Customers are already asking Dyrt to handle cardboard, e-waste, and plastics. Organic waste is already valued by bioenergy; anaerobic digesters are begging for feedstock. The same contracts, data, and waste operations that make us essential today position Dyrt to aggregate and supply waste as a feedstock for chemicals, energy, critical minerals, and recycling. The $20M raise is about capacity — the vision is much bigger.
+> Today — food waste. Next — the feedstock layer of the circular economy. Customers are already asking Dyrt to handle cardboard, e-waste, and plastics. Organic waste is already valued by bioenergy; anaerobic digesters are begging for feedstock. The same contracts, data, and waste operations that make us essential today position Dyrt to aggregate and supply waste as a feedstock for chemicals, energy, critical minerals, and recycling. The $10M raise is about capacity — the vision is much bigger.
 
 ---
 
 ## Press / Media Blurb (third person)
 
-> Dyrt Labs is building the physical and digital backbone of waste management — an AI-powered SaaS platform and owned waste infrastructure network that brings real-time visibility, regulatory compliance, and measurable cost savings to enterprise waste programs. Trusted by Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts Farmers Market locations, Dyrt has grown 450% year-over-year with 0% customer churn and $21M in pipeline the company cannot yet physically serve. The company is raising a $20M Series A to build sales, marketing, and executive management to continue closing national deals and expand its operational footprint, beginning with a New Mexico facility backed by $7.3M+ in confirmed state incentives.
+> Dyrt Labs is building the physical and digital backbone of waste management — an AI-powered SaaS platform and owned waste infrastructure network that brings real-time visibility, regulatory compliance, and measurable cost savings to enterprise waste programs. Trusted by Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts Farmers Market locations, Dyrt has grown 450% year-over-year with 0% customer churn and $21M in pipeline the company cannot yet physically serve. The company is raising a $10M Series A to build sales, marketing, and executive management to continue closing national deals and expand its operational footprint, beginning with a New Mexico facility backed by $7.3M+ in confirmed state incentives.

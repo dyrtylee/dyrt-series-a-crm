@@ -15,7 +15,7 @@ Thanks for reaching out — great timing.
 
 We're in the middle of our Series A now. $1M ARR (annualized Jan 2026), 450% YoY, 0% churn. 45 enterprise customers — Disney, Marriott, Intuit Dome, AEG, Sprouts. $38M pipeline ARR.
 
-Raising $20M. A few conversations underway — happy to move quickly on your end.
+Raising $10M. A few conversations underway — happy to move quickly on your end.
 
 Can you do a call this week? I can also send the deck ahead.
 
@@ -40,7 +40,7 @@ Thanks for reaching out. Sending the deck and a quick note on where we are.
 - $1M ARR (annualized Jan 2026), 450% YoY, 0% churn
 - 45 enterprise customers: Disney, Marriott, Intuit Dome, AEG, Sprouts
 - $38M pipeline ARR
-- Raising $20M Series A — lead check target $3–5M
+- Raising $10M Series A — lead check target $3–5M
 - NM composting facility in development: $12M confirmed state incentives
 
 Happy to get on a call to walk through the model and answer questions.

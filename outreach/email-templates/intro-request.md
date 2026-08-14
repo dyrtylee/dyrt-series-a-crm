@@ -17,7 +17,7 @@ I'd use the blurb below if you want to just forward it:
 
 ---
 
-*Forwarding on behalf of Lee Robinson, CEO of Dyrt Labs — they're the ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, Sprouts. Raising $20M Series A. The [waste / circular / climate] thesis maps directly. Lee is great — worth a quick call.*
+*Forwarding on behalf of Lee Robinson, CEO of Dyrt Labs — they're the ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, Sprouts. Raising $10M Series A. The [waste / circular / climate] thesis maps directly. Lee is great — worth a quick call.*
 
 *Lee Robinson | lee@dyrt.co | 813.390.8559*
 
@@ -43,7 +43,7 @@ Happy to do the same for you anytime.
 
 ---
 
-*Lee Robinson, CEO of Dyrt Labs — ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn. 45 enterprise customers: Disney, Marriott, AEG, Intuit Dome. Raising $20M Series A. Clean thesis match for [firm].*
+*Lee Robinson, CEO of Dyrt Labs — ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn. 45 enterprise customers: Disney, Marriott, AEG, Intuit Dome. Raising $10M Series A. Clean thesis match for [firm].*
 
 ---
 
@@ -57,6 +57,6 @@ Lee
 **Use for**: LinkedIn connection + intro request
 **Tone**: Ultra brief
 
-Hi [Name] — I'm the CEO of Dyrt Labs, the ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn — customers include Disney, Marriott, AEG. We're raising a $20M Series A and [firm]'s [thesis] is a direct fit. Would love 20 minutes.
+Hi [Name] — I'm the CEO of Dyrt Labs, the ERP of Modern Waste. $1M ARR, 450% YoY, 0% churn — customers include Disney, Marriott, AEG. We're raising a $10M Series A and [firm]'s [thesis] is a direct fit. Would love 20 minutes.
 
 Lee Robinson | lee@dyrt.co | dyrt.co

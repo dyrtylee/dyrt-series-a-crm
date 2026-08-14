@@ -1,8 +1,8 @@
 # Bill Sossamon
 
-**Status**: Backlog | **Priority**: N | **Section**: Mailchimp
+**Status**: Voided | **Priority**: N | **Section**: Bridge Round
 
-> Source: Mailchimp subscriber (subscribed)
+> Source: Fundraise tracker sheet + WSGR correspondence
 
 ---
 
@@ -11,7 +11,7 @@
 - **Mailchimp Status**: subscribed
 
 ## Notes
-Personal contact on Dyrt investor update list.
+Was in the bridge round tracker for a $100,000 check ("trying to close an escrow first"), never wired. **Per WSGR correspondence (2026-07-28): "Bill is no longer investing so that can be voided."** Remove from any pending bridge-round cap table math; keep him on the general investor-update Mailchimp list only.
 
 ---
 
@@ -19,4 +19,5 @@ Personal contact on Dyrt investor update list.
 
 | Date | Type | Key Points | Next Step |
 |------|------|-----------|-----------|
-| — | — | On Mailchimp list | Research background |
+| — | — | $100K check pending on escrow closing | — |
+| 2026-07-28 | Email (WSGR) | Investment voided — no longer investing | Remove from bridge cap table math |

@@ -1,6 +1,6 @@
 # Dyrt Labs — Series A CRM
 
-**Target close: August 14, 2026 | Raise: $20M | Lead check target: $3–5M**
+**Target close: August 14, 2026 | Raise: $10M | Lead check target: $3–5M**
 
 > Private. Do not share outside of Dyrt leadership.
 
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |--------|-------|
-| ARR | $1M |
+| ARR | $1.2M (per 8/11 outreach — up from $1M) |
 | YoY Growth | 450% |
 | Churn | 0% |
 | Pipeline ARR | $38M |
-| Customers | 45 (44 corporate + 1 municipal) |
+| Customers | 55+ (per 8/11 outreach — up from 45) |
 | NM Incentives | $12M+ confirmed |
 | Days to close | 92 (Aug 14) |
 

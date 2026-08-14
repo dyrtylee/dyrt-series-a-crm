@@ -1,7 +1,7 @@
 # Swiss Investor List — Dyrt Labs Series A
 **Prepared for:** Michael Dillhyon, SRQ Ventures  
 **From:** Lee Robinson, Dyrt Labs — lee@dyrt.co | 813.390.8559  
-**Round:** $20M Series A | Closing August 14, 2026
+**Round:** $10M Series A | Closing August 14, 2026
 
 Dyrt is building the physical and digital backbone of waste — AI-powered SaaS + owned operations that give enterprises (Sprouts, AEG, Marriott, Disney) real-time visibility, compliance proof, and a 30–70% cost reduction on waste. Backed by SB 1383 mandate across California.
 

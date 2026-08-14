@@ -22,10 +22,14 @@
 3. **Board-adjacent** — valuable for credibility when talking to new leads
 
 ## Current Status
-Jenn is waiting on an updated deck (per Lee, 2026-07-27). Last live touchpoint was a call booked for 2026-07-13 (11:30am–12pm PT) after a "quick connect" exchange on 2026-07-09/10. Mucker also sent a standard Q2 2026 portfolio company update request (RFI) on 2026-07-18, cc'ing mike@muckercapital.com — separate from the Series A ask but worth closing out alongside it.
+**⚠️ BLOCKED, 2026-08-12**: Replying to Lee's mass "Dyrty Update July" send, Jenn said directly: *"I'm happy to help with introductions, but I think we left off with you needing to update some fundraising materials. Have you done that yet?"* Lee replied same day that he was pivoting the deck/materials (NM lead track had just formally died) and would have an updated deck to her **within 24 hours**. As of the last mailbox check (8/13), **there's no confirmation that deck was actually sent.** She will not make any intros until she has it in hand — **this is now the single blocker on the entire intro-list ask, not just a nice-to-have.**
+
+Also still open: standard Q2 2026 portfolio company update request (RFI) sent 2026-07-18, cc'ing mike@muckercapital.com.
 
 ## Next Action
-**Send Jenn the updated Series A deck — she's waiting on it. Loop in any round-status update from the 7/13 call.**
+**Confirm the updated deck was actually sent to Jenn (find/send it if not — this is overdue relative to the 24-hour commitment made 8/12). Only after that's confirmed should the intro list below actually go to her.**
+
+**Intro list prepped, but hold until deck is confirmed sent**: [mucker-jenn-kranz-intro-list.md](../../outreach/intro-requests/mucker-jenn-kranz-intro-list.md) — leads with S2G/EIF/Congruent (which Mucker already flagged capability for; note the Dangerous Ventures overlap on those three), plus 10 additional candidates.
 
 Email: jenn@muckercapital.com
 

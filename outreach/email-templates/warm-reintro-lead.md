@@ -21,7 +21,7 @@ When we last spoke you mentioned wanting to revisit at Series A. We're there.
 
 The story has sharpened since we talked: the facility paid for the software, and the software unlocked the enterprise. Most platforms stop at data. We built the infrastructure too — that's the moat.
 
-Raising $20M. Lead check: $3–5M. Targeting close by mid-August.
+Raising $10M. Lead check: $3–5M. Targeting close by mid-August.
 
 Can we get 30 minutes on the calendar?
 
@@ -46,7 +46,7 @@ The bigger update for [Closed Loop / EIF]: the corporate structure is now HoldCo
 
 NM facility: $7.3M+ in NMEDD-estimated state incentives. The incentive playbook travels to every new site — it's a repeatable model.
 
-Raising $20M Series A. Lead check: $3–5M. Would love to get back on the phone.
+Raising $10M Series A. Lead check: $3–5M. Would love to get back on the phone.
 
 Lee Robinson
 lee@dyrt.co
@@ -72,7 +72,7 @@ We spoke [timeframe] — sending a material update.
 
 The deck has a new framing too: we didn't design a waste app — we collected waste until we understood it. Most platforms stop at data. We built the infrastructure too. That physical moat — permitted facilities — is what no one else has.
 
-Raising $20M Series A. Given [firm]'s [waste / climate / circular] mandate, worth reconnecting. 20 minutes?
+Raising $10M Series A. Given [firm]'s [waste / climate / circular] mandate, worth reconnecting. 20 minutes?
 
 Lee Robinson
 lee@dyrt.co
@@ -91,7 +91,7 @@ Following up. The blocker you mentioned — uncapped notes — is resolved. We'r
 
 Since we last spoke: $1M ARR, 450% YoY, 0% churn, NRR >130%. 45 enterprise customers, 525 Sprouts locations contracted. Facility running at 140% — demand exceeds what we can physically process. $21M pipeline waiting on capacity.
 
-Raising $20M. Lead check: $3–5M. Happy to get you the updated terms and deck.
+Raising $10M. Lead check: $3–5M. Happy to get you the updated terms and deck.
 
 Lee Robinson
 lee@dyrt.co

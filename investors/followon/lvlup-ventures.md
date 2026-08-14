@@ -23,7 +23,7 @@
 Primarily a volume/relationship play rather than thesis fit. LA-based and highly active. Aaron Golbin's specific role (Head of Accelerators & Incubators) makes a LACI-originated intro natural. Not a deep cleantech investor — pitch on traction and the LA ecosystem connection, not waste/organics thesis.
 
 ## Pitch Angle
-> "Dyrt is LACI Cohort 6 — the AI-powered compliance platform for commercial organics in LA. $1M ARR, 450% YoY, 0% churn, 40+ enterprise customers including Disney and Marriott. We're closing a $20M Series A and would love to be in the LvlUp ecosystem given the LA synergies."
+> "Dyrt is LACI Cohort 6 — the AI-powered compliance platform for commercial organics in LA. $1M ARR, 450% YoY, 0% churn, 40+ enterprise customers including Disney and Marriott. We're closing a $10M Series A and would love to be in the LvlUp ecosystem given the LA synergies."
 
 Lead with traction metrics. Aaron cares about portfolio fit and corporate partnerships, not climate thesis.
 

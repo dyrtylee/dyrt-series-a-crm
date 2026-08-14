@@ -1,7 +1,7 @@
 # SoCal Investor List — Dyrt Labs Series A
 **Prepared for:** Alliance SoCal / Dan Davidson  
 **From:** Lee Robinson — lee@dyrt.co | 813.390.8559  
-**Round:** $20M Series A | Closing August 14, 2026
+**Round:** $10M Series A | Closing August 14, 2026
 
 Dyrt is building the physical and digital backbone of waste — AI-powered SaaS + owned composting operations serving Sprouts (525 locations), AEG, Marriott, and Disney. Backed by SB 1383 mandate. $1M ARR, 450% YoY, 0% churn.
 

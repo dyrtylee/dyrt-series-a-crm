@@ -21,7 +21,7 @@ Previously passed on uncapped structure. With a priced Series A, their stated ob
 ## Pitch Angle
 Keep it short. Lead with "the constraint you mentioned is gone."
 
-> "Dan — quick note. Following up on our earlier conversations about Dyrt. We're now doing a priced Series A ($20M, $40M pre-money), which resolves the uncapped structure issue you'd mentioned. Happy to send the updated deck if the timing is right."
+> "Dan — quick note. Following up on our earlier conversations about Dyrt. We're now doing a priced Series A ($10M, $40M pre-money — reconfirm pre-money valuation assumption at the new round size), which resolves the uncapped structure issue you'd mentioned. Happy to send the updated deck if the timing is right."
 
 ## Next Action
 **Re-engage Dan with priced round update. Subject: "The thing you mentioned — it's fixed."**

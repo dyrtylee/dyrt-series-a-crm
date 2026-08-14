@@ -37,7 +37,7 @@ The Series A is moving. We've anchored the lead and are now activating pro-rata 
 Your allocation is [$X] based on your existing position. Let me know if you're exercising.
 
 Details:
-- Round size: $20M
+- Round size: $10M
 - Lead: [firm, if disclosable]
 - Close target: [date]
 - Terms: [short summary — price per share, valuation, etc.]
@@ -56,7 +56,7 @@ C: 813.390.8559
 
 Hi [First],
 
-We're closing the Series A on [date]. We have $[X] of the $20M committed. 
+We're closing the Series A on [date]. We have $[X] of the $10M committed. 
 
 [$Y] remaining — let me know today if you want in.
 

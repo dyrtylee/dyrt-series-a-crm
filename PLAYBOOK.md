@@ -1,16 +1,16 @@
 # Dyrt Series A — 60-Day Close Playbook
 
-**Window: May 14 – August 14, 2026 | Target: $20M | Lead check: $3–5M**
+**Window: May 14 – August 14, 2026 | Target: $10M | Lead check: $3–5M**
 
 ---
 
 ## The Strategy
 
-A $20M Series A with a $3–5M lead needs one conviction investor to anchor — then the rest fills fast with the tailwind of a signed term sheet. The playbook has three tracks running in parallel:
+A $10M Series A with a $3–5M lead needs one conviction investor to anchor — then the rest fills fast with the tailwind of a signed term sheet. The playbook has three tracks running in parallel:
 
 1. **Lead Track** — 5–6 high-conviction targets, push to term sheet by Day 35
 2. **NM Track** — NMSIC-backed funds with NM facility mandate, run separately
-3. **Follow-on Track** — Warm relationships and re-engages filling the $15M balance
+3. **Follow-on Track** — Warm relationships and re-engages filling the $5–7M balance
 
 ---
 
@@ -110,7 +110,7 @@ These funds have NMSIC mandates requiring NM portfolio companies. The $12M in co
 
 ---
 
-## Track 3: Follow-on Stack ($15M balance)
+## Track 3: Follow-on Stack ($5–7M balance)
 
 Target 10–15 checks of $500K–$2M to fill the round after lead is signed.
 
@@ -153,7 +153,7 @@ Target 10–15 checks of $500K–$2M to fill the round after lead is signed.
 - Elemental Excelerator (Shaun Abrahamson): Grant + equity for climate infra
 - SBA / USDA programs: REAP and RBIP grants for composting infrastructure
 
-**Framing**: "The $20M equity raise is paired with $12M+ in NM state incentives, materially reducing dilution and facility risk."
+**Framing**: "The $10M equity raise is paired with $12M+ in NM state incentives, materially reducing dilution and facility risk."
 
 ---
 

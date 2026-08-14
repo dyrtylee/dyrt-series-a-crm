@@ -20,7 +20,7 @@ Week [X] update on the Series A raise.
 
 | | |
 |--|--|
-| Target | $20M |
+| Target | $10M |
 | Committed / In Docs | $[X]M |
 | In Diligence | $[X]M |
 | In Meetings | $[X]M |

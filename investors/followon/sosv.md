@@ -22,7 +22,7 @@
 SOSV's IndieBio program specifically backs food, biotech, and sustainability tech. They are one of the most active investors in the dataset and frequently participate in Series A rounds for companies operating near their thesis. "Planetary health" framing maps directly to Dyrt's methane diversion and organics story.
 
 ## Pitch Angle
-> "Dyrt is the AI-powered compliance and data platform for commercial organics diversion — preventing methane at scale from LA's largest food generators (Disney, Marriott, Cook Unity). We're closing a $20M Series A. Given IndieBio's food systems work, we thought there might be portfolio or co-investment interest."
+> "Dyrt is the AI-powered compliance and data platform for commercial organics diversion — preventing methane at scale from LA's largest food generators (Disney, Marriott, Cook Unity). We're closing a $10M Series A. Given IndieBio's food systems work, we thought there might be portfolio or co-investment interest."
 
 ## Next Action
 **Find the relevant IndieBio or SOSV partner covering food/sustainability.** Look for IndieBio SF contacts. Cold outreach via sosv.com or LinkedIn.

@@ -9,7 +9,7 @@
 
 ## Suggested Blurb to Forward
 
-> Wanted to put a company on your radar — Dyrt Labs, building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted. They're raising a $20M Series A and their NM facility has $7.3M+ in state incentives confirmed. I thought it was right in your wheelhouse. Happy to intro you to the CEO. lee@dyrt.co or 813-390-8559.
+> Wanted to put a company on your radar — Dyrt Labs, building the physical and digital backbone of waste management. AI-powered SaaS + owned waste infrastructure. $1M ARR, 450% YoY, 0% churn. Customers include Disney, Marriott, Intuit Dome, AEG, and 525 Sprouts locations contracted. They're raising a $10M Series A and their NM facility has $7.3M+ in state incentives confirmed. I thought it was right in your wheelhouse. Happy to intro you to the CEO. lee@dyrt.co or 813-390-8559.
 
 ---
 

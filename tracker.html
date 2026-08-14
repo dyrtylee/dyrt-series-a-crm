@@ -245,6 +245,8 @@
       <option>Inbound</option>
       <option>Closed</option>
       <option>Term Sheet</option>
+      <option>No Response</option>
+      <option>Told Other VC Not Interested</option>
       <option>Passed</option>
     </select>
     <select class="hdr-select" id="filter-section" onchange="onFilter()">
@@ -321,7 +323,8 @@
           <option>Backlog</option><option selected>Outreach</option>
           <option>Warm Intro</option><option>Follow Up</option>
           <option>First Meeting Scheduled</option><option>Active Diligence</option>
-          <option>Closed</option><option>Passed</option>
+          <option>Closed</option><option>No Response</option>
+          <option>Told Other VC Not Interested</option><option>Passed</option>
         </select>
       </div>
     </div>
@@ -409,6 +412,8 @@ const STAGE_COLORS = {
   // Terminal stages
   'Closed':                   { bg:'#a7f3d0', fg:'#065f46', bd:'#34d399' },
   'Term Sheet':               { bg:'#bbf7d0', fg:'#14532d', bd:'#4ade80' },
+  'No Response':              { bg:'#f3f4f6', fg:'#6b7280', bd:'#d1d5db' },
+  'Told Other VC Not Interested': { bg:'#fecdd3', fg:'#9f1239', bd:'#fda4af' },
   'Passed':                   { bg:'#fee2e2', fg:'#991b1b', bd:'#fca5a5' },
   // Legacy/alternate names
   'Diligence':                { bg:'#fef3c7', fg:'#92400e', bd:'#fcd34d' },
@@ -774,7 +779,7 @@ function toggleExpand(key) {
 
 // Stage badge → inline select
 function openStageEdit(el, key) {
-  const stages = ['Backlog','Outreach','Warm Intro','Follow Up','First Meeting Scheduled','First Meeting Complete','Active Diligence','Term Sheet','Closed','Passed','Inbound'];
+  const stages = ['Backlog','Outreach','Warm Intro','Follow Up','First Meeting Scheduled','First Meeting Complete','Active Diligence','Term Sheet','Closed','No Response','Told Other VC Not Interested','Passed','Inbound'];
   const cur = el.textContent.trim();
   const sel = document.createElement('select');
   sel.className = 'stage-select';

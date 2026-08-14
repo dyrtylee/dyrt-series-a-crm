@@ -19,7 +19,7 @@
 ## Why This is the Right Fund
 - **Windfall Bio** is in their portfolio — a SaaS platform that monetizes methane from waste. Dyrt is the upstream data and diversion layer that Windfall Bio needs.
 - Food, waste, soil = exact Dyrt thesis language
-- $1–25M check means they can anchor a $20M round or co-invest
+- $1–25M check means they can anchor a $10M round or co-invest
 
 ## Pitch Angle
 Reference Windfall Bio and AMP Robotics: "You have Windfall Bio and AMP Robotics — Dyrt is the platform connecting them. We track where organic waste comes from, route it to the right destination, and verify the diversion. The composting output feeds into methane capture; the AI data layer feeds into ESG reporting."
