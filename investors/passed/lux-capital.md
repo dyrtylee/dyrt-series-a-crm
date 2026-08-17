@@ -8,7 +8,7 @@
 
 ## Duplicate-Tracking Note (important)
 
-**Confirmed by Lee, 2026-08-14**: "They are on the list but I don't think I have targeted them in a very long time." So this is the same fund, and the Mucker/Dangerous 'active' listing is aspirational, not something actually re-approached yet — haven't been actively re-targeted recently despite being on the live outreach lists.
+**Confirmed by Lee, 2026-08-14** — they're on the list, but Lee hasn't actually targeted them in a very long time. So this is the same fund, and the Mucker/Dangerous 'active' listing is aspirational, not something actually re-approached yet.
 **Same firm as the "Lux Capital" entry on the live Mucker Capital Google Sheet** (info@luxcapital.com, "Target Intro" — hardtech specialist). No actual email correspondence was found in Gmail for the original "No response" pass — likely reflects a cold-email attempt that was never followed up on, not a real rejection thread. Deck was reportedly sent via a SoCal Alliance intro per the original note, but no confirming email found.
 
 This is being actively re-approached via Mucker Capital's warm channel — no conflict, just worth knowing it's the same firm.
